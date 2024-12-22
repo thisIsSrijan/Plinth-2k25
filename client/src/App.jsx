@@ -1,9 +1,10 @@
 import './App.css'
 
+import Teams from './components/Team/Team'
 function App() {
   return (
     <>
-      <h1>React App</h1>
+      <Teams/>
     </>
   )
 }
