@@ -1,11 +1,13 @@
-import './App.css'
+import React from "react";
+import "./App.css";
+import Competititons from "./components/Competition/Competitions";
 
 function App() {
   return (
     <>
-      <h1>React App</h1>
+      <Competititons />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
