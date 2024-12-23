@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+=======
+>>>>>>> 9e2c3db8a71cdbd12c9a11a18c21f3930f9e298f
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Monument Extended"),
+    url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff")
+    format("woff");
+}
+>>>>>>> 9e2c3db8a71cdbd12c9a11a18c21f3930f9e298f
