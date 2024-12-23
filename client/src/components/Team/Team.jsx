@@ -1,33 +1,31 @@
 import React from "react";
 
 import Card from "./Card";
-const plinth = '/assets/plinth.png';
-const member = '/assets/member.png';
-
+const plinth = "/assets/plinth.png";
+const member = "/assets/member.png";
 
 const Team = () => {
   return (
     <div className="bg-black h-full w-full text-white flex flex-col justify-center">
       {/* This is the team section of the website */}
-      <section className=" flex flex-col items-center justify-center h-screen">
-        <h2 className="font-poppins font-semibold text-[170px] leading-[11px] tracking-[0.35em] text-center text-[#A7F818]">
+      <section className="flex flex-col items-center justify-start pt-14 w-full">
+        <h2 className="font-poppins font-semibold  leading-[8px] tracking-[0.35em] text-center text-[#A7F818] text-4xl md:text-[70px]">
           OUR TEAM
         </h2>
-        <div className="relative ">
-          <img
-            src={plinth}
-            alt="Image with gradient overlay"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/50 via-black/77 to-black"></div>
-        </div>
       </section>
+
+      {/* Centered Image */}
+      <div className="flex items-center justify-center w-full h-full my-14 relative">
+  <img src={plinth} alt="" className="h-auto  object-cover md:w-[80%]" />
+  <div className="absolute bottom-0 left-0 w-full h-[30%] bg-gradient-to-t from-black to-transparent"></div>
+</div>
+
 
       {/* Various team divisions */}
       <section className="flex flex-col w-full gap-10">
         {/* Developers Team */}
-        <div className="flex flex-col w-full justify-between">
-          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[64px] font-poppins font-semibold leading-[11px] h-[60px]">
+        <div className="mt-14 flex flex-col w-full justify-between">
+          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[24px] font-poppins font-semibold leading-[11px] h-[20px]">
             DEVELOPERS TEAM
           </div>
           <div className="flex flex-wrap justify-evenly p-4">
@@ -40,8 +38,7 @@ const Team = () => {
 
         {/* Design Team */}
         <div>
-            <h2 className="font-poppins text-white"> hgudcvjuevcuie</h2>
-          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[64px] font-poppins font-semibold leading-[11px] h-[60px]">
+          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[24px] font-poppins font-semibold leading-[11px] h-[20px]">
             DESIGN TEAM
           </div>
           <div className="flex flex-wrap justify-evenly p-4">
@@ -54,7 +51,7 @@ const Team = () => {
 
         {/* Content Team */}
         <div>
-          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[64px] font-poppins font-semibold leading-[11px] h-[60px]">
+          <div className="bg-[#A7F818] text-black flex items-center justify-center text-[24px] font-poppins font-semibold leading-[5px] h-[20px]">
             CONTENT TEAM
           </div>
           <div className="flex flex-wrap justify-evenly p-4">
