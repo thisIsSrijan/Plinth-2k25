@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import EventImageCard from "./EventImageCard";
+import GlowCircle from "./GlowCircle";
 import {
-  Group11,
-  Group12,
-  Group13,
-  Group14,
-  Group15,
-  Glow_Circle,
+  Cipher,
+  Phoenix,
+  ASME,
+  SAE,
+  Coding,
 } from "../../assets/competition/svg";
 
 function BottomCircle() {
@@ -23,24 +24,36 @@ function BottomCircle() {
       }}
     >
       <div className="flex justify-center items-center w-full gap-[4vw]">
-        <img
-          src={Group11}
-          alt="Group 11"
-          className="w-[10vw] h-[17vh] mb-[4vh]"
+        <EventImageCard
+          eventName="Cipher"
+          imageSrc={Cipher}
+          className="w-[10rem] h-[10rem] mb-[4vh]"
         />
-        <img src={Group12} alt="Group 12" className="w-[10vw] h-[17vh]" />
-        <img src={Group13} alt="Group 13" className="w-[10vw] h-[17vh]" />
-        <img
-          src={Group14}
-          alt="Group 14"
-          className="w-[10vw] h-[17vh] mb-[4vh]"
+        <EventImageCard
+          eventName="Phoenix"
+          imageSrc={Phoenix}
+          className="w-[10rem] h-[10rem]"
+        />
+        <EventImageCard
+          eventName="ASME"
+          imageSrc={ASME}
+          className="w-[10rem] h-[10rem]"
+        />
+        <EventImageCard
+          eventName="SAE"
+          imageSrc={SAE}
+          className="w-[10rem] h-[10rem] mb-[4vh]"
         />
       </div>
 
-      <div className="flex justify-center items-center w-full">
-        <img src={Glow_Circle} alt="Glow" className="w-[13vw] h-[20vh]" />
-        <img src={Group15} alt="Group 15" className="w-[14vw] h-[20vh]" />
-        <img src={Glow_Circle} alt="Glow" className="w-[13vw] h-[20vh]" />
+      <div className="flex justify-center items-center w-full gap-[5vw]">
+        <GlowCircle className="w-[8rem] h-[8rem]" />
+        <EventImageCard
+          eventName="Coding"
+          imageSrc={Coding}
+          className="w-[10rem] h-[10rem]"
+        />
+        <GlowCircle className="w-[8rem] h-[8rem]" />
       </div>
     </motion.div>
   );
