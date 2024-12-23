@@ -1,0 +1,21 @@
+{
+    "developers": [
+      { "name": "John Doe", "designation": "Developer", "image": "path/to/john_image.jpg" },
+      { "name": "Alice Johnson", "designation": "Developer", "image": "path/to/alice_image.jpg" },
+      { "name": "Michael Smith", "designation": "Developer", "image": "path/to/michael_image.jpg" },
+      { "name": "Sarah Lee", "designation": "Developer", "image": "path/to/sarah_image.jpg" }
+    ],
+    "designers": [
+      { "name": "John Doe", "designation": "Designer", "image": "path/to/john_image.jpg" },
+      { "name": "Alice Johnson", "designation": "Designer", "image": "path/to/alice_image.jpg" },
+      { "name": "Michael Smith", "designation": "Designer", "image": "path/to/michael_image.jpg" },
+      { "name": "Sarah Lee", "designation": "Designer", "image": "path/to/sarah_image.jpg" }
+    ],
+    "content": [
+      { "name": "John Doe", "designation": "Content Writer", "image": "path/to/john_image.jpg" },
+      { "name": "Alice Johnson", "designation": "Content Writer", "image": "path/to/alice_image.jpg" },
+      { "name": "Michael Smith", "designation": "Content Writer", "image": "path/to/michael_image.jpg" },
+      { "name": "Sarah Lee", "designation": "Content Writer", "image": "path/to/sarah_image.jpg" }
+    ]
+  }
+  
