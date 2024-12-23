@@ -1,25 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-<<<<<<< HEAD
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  fontFamily: {
-    poppins: ['Poppins', 'sans-serif'],
-  },
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
 
-=======
+ 
+
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
     screens: {
@@ -34,4 +23,4 @@ export default {
   },
   plugins: [],
 };
->>>>>>> 9e2c3db8a71cdbd12c9a11a18c21f3930f9e298f
+
