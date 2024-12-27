@@ -8,13 +8,14 @@ export default {
       },
     },
     screens: {
-      xsm: "200px",
-      sm: "576px", // Small devices (phones, ≥ 576px)
-      md: "768px", // Medium devices (tablets, ≥ 768px)
-      lg: "992px", // Large devices (desktops, ≥ 992px)
-      xl: "1200px", // Extra large devices (large desktops, ≥ 1200px)
-      "2xl": "1400px", // Extra extra large devices (larger desktops, ≥ 1400px)
-      uxl: "1500px",
+      uxsm: { min:'200px',  max: '449px' }, // 200px to 449px
+      xsm: { min: '450px', max: '549px' }, // 450px to 549px
+      sm: { min: '550px', max: '639px' }, // 550px to 639px
+      md: { min: '640px', max: '767px' }, // 640px to 767px
+      lg: { min: '768px', max: '1023px' }, // 768px to 1023px
+      xl: { min: '1024px', max: '1279px' }, // 1024px to 1279px
+      '2xl': { min: '1280px', max: '1535px' }, // 1280px to 1535px
+      uxl: { min: '1536px' }, // 1536px and above
     },
   },
   plugins: [],
