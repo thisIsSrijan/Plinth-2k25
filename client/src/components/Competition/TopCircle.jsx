@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import EventImageCard from "./EventImageCard";
 import GlowCircle from "./GlowCircle";
@@ -14,15 +13,14 @@ function TopCircle() {
   return (
     <motion.div
       className="h-[50%] w-full flex flex-col justify-start items-center mt-[5vh] md:mt-[3vh]"
-      animate={{
-        y: [0, -7, 0],
-      }}
+      animate={{ y: [0, -7, 0] }}
       transition={{
         duration: 3,
         repeat: Infinity,
         ease: "easeInOut",
       }}
     >
+      {/* Top Row */}
       <div className="flex justify-center items-center w-full gap-[5vw]">
         <GlowCircle className="w-[8rem] h-[8rem]" />
         <EventImageCard
@@ -33,6 +31,7 @@ function TopCircle() {
         <GlowCircle className="w-[8rem] h-[8rem]" />
       </div>
 
+      {/* Bottom Row */}
       <div className="flex justify-center items-center w-full gap-[4vw]">
         <EventImageCard
           eventName="Cybros"

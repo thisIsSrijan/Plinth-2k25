@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import EventImageCard from "./EventImageCard";
 import GlowCircle from "./GlowCircle";

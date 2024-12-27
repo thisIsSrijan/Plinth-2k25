@@ -1,4 +1,11 @@
-import React from "react";
+import PropTypes from "prop-types";
+
+/**
+ * GlowCircle component renders a circular element with a glowing border.
+ *
+ * @param {string} className - Additional CSS classes to apply to the component.
+ * @returns {JSX.Element} A glowing circle element.
+ */
 
 function GlowCircle({ className = "" }) {
   return (
@@ -7,7 +14,7 @@ function GlowCircle({ className = "" }) {
       <div className="absolute inset-0 rounded-full bg-black" />
 
       {/* Main border with glow */}
-      <div className="absolute inset-0 rounded-full border-[3px] border-[#A7F818 ]" />
+      <div className="absolute inset-0 rounded-full border-[3px] border-[#A7F818]" />
 
       {/* Inner glow along the border */}
       <div
@@ -19,5 +26,9 @@ function GlowCircle({ className = "" }) {
     </div>
   );
 }
+
+GlowCircle.propTypes = {
+  className: PropTypes.string,
+};
 
 export default GlowCircle;
