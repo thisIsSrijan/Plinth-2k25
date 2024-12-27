@@ -28,7 +28,8 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       onMouseEnter={(e) => {
         const glowDiv = e.currentTarget.querySelector(".glow-effect");
         if (glowDiv) {
-          glowDiv.style.boxShadow = "inset 0 0 60px 20px rgba(136, 185, 4, 0.8)";
+          glowDiv.style.boxShadow =
+            "inset 0 0 60px 20px rgba(136, 185, 4, 0.8)";
         }
       }}
       onMouseLeave={(e) => {
@@ -52,11 +53,10 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       </div>
 
       {/* Event Name Banner */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03]">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 c1:h-8 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03]">
         <div
-          className="absolute left-1/2 transform -translate-x-1/2 -top-1 text-center text-white font-bold"
+          className="absolute left-1/2 transform -translate-x-1/2 -top-1 c1:top-[2px] text-center text-white font-bold text-[1rem] lg:text-[1.2rem]"
           style={{
-            fontSize: "1.2rem",
             fontFamily: "Phonk",
             wordWrap: "break-word",
           }}

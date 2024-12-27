@@ -12,46 +12,46 @@ import {
 function TopCircle() {
   return (
     <motion.div
-      className="h-[50%] w-full flex flex-col justify-start items-center mt-[5vh] md:mt-[3vh]"
-      animate={{ y: [0, -7, 0] }}
+      className="h-[50%] w-full flex flex-col justify-center items-center mt-[5vh] md:mt-[0vw]"
+      animate={{
+        y: [0, -7, 0],
+      }}
       transition={{
         duration: 3,
         repeat: Infinity,
         ease: "easeInOut",
       }}
     >
-      {/* Top Row */}
       <div className="flex justify-center items-center w-full gap-[5vw]">
-        <GlowCircle className="w-[8rem] h-[8rem]" />
+        <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
         <EventImageCard
           eventName="Quizzinga"
           imageSrc={Quizzinga}
-          className="w-[10rem] h-[10rem]"
+          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
-        <GlowCircle className="w-[8rem] h-[8rem]" />
+        <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
       </div>
 
-      {/* Bottom Row */}
       <div className="flex justify-center items-center w-full gap-[4vw]">
         <EventImageCard
           eventName="Cybros"
           imageSrc={Cybros}
-          className="w-[10rem] h-[10rem] mt-[3vh]"
+          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mt-[3vh]"
         />
         <EventImageCard
           eventName="E Cell"
           imageSrc={ECell}
-          className="w-[10rem] h-[10rem]"
+          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
         <EventImageCard
           eventName="DebSoc"
           imageSrc={DebSoc}
-          className="w-[10rem] h-[10rem]"
+          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
         <EventImageCard
           eventName="Astronomy"
           imageSrc={Astronomy}
-          className="w-[10rem] h-[10rem] mt-[3vh]"
+          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mt-[3vh]"
         />
       </div>
     </motion.div>
