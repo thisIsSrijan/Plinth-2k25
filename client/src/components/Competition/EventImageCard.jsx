@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
-import { useEventContext } from "./EventContext.jsx"; // Ensure this import path is correct
-
+import { useEventContext } from "../../Context/EventContext.jsx"; 
 /**
  * EventImageCard component displays a circular card with a glow effect and handles event selection.
  *
@@ -18,7 +17,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
    * @param {string} event - The event name to set as selected.
    */
   const handleEventChange = (event) => {
-    console.log(`Changing event to: ${event}`);
+    
     setSelectedEvent(event);
   };
 

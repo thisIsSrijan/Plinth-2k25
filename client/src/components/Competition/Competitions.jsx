@@ -1,8 +1,8 @@
-import { EventProvider } from "./EventContext.jsx";
 import TopCircle from './TopCircle'
 import BottomCircle from './BottomCircle';
 import { GlowEllipse } from "../../assets/competition/svg";
 import Carbox from './Carbox';
+import { EventProvider } from '../../Context/EventContext.jsx';
 
 function Competititons() {
   return (
@@ -45,7 +45,9 @@ function Competititons() {
     <EventProvider>
     <TopCircle />
     <BottomCircle />
+    
     <Carbox/>
+    
     
     </EventProvider>         
   </div>

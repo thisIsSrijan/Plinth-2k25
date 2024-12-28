@@ -53,6 +53,7 @@ function BottomCircle() {
           className="w-[10rem] h-[10rem]"
         />
         <GlowCircle className="w-[8rem] h-[8rem]" />
+        
       </div>
     </motion.div>
   );
