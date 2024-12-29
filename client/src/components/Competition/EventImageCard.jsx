@@ -35,7 +35,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       onMouseLeave={(e) => {
         const glowDiv = e.currentTarget.querySelector(".glow-effect");
         if (glowDiv) {
-          glowDiv.style.boxShadow = "inset 0 0 40px 15px rgba(88, 135, 4, 0.6)";
+          glowDiv.style.boxShadow = "inset 0 0 90px 55px rgba(88, 135, 4, 0.6)";
         }
       }}
       onClick={() => handleEventChange(eventName)}
@@ -47,7 +47,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
         <div
           className="absolute inset-[0px] rounded-full opacity-50 blur-md glow-effect transition-all duration-500"
           style={{
-            boxShadow: "inset 0 0 40px 15px rgba(88, 135, 4, 0.6)",
+            boxShadow: "inset 0 0 90px 55px rgba(88, 135, 4, 0.6)",
           }}
         />
       </div>
