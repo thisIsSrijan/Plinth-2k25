@@ -9,6 +9,8 @@ import GlowEllipse from "./Glow_Ellipse.png";
 import Phoenix from "./Phoenix.svg";
 import Quizzinga from "./Quizzinga.svg";
 import SAE from "./SAE.svg";
+import LeftArrow from "./left-arrow.svg";
+import RightArrow from "./right-arrow.svg";
 
 export {
   ASME,
@@ -22,4 +24,6 @@ export {
   Phoenix,
   Quizzinga,
   SAE,
+  LeftArrow,
+  RightArrow,
 };

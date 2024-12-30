@@ -102,7 +102,7 @@
     "E Cell": [
       {
         "id": 7,
-        "name": "Event A2",
+        "name": "Event A3",
         "description": "Description A2",
         "image": "/assets/event-a2.jpg",
         "registerLink": "#",
@@ -110,7 +110,7 @@
       },
       {
         "id": 8,
-        "name": "Event B2",
+        "name": "Event B3",
         "description": "Description B2",
         "image": "/assets/event-b1.jpg",
         "registerLink": "#",
@@ -118,7 +118,7 @@
       },
       {
         "id": 9,
-        "name": "Event C2",
+        "name": "Event C3",
         "description": "Description C2",
         "image": "/assets/event-c1.jpg",
         "registerLink": "#",
@@ -126,7 +126,7 @@
       },
       {
         "id": 10,
-        "name": "Event D2",
+        "name": "Event D3",
         "description": "Description D2",
         "image": "/assets/event-a1.jpg",
         "registerLink": "#",
@@ -134,7 +134,7 @@
       },
       {
         "id": 11,
-        "name": "Event E2",
+        "name": "Event E3",
         "description": "Description E2",
         "image": "/assets/event-b1.jpg",
         "registerLink": "#",
@@ -142,7 +142,7 @@
       },
       {
         "id": 12,
-        "name": "Event F2",
+        "name": "Event F3",
         "description": "Description F2",
         "image": "/assets/event-c1.jpg",
         "registerLink": "#",
@@ -152,7 +152,7 @@
     "DebSoc": [
       {
         "id": 7,
-        "name": "Event A2",
+        "name": "Event A4",
         "description": "Description A2",
         "image": "/assets/event-a2.jpg",
         "registerLink": "#",
@@ -160,7 +160,7 @@
       },
       {
         "id": 8,
-        "name": "Event B2",
+        "name": "Event B4",
         "description": "Description B2",
         "image": "/assets/event-b1.jpg",
         "registerLink": "#",
@@ -202,7 +202,7 @@
     "Astronomy": [
       {
         "id": 7,
-        "name": "Event A2",
+        "name": "Event A5",
         "description": "Description A2",
         "image": "/assets/event-a2.jpg",
         "registerLink": "#",
@@ -210,7 +210,7 @@
       },
       {
         "id": 8,
-        "name": "Event B2",
+        "name": "Event B5",
         "description": "Description B2",
         "image": "/assets/event-b1.jpg",
         "registerLink": "#",
@@ -252,7 +252,7 @@
     "Cipher": [
       {
         "id": 7,
-        "name": "Event A2",
+        "name": "Event A6",
         "description": "Description A2",
         "image": "/assets/event-a2.jpg",
         "registerLink": "#",
@@ -260,7 +260,7 @@
       },
       {
         "id": 8,
-        "name": "Event B2",
+        "name": "Event B6",
         "description": "Description B2",
         "image": "/assets/event-b1.jpg",
         "registerLink": "#",
@@ -278,32 +278,32 @@
       { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
     ],
     "Phoenix": [
-      { "id": 7, "name": "Event A2", "description": "Description A2", "image": "/assets/event-a2.jpg","registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B2", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+      { "id": 7, "name": "Event A7", "description": "Description A2", "image": "/assets/event-a2.jpg","registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B7", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 9, "name": "Event C7", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 10, "name": "Event D7", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 11, "name": "Event E7", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 12, "name": "Event F7", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
     ],
     "ASME": [
-      { "id": 7, "name": "Event A2", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B2", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 7, "name": "Event A8", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B8", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
     ],
     "SAE": [
-      { "id": 7, "name": "Event A2", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B2", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 7, "name": "Event A9", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B9", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
     ],
     "Coding": [
-      { "id": 7, "name": "Event A2", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B2", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 7, "name": "Event A10", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B10", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },

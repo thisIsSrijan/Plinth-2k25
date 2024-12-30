@@ -5,10 +5,10 @@ const Carbox = () => {
   const { selectedEvent } = useEventContext(); 
   return (
 <>
-<div className=" items-center bg-black uxsm:w-full uxsm:h-[90vw] lg:h-[65vw] pt-[5vw] xsm:py-[5vw] sm:py-[6.3vw] uxsm:py-[0.4vh] muxsm:py-[1.2vh] md:h-[75vw] md:py-[-0vw] lg:py-[1.2vw] xl:py-[2.8vw] 2xl:py-[4vw] uxl:py-[5vw] xl:h-[55vw] flex-col overflow-hidden">
+<div className=" items-center bg-black uxsm:w-full uxsm:h-[90vw] lg:h-[65vw] pt-[5vw] xsm:py-[5vw] sm:py-[6.3vw] uxsm:py-[0.4vh] muxsm:py-[1.2vh] md:h-[75vw] md:py-[-0vw] lg:py-[1.2vw] xl:py-[2.8vw] 2xl:py-[4vw] uxl:py-[5vw] xl:h-[55vw] flex-col overflow-scroll muxsm:h-[60vh] ">
       {/* Desktop/Tablet Layout (3 cards per row) - For screens ≥ 768px */}
       <div className="hidden items-center md:flex overflow-hidden flex-col py-[3rem] gap-[6vh]">
-        
+         
         {Array.from({ length: Math.ceil(eventsData[selectedEvent].length / 3) }).map((_, rowIndex) => (
           <div key={rowIndex} className="flex items-center gap-[4vw] flex-row">
             {eventsData[selectedEvent]
