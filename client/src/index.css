@@ -10,3 +10,8 @@
     url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff")
     format("woff");
 }
+
+@font-face {
+  font-family: "Phonk";
+  src: url("../src/assets/fonts/Phonk\ Regular\ DEMO.otf");
+}

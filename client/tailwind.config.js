@@ -17,6 +17,7 @@ export default {
       },
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
+        phonk: ['Phonk', "Arial", "sans-serif"],
       },
     },
     screens: {

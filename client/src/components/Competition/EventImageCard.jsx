@@ -24,11 +24,11 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
   // Function to get the appropriate glow effect
   const getGlowEffect = (isHovered = false) => {
     if (selectedEvent === eventName) {
-      return "inset 0 0 70px 25px rgba(136, 185, 4, 0.9)"; // Stronger glow for selected state
+      return "inset 0 0 60px 40px rgba(136, 185, 4, 0.9)"; // Stronger glow for selected state
     }
     return isHovered
-      ? "inset 0 0 60px 20px rgba(136, 185, 4, 0.8)"
-      : "inset 0 0 40px 15px rgba(88, 135, 4, 0.6)";
+      ? "inset 0 0 60px 40px rgba(136, 185, 4, 0.8)"
+      : "inset 0 0 90px 55px rgba(88, 135, 4, 0.6)";
   };
 
   return (
@@ -61,13 +61,11 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       </div>
 
       {/* Event Name Banner */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] font-monument">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] text-center flex flex-col justify-center">
         <div
-          className="absolute left-1/2 transform -translate-x-1/2 -top-1 text-center text-white font-bold font-monument"
+          className="font-phonk text-xs lg:text-base c1:text-2xl text-white"
           style={{
-            fontSize: "1.2rem",
-            fontFamily: "Phonk",
-            wordWrap: "break-word",            
+            wordWrap: "break-word",
           }}
         >
           {eventName}

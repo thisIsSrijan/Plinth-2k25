@@ -281,9 +281,8 @@
       { "id": 7, "name": "Event A7", "description": "Description A2", "image": "/assets/event-a2.jpg","registerLink": "#", "readMoreLink": "#" },
       { "id": 8, "name": "Event B7", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
       { "id": 9, "name": "Event C7", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D7", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E7", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F7", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+      { "id": 10, "name": "Event D7", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" }
+      
     ],
     "ASME": [
       { "id": 7, "name": "Event A8", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },

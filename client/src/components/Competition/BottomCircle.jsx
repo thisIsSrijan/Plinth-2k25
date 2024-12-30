@@ -26,22 +26,22 @@ function BottomCircle() {
         <EventImageCard
           eventName="Cipher"
           imageSrc={Cipher}
-          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
+          className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
         />
         <EventImageCard
           eventName="Phoenix"
           imageSrc={Phoenix}
-          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
+          className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
         <EventImageCard
           eventName="ASME"
           imageSrc={ASME}
-          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
+          className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
         <EventImageCard
           eventName="SAE"
           imageSrc={SAE}
-          className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
+          className="w-[8rem] h-[8rem] cursor-pointer lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
         />
       </div>
 
@@ -52,7 +52,7 @@ function BottomCircle() {
           imageSrc={Coding}
           className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
         />
-        <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
+        <GlowCircle className="w-[6rem] cursor-pointer h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
       </div>
     </motion.div>
   );

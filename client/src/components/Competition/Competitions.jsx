@@ -98,7 +98,7 @@ function Competititons() {
         </div>
       </div>
 
-      <div className="absolute bg-black w-full border-black">
+      <div className="absolute max-h-[150vh] min-h-[55vh] xsm:min-h-[48vh] sm:min-h-[40vh] md:min-h-[48vh] bg-black w-full border-black">
         <Carbox />
       </div>
     </EventProvider>
