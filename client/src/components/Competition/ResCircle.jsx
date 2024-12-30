@@ -160,7 +160,7 @@ function ResCircle() {
             <EventImageCard
               eventName={event.eventName}
               imageSrc={event.imageSrc}
-              className="w-[8rem] h-[8rem] sm:w-[16rem] sm:h-[16rem] xsm:w-[13rem] xsm:h-[13rem] uxsm:w-[10rem] uxsm:h-[10rem]"
+              className="w-[8rem] h-[8rem] sm:w-[16rem] sm:h-[16rem] xsm:w-[13rem] xsm:h-[13rem] uxsm:w-[10rem] uxsm:h-[10rem] "
             />
           </motion.div>
         ))}

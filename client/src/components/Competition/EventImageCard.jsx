@@ -61,7 +61,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       </div>
 
       {/* Event Name Banner */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03]">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] font-monument">
         <div
           className="absolute left-1/2 transform -translate-x-1/2 -top-1 text-center text-white font-bold font-monument"
           style={{
