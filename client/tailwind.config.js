@@ -3,20 +3,51 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      rotate: {
+        'y-180': 'rotateY(180deg)',
+      },
+      transformStyle: {
+        'preserve-3d': 'preserve-3d',
+      },
+      backfaceVisibility: {
+        'hidden': 'hidden',
+      },
+      perspective: {
+        '1000': '1000px',
+      },
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
+        phonk: ['Phonk', "Arial", "sans-serif"],
       },
     },
     screens: {
-      uxsm: { min:'200px',  max: '449px' }, // 200px to 449px
-      xsm: { min: '450px', max: '549px' }, // 450px to 549px
-      sm: { min: '550px', max: '639px' }, // 550px to 639px
-      md: { min: '640px', max: '767px' }, // 640px to 767px
-      lg: { min: '768px', max: '1023px' }, // 768px to 1023px
-      xl: { min: '1024px', max: '1279px' }, // 1024px to 1279px
-      '2xl': { min: '1280px', max: '1535px' }, // 1280px to 1535px
-      uxl: { min: '1536px' }, // 1536px and above
+      uxsm: "200px", //
+      muxsm: "300px", 
+      xsm: "450px", // done
+      sm: "576px", // Small devices (phones, ≥ 576px) done
+      md: "768px", // Medium devices (tablets, ≥ 768px) done
+      lg: "992px", // Large devices (desktops, ≥ 992px) done
+      xl: "1200px", // Extra large devices (large desktops, ≥ 1200px) done
+      "2xl": "1400px", // Extra extra large devices (larger desktops, ≥ 1400px) done
+      uxl: "1500px",
+      c1: "2000px",
+      "w-lg-h-sm": { raw: "(min-width: 992px) and (max-height: 730px)" },
+      "w-md-h-xsm": { raw: "(min-width: 768px) and (max-height: 580px)" },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.rotate-y-180': {
+          transform: 'rotateY(180deg)',
+        },
+        '.transform-style-preserve-3d': {
+          transformStyle: 'preserve-3d',
+        },
+        '.backface-hidden': {
+          backfaceVisibility: 'hidden',
+        },
+      });
+    },
+  ],
 };

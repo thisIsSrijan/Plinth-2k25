@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useEventContext } from "./EventContext.jsx"; // Ensure this import path is correct
+import { useEventContext } from "../../Context/EventContext.jsx";
 
 /**
  * EventImageCard component displays a circular card with a glow effect and handles event selection.
@@ -9,17 +9,26 @@ import { useEventContext } from "./EventContext.jsx"; // Ensure this import path
  * @param {string} className - Additional CSS classes for the card.
  * @returns {JSX.Element} The rendered EventImageCard component.
  */
-
 function EventImageCard({ eventName, imageSrc, className = "" }) {
-  const { setSelectedEvent } = useEventContext();
+  const { selectedEvent, setSelectedEvent } = useEventContext();
 
   /**
    * Handles the event change and updates the selected event.
    * @param {string} event - The event name to set as selected.
    */
   const handleEventChange = (event) => {
-    console.log(`Changing event to: ${event}`);
-    setSelectedEvent(event);
+    console.log(event);
+    setSelectedEvent(eventName);
+  };
+
+  // Function to get the appropriate glow effect
+  const getGlowEffect = (isHovered = false) => {
+    if (selectedEvent === eventName) {
+      return "inset 0 0 60px 40px rgba(136, 185, 4, 0.9)"; // Stronger glow for selected state
+    }
+    return isHovered
+      ? "inset 0 0 60px 40px rgba(136, 185, 4, 0.8)"
+      : "inset 0 0 90px 55px rgba(88, 135, 4, 0.6)";
   };
 
   return (
@@ -27,14 +36,14 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       className={`relative ${className}`}
       onMouseEnter={(e) => {
         const glowDiv = e.currentTarget.querySelector(".glow-effect");
-        if (glowDiv) {
-          glowDiv.style.boxShadow = "inset 0 0 60px 20px rgba(136, 185, 4, 0.8)";
+        if (glowDiv && selectedEvent !== eventName) {
+          glowDiv.style.boxShadow = getGlowEffect(true);
         }
       }}
       onMouseLeave={(e) => {
         const glowDiv = e.currentTarget.querySelector(".glow-effect");
-        if (glowDiv) {
-          glowDiv.style.boxShadow = "inset 0 0 40px 15px rgba(88, 135, 4, 0.6)";
+        if (glowDiv && selectedEvent !== eventName) {
+          glowDiv.style.boxShadow = getGlowEffect(false);
         }
       }}
       onClick={() => handleEventChange(eventName)}
@@ -46,18 +55,16 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
         <div
           className="absolute inset-[0px] rounded-full opacity-50 blur-md glow-effect transition-all duration-500"
           style={{
-            boxShadow: "inset 0 0 40px 15px rgba(88, 135, 4, 0.6)",
+            boxShadow: getGlowEffect(false),
           }}
         />
       </div>
 
       {/* Event Name Banner */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03]">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] text-center flex flex-col justify-center">
         <div
-          className="absolute left-1/2 transform -translate-x-1/2 -top-1 text-center text-white font-bold"
+          className="font-phonk text-xs lg:text-base c1:text-2xl text-white"
           style={{
-            fontSize: "1.2rem",
-            fontFamily: "Phonk",
             wordWrap: "break-word",
           }}
         >

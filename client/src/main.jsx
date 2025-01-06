@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { EventProvider } from './components/Competition/EventContext.jsx'
+import { EventProvider } from "./Context/EventContext.jsx"
 import './index.css'
 import App from './App.jsx'
 
