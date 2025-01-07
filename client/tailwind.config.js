@@ -18,6 +18,8 @@ export default {
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
         phonk: ['Phonk', "Arial", "sans-serif"],
+        cynatar: ['Cynatar', 'sans-serif'], 
+        melete: ['Melete', 'serif'],  
       },
     },
     screens: {
