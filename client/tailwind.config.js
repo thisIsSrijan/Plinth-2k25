@@ -4,25 +4,27 @@ export default {
   theme: {
     extend: {
       rotate: {
-        'y-180': 'rotateY(180deg)',
+        "y-180": "rotateY(180deg)",
       },
       transformStyle: {
-        'preserve-3d': 'preserve-3d',
+        "preserve-3d": "preserve-3d",
       },
       backfaceVisibility: {
-        'hidden': 'hidden',
+        hidden: "hidden",
       },
       perspective: {
-        '1000': '1000px',
+        1000: "1000px",
       },
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
-        phonk: ['Phonk', "Arial", "sans-serif"],
+        phonk: ["Phonk", "Arial", "sans-serif"],
+        cynatar: ["Cynatar"],
+        melete: ["Melete", "serif"],
       },
     },
     screens: {
       uxsm: "200px", //
-      muxsm: "300px", 
+      muxsm: "300px",
       xsm: "450px", // done
       sm: "576px", // Small devices (phones, ≥ 576px) done
       md: "768px", // Medium devices (tablets, ≥ 768px) done
@@ -38,14 +40,14 @@ export default {
   plugins: [
     function ({ addUtilities }) {
       addUtilities({
-        '.rotate-y-180': {
-          transform: 'rotateY(180deg)',
+        ".rotate-y-180": {
+          transform: "rotateY(180deg)",
         },
-        '.transform-style-preserve-3d': {
-          transformStyle: 'preserve-3d',
+        ".transform-style-preserve-3d": {
+          transformStyle: "preserve-3d",
         },
-        '.backface-hidden': {
-          backfaceVisibility: 'hidden',
+        ".backface-hidden": {
+          backfaceVisibility: "hidden",
         },
       });
     },
