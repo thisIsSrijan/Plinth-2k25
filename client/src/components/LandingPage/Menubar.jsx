@@ -33,11 +33,13 @@ const menuItems = [
 const Menubar=()=>{
 
     const [isOpen, setIsOpen] = useState(false);
-
+    const [selectedItem, setSelectedItem] = useState("");
     const toggleNavbar = () => {
       setIsOpen(!isOpen);
     };
-
+    const handleMenuClick = (label) => {
+      setSelectedItem(label); // Update selected menu item
+    };
 
     return (
         <div className="relative z-50">
@@ -50,7 +52,7 @@ const Menubar=()=>{
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-fit w-34 bg-[#666] text-white rounded-lg shadow-lg transform ${
+        className={`fixed top-0 right-0 h-fit w-34 bg-[#666]/40 backdrop-blur-md text-white rounded-lg shadow-lg transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300`}
       >
@@ -67,10 +69,22 @@ const Menubar=()=>{
           {menuItems.map((item, index) => (
             <li
               key={index}
-              className="flex items-center space-x-4 px-6 py-2 transition duration-300"
+              className="flex items-center space-x-4 px-6 py-2 transition duration-300 cursor-pointer"
+              onClick={() => handleMenuClick(item.label)}
             >
-              <div className="text-xl flex gap-2    hover:text-[#A7F818]">{item.icon}
-              <span className="text-lg text-white mb-1 leading-5  hover:text-[#A7F818]">{item.label}</span>
+              <div
+                className={`text-xl flex gap-2 ${
+                  selectedItem === item.label ? "text-[#A7F818]" : "hover:text-[#A7F818]"
+                }`}
+              >
+                {item.icon}
+                <span
+                  className={`text-lg ${
+                    selectedItem === item.label ? "text-[#A7F818]" : "hover:text-[#A7F818]"
+                  } mb-1 leading-5`}
+                >
+                  {item.label}
+                </span>
               </div>
             </li>
           ))}

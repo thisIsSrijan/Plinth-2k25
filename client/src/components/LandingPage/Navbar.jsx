@@ -12,7 +12,7 @@ const Navbar = () => {
           href="#"
           className="md:flex items-center justify-center w-full h-full c1:text-[3rem] 
   2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
-  mt-4 poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
+   poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
   hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden mt-6"
         >
           Competitions
@@ -21,7 +21,7 @@ const Navbar = () => {
           href="#"
           className="md:flex items-center justify-center w-full h-full c1:text-[3rem] 
   2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
-  mt-4 poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
+   poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
   hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden mt-6"
         >
           About Us
