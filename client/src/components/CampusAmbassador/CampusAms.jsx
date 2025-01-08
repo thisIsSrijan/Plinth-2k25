@@ -14,7 +14,7 @@ function CampusAms() {
         <div className="w-full md:w-1/2 -ml-4 md:ml-0">
           <img src={CampImg} alt="CampImg" />
         </div>
-        <div className="w-full md:w-1/2 poppins-regular text-center px-[9vw] md:px-[5vw] text-sm sm:text-base xl:text-xl c1:text-4xl uxl:text-2xl">
+        <div className="w-full md:w-1/2 poppins-regular text-justify px-[9vw] md:px-[5vw] text-sm sm:text-base xl:text-xl c1:text-4xl uxl:text-2xl leading-relaxed">
           Plinth 2024 is approaching, and the Campus Ambassador Program is
           seeking passionate individuals to join.The program encourages students
           from various fields to register for the festival through a dedicated
