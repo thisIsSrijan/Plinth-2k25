@@ -11,18 +11,18 @@ const Navbar = () => {
         <a
           href="#"
           className="md:flex items-center justify-center w-full h-full c1:text-[3rem] 
-  2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
+  2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
   mt-4 poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
-  hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden"
+  hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden mt-6"
         >
           Competitions
         </a>
         <a
           href="#"
           className="md:flex items-center justify-center w-full h-full c1:text-[3rem] 
-  2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
+  2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] 
   mt-4 poppins-medium text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#999999] 
-  hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden"
+  hover:text-[#A7F818] hover:opacity-80 hover:bg-none uxsm:hidden mt-6"
         >
           About Us
         </a>
@@ -30,8 +30,8 @@ const Navbar = () => {
         {/* <button className="c1:w-[35rem] c1:h-[6rem] mt-6  2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[20.5rem] md:w-[18.5rem] sm:w-[16.5rem] h-[3.50rem] rounded-[1.25rem] border-2 bg-[#1A1A1A] border-[#666666]  shadow-inner shadow-[#c6c6c6] c1:text-[3rem] 2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] poppins-medium greycolor">Register</button> */}
         <button
           className="mt-6  2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[20.5rem] md:w-[18.5rem] sm:w-[8.5rem] uxsm:w-[7.5rem] uxsm:mr-16 md:mr-0
-    h-[3.75rem] rounded-[1.25rem] border-2 border-[#6666664D] 
-    c1:text-[2.2rem] 2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] poppins-medium bg-[#1A1A1A]  shadow-[inset_0_0_10px_2px_#C6C6C640] 
+    h-[3.5rem] rounded-[1.25rem] border-2 border-[#6666664D] 
+    c1:text-[2.2rem] 2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] poppins-medium bg-[#1A1A1A]  shadow-[inset_0_0_10px_2px_#C6C6C640] 
     text-[#fff] relative overflow-hidden
     transition-all duration-300 ease-in-out
     hover:text-[#A7F818] hover:shadow-[inset_0_0_10px_#A7F818,0_0_30px_#A7F818]"
