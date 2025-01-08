@@ -11,6 +11,7 @@ import Quizzinga from "./Quizzinga.svg";
 import SAE from "./SAE.svg";
 import LeftArrow from "./left-arrow.svg";
 import RightArrow from "./right-arrow.svg";
+import Bluehoodie from "./bluehoodie.svg";
 
 export {
   ASME,
@@ -26,4 +27,5 @@ export {
   SAE,
   LeftArrow,
   RightArrow,
+  Bluehoodie,
 };

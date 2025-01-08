@@ -18,10 +18,15 @@ export default {
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
         phonk: ['Phonk', "Arial", "sans-serif"],
+        Cynatar:['Cynatar','sans-serif']
+      },
+      backgroundImage: {
+        'gradient-green': 'linear-gradient(90deg, #A7F818 0%, #4F6203 100%)',
+        'gradient-gray': 'linear-gradient(90deg, #FFFFFF 0%, #999999 100%)',
       },
     },
     screens: {
-      uxsm: "200px", //
+      uxsm: "200px", 
       muxsm: "300px", 
       xsm: "450px", // done
       sm: "576px", // Small devices (phones, ≥ 576px) done
