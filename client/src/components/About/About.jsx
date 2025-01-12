@@ -9,7 +9,7 @@ const About = ({
             <div class="glowing-div bottom-1/2 "></div>
             <div className="flex flex-col gap-10 justify-center items-center z-10  ">
                 <div className="c1:text-[4rem] 2xl:text-[2.5rem] xl:text-[2.3rem] lg:text-[2rem] md:text-[1.8rem] sm:text-[1.5rem] xsm:text-[1.3rem] greencolor font-melete font-[400] ">{title}</div>
-                <div className="text-white h-fit 2xl:text-[1.875rem] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.3rem] sm:text-[1.3rem] xsm:text-[1.1rem] c1:max-w-[80rem] 2xl:max-w-[60rem] xl:max-w-[55rem] lg:max-w-[40rem] md:max-w-[35rem] sm:max-w-[30rem] xsm:max-w-[25rem] uxsm:max-w-[20rem] text-justify poppins-medium greycolor font-[400]">{description}</div>
+                <div className="text-white h-fit  2xl:text-[1.875rem] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.3rem] sm:text-[1.3rem] xsm:text-[1.1rem] c1:max-w-[110rem] uxl:max-w-[80rem] 2xl:max-w-[70rem] xl:max-w-[60rem] lg:max-w-[50rem] md:max-w-[40rem] sm:max-w-[30rem] xsm:max-w-[25rem] uxsm:max-w-[20rem] text-justify poppins-medium greycolor font-[400]">{description}</div>
                 <div className="">
                     <a href={buttonlink} target="_blank" rel="noopener noreferrer">
 
@@ -49,8 +49,8 @@ const About = ({
            {/* <div> className={`glowing-div -z-0 ${title === "Campus Ambassador" ? "mb-10" : ""}`}</div> */}
            <div
     className={`${
-        title === "CAMPUS AMBASSADOR"
-            ? "mb-[10rem] uxsm:mb-[18rem] xsm:mb-[20rem] sm:mb-[30rem] md:mb-[24rem] lg:mb-[5rem] "
+        title === "ABOUT PLINTH'25"
+            ? "mb-[10rem] uxsm:mb-[16rem] xsm:mb-[20rem] sm:mb-[30rem] md:mb-[24rem] lg:mb-[5rem] "
             : ""
     } glowing-div -z-0`}
 ></div>

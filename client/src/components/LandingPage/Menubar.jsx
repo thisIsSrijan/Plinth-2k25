@@ -42,9 +42,9 @@ const Menubar=()=>{
     };
 
     return (
-        <div className="relative z-50">
+        <div className="relative z-50 ">
              <button
-        className={`uxsm:flex md:hidden fixed top-5 right-5 text-3xl bg-transparent text-white p-2 rounded-md shadow-md z-50 ${isOpen ? "uxsm:hidden" :"sm:flex"}`}
+        className={`uxsm:flex md:hidden fixed w-[2.5rem] h-[2.5rem] top-8 right-5 border-2 border-[#666]   text-2xl bg-transparent text-white pl-2 pt-[0.1rem] rounded-md shadow-md z-50 ${isOpen ? "uxsm:hidden" :"sm:flex"}`}
         onClick={toggleNavbar}
       >
         ☰
@@ -52,20 +52,20 @@ const Menubar=()=>{
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-fit w-34 bg-[#666]/40 backdrop-blur-md text-white rounded-lg shadow-lg transform ${
+        className={`fixed top-0 right-0 h-screen w-34 bg-[#666]/40 backdrop-blur-md text-white rounded-lg shadow-lg transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300`}
       >
         {/* Close Button */}
         <button
-          className="absolute top-4 right-4 text-xl bg-transparent p-1 rounded-full"
+          className="absolute top-7 right-7 text-xl bg-transparent p-1 rounded-full"
           onClick={toggleNavbar}
         >
           ✕
         </button>
 
         {/* Menu Items */}
-        <ul className="mt-16 space-y-0">
+        <ul className="mt-16 space-y-2">
           {menuItems.map((item, index) => (
             <li
               key={index}

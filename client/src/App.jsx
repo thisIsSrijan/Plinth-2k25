@@ -22,7 +22,7 @@ function App() {
       {/* <About></About> */}
       <Aboutlnmiit></Aboutlnmiit>
       <Aboutplinth></Aboutplinth>
-      <Campus></Campus>
+      {/* <Campus></Campus> */}
       {/* <Competititons />  */}
 
     </>
