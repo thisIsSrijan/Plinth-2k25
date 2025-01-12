@@ -5,8 +5,8 @@ import Merch from "./components/Competition/Merch";
 function App() {
   return (
     <>
-      {/* <Competititons />  */}
-      <Merch/>
+      <Competititons /> 
+      {/* <Merch/> */}
     </>
   );
 }
