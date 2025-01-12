@@ -27,12 +27,12 @@ function CampusAms() {
         </div>
       </div>
       <div className="bg-[#a7f818]/20 w-[80%] rounded-[4rem] md:rounded-[3rem] flex flex-col justify-center items-center p-8 md:p-6 c1:p-9 c1:py-12 gap-[4vw] md:gap-[2vw]">
-        <div className="text-[#a7f818] text-2xl sm:text-3xl xl:text-4xl c1:text-6xl uxl:text-5xl font-melete">
+        <div className="text-[#a7f818] text-[6vw] xsm:text-2xl sm:text-3xl xl:text-4xl c1:text-6xl uxl:text-5xl font-melete">
           BENEFITS
         </div>
         <div className="text-white text-sm sm:text-base lg:text-lg c1:text-2xl uxl:text-xl flex flex-col justify-center px-[3vw] poppins-regular gap-2">
           <div className="flex gap-3">
-            <span className="w-6 h-3 ">
+            <span className=" w-12 h-10 xsm:w-8 xsm:h-5 md:w-6 md:h-3 ">
               <img src={GreenDot} alt="GreenDot" className="mt-2" />
             </span>
             <span>
@@ -43,7 +43,7 @@ function CampusAms() {
             </span>
           </div>
           <div className="flex gap-3">
-            <span className="w-4 h-3 ">
+            <span className="w-7 h-6 xsm:w-5 xsm:h-4 md:w-4 md:h-3 ">
               <img src={GreenDot} alt="GreenDot" className="mt-2" />
             </span>
             <span>

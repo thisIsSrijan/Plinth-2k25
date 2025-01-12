@@ -5,8 +5,8 @@ import CampusAms from "./components/CampusAmbassador/CampusAms";
 function App() {
   return (
     <>
-      {/* <Competititons />  */}
-    <CampusAms/>
+      <Competititons /> 
+    {/* <CampusAms/> */}
     </>
   );
 }
