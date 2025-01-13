@@ -28,8 +28,8 @@ const LandingPage = () => {
                      
                 </div> */}
                   <button
-  className="mt-6 2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[18.5rem] md:w-[15.5rem] sm:w-[22.5rem] uxsm:w-[10rem] uxsm:mt-20 md:mt-8
-    h-[3.75rem] md:rounded-[1.25rem] rounded-[2rem] border-2 border-[#6666664D] 
+  className="mt-6 2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[18.5rem] md:w-[18.5rem] sm:w-[22.5rem] uxsm:w-[20rem] uxsm:mt-20 md:mt-8
+    h-[2.8rem] md:rounded-[1.25rem] rounded-[2rem] border-2 border-[#6666664D] 
     c1:text-[2rem] 2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem]  poppins-medium bg-[#000000]  shadow-[inset_0_0_10px_1px_#1A1A1A] 
     text-[#fff] relative overflow-hidden
     transition-all duration-300 ease-in-out
