@@ -1,3 +1,10 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
 html, body {
     overflow: scroll;
     scrollbar-width: none; 
@@ -8,3 +15,104 @@ html, body {
     display: none;
   }
   
+
+  
+  
+
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+
+
+.textfamily {
+  
+  color: black; /* Black text fill */
+  -webkit-text-stroke: 8px; /* Set stroke width */
+  -webkit-text-stroke-color: transparent;
+  background: linear-gradient(180deg, #A7A9A7 100%, #818181 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  mix-blend-mode: normal; /* Ensures proper blending */
+  display: inline-block;
+
+}
+
+.textfamily3 {
+ 
+  color: black; /* Black text fill */
+  -webkit-text-stroke: 8px; /* Set stroke width */
+  -webkit-text-stroke-color: transparent;
+  background: linear-gradient(180deg, #A7F818 16.38%, #4F6203 81.03%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  mix-blend-mode: normal; /* Ensures proper blending */
+  display: inline-block;
+  
+}
+
+
+/* .textfamily2{
+  background: linear-gradient(180deg, #C5FF8B 16.38%, #798D43 81.03%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+} */
+
+.plinth{
+  transform: rotate(-3.974deg);
+}
+
+.glowing-div {
+  width: 116.25rem;
+  height: 4.5625rem;
+  border-radius: 116.25rem;
+  background: rgba(118, 198, 18, 0.71);
+  filter: blur(236.35px);
+  flex-shrink: 0;
+  position: relative; /* For fine control */
+  box-shadow: 0 0 50px rgba(118, 198, 18, 0.5),
+              0 0 100px rgba(118, 198, 18, 0.3),
+              0 0 200px rgba(118, 198, 18, 0.2);
+}
+
+.greencolor{
+  background: linear-gradient(180deg, #A7F818 16.38%, #4F6203 81.03%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.greycolor{
+  background: linear-gradient(180deg, #FFF 0%, #999 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.greycolorbutton{
+  background-color: #1A1A1A;
+  background: linear-gradient(180deg, #FFF 0%, #999 100%);
+background-clip: text;
+-webkit-background-clip: #1A1A1A;
+-webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .plinth {
+    transform: rotate(-10deg); /* Adjust rotation for smaller screens */
+  }
+}
+/* @media (max-width:576px) {
+  .glowing-div{
+    width: 50rem;
+    height: 2.5rem;
+  }
+  
+} */
