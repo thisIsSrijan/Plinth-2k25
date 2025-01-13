@@ -42,7 +42,7 @@ const LandingPage = () => {
 
                 
 
-            <div className=" uxsm:w-full absolute uxsm:right-[3.5rem] xsm:right-[5rem] md:right-20 lg:right-[10rem] xl:right-[13rem] 2xl:right-[15rem] uxl:right-[25rem] c1:right-[25rem] font-melete lg:mt-[8rem] md:mt-[5rem] sm:mt-[1rem] xsm:mt-[0rem] uxsm:mt-[0rem]   mb-[5rem] c1:text-[2.3rem] 2xl:text-[1.8rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-[1.1rem] sm:text-[0.9rem] uxsm:text-[0.6rem] ml-[20rem] flex justify-end items-end greycolor">A CYBER PARADOX</div>
+            <div className=" uxsm:w-full absolute uxsm:right-[3.5rem] xsm:right-[5rem] md:-left-[30rem] lg:right-[10rem] xl:right-[13rem] 2xl:right-[15rem] uxl:-left-[50rem] c1:-left-[50rem] font-melete lg:mt-[8rem] md:mt-[5rem] sm:mt-[1rem] xsm:mt-[0rem] uxsm:mt-[0rem]   mb-[5rem] c1:text-[2.3rem] 2xl:text-[1.8rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-[1.1rem] sm:text-[0.9rem] uxsm:text-[0.6rem] ml-[20rem] flex justify-end items-end greycolor">A CYBER PARADOX</div>
             </div>
             <div class="glowing-div"></div>
 
