@@ -3,7 +3,7 @@ import Menubar from "./Menubar";
 
 const Navbar = () => {
   return (
-    <div className="text-white w-full h-[6rem] flex justify-between items-center fixed z-10 overflow-hidden  bg-black/5 backdrop-blur-sm rounded-lg">
+    <div className="text-white w-full h-[6rem] flex justify-between items-center fixed z-20 overflow-hidden  bg-black/5 backdrop-blur-sm rounded-lg">
       <div className="">
         <img src={logo} alt="Plinth Logo" className="sm:h-[5rem] xsm:h-[4rem] uxsm:h-[4rem]" />
       </div>
@@ -29,8 +29,8 @@ const Navbar = () => {
 
         {/* <button className="c1:w-[35rem] c1:h-[6rem] mt-6  2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[20.5rem] md:w-[18.5rem] sm:w-[16.5rem] h-[3.50rem] rounded-[1.25rem] border-2 bg-[#1A1A1A] border-[#666666]  shadow-inner shadow-[#c6c6c6] c1:text-[3rem] 2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] poppins-medium greycolor">Register</button> */}
         <button
-          className="mt-6  2xl:w-[12.5rem] xl:w-[11.5rem] lg:w-[10.5rem] md:w-[9.5rem] sm:w-[8.5rem] uxsm:w-[7.5rem] uxsm:mr-24 xsm:mr-20 md:mr-8
-    h-[3.5rem] md:rounded-[1.25rem] border-2 border-[#6666664D] rounded-[2rem]
+          className="mt-6  2xl:w-[12.5rem] xl:w-[11.5rem] lg:w-[10.5rem] md:w-[9.5rem] sm:w-[8.5rem] uxsm:w-[7.5rem] uxsm:mr-20 xsm:mr-20 md:mr-8
+    h-[3rem] md:rounded-[1.25rem] border-2 border-[#454545] rounded-[2rem]
     c1:text-[2rem] 2xl:text-[1.5rem] xl:text-[1.2rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem] poppins-medium bg-[#131313]  shadow-[inset_0_0_10px_1px_#C6C6C640] 
     text-[#fff] relative overflow-hidden 
     transition-all duration-300 ease-in-out
