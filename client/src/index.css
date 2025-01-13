@@ -15,3 +15,15 @@
   font-family: "Phonk";
   src: url("../src/assets/fonts/Phonk\ Regular\ DEMO.otf");
 }
+@font-face {
+  font-family: "Cynatar";
+  src: url("/src/assets/cynatar/Cynatar.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Melete";
+  src: url("/src/assets/melete/Melete-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
