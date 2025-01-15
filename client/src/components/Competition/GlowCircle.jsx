@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
  * @returns {JSX.Element} A glowing circle element.
  */
 
-function GlowCircle({ className = "" }) {
+function GlowCircle({ className = " " }) {
   return (
     <div className={`relative ${className}`}>
       {/* Base circle with dark background */}
