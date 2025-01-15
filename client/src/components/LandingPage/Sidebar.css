@@ -1,0 +1,75 @@
+/* Sidebar.css */
+
+.sidebar {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px rgba(234, 252, 161, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 8rem;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    z-index: 20;
+}
+
+.icon-container {
+    position: relative;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-container:hover {
+    transform: scale(1.1);
+}
+
+.icon-container.active {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgba(60, 60, 60, 0.2);
+    border: 2px solid #0e2407;
+    background: radial-gradient(circle, #413d3d 50%, rgba(65, 61, 61, 0) 100%);
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.icon-container.active .icon {
+    color: #a7f818;
+}
+
+.icon-container:hover .icon {
+    color: #a7f818;
+}
+
+/* Tooltip styles */
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+    white-space: nowrap;
+    padding: 5px 10px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.icon-container.active .tooltip {
+    opacity: 1;
+    visibility: visible;
+}

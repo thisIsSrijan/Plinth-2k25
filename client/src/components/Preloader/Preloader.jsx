@@ -15,7 +15,7 @@ function Preloader() {
   return (
     <div className="container">
       <div id="loader">
-        <div id="title" className="flex">
+        <div id="title" className="flexi">
           <p className="loading-text">LOADING</p>
           <p className="loading-number">%</p>
         </div>

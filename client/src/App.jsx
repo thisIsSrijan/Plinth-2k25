@@ -13,9 +13,10 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/LandingPage/Navbar";
 import Aboutlnmiit from "./components/About/Aboutlnmiit";
 import Aboutplinth from "./components/About/Aboutplinth";
-import Campus from "./components/About/Campus";
+
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
+import Aboutcomponent from "./components/About/Aboutcomponent";
 
 function App() {
   const { isPreloading, showContent } = UsePreloader();
@@ -31,14 +32,15 @@ function App() {
         <Sidebar></Sidebar>
       </div> */}
       {/* <LandingPage /> */}
+      {/* <Aboutcomponent/> */}
       {/* <About></About> */}
       {/* <Aboutlnmiit></Aboutlnmiit> */}
       {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
-      <Accomodation/>
+      {/* <Accomodation/> */}
       
-      <Teams/>
+      {/* <Teams/> */}
     </>
   );
 }
