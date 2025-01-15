@@ -14,7 +14,7 @@ import Menubar from "./components/LandingPage/Menubar";
 function App() {
   return (
     <>
-      <Competititons /> 
+      {/* <Competititons />  */}
     {/* <CampusAms/> */}
       <Navbar></Navbar>
       <Menubar></Menubar>
@@ -23,8 +23,8 @@ function App() {
       </div>
       <LandingPage></LandingPage>
       {/* <About></About> */}
-      <Aboutlnmiit></Aboutlnmiit>
-      <Aboutplinth></Aboutplinth>
+      {/* <Aboutlnmiit></Aboutlnmiit> */}
+      {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
     </>
