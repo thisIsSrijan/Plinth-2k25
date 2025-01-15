@@ -3,6 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        monument: ['"Monument Extended"', "sans-serif"],
+        phonk: ['Phonk', "Arial", "sans-serif"],
+        cynatar: ['Cynatar', 'sans-serif'], 
+        melete: ['Melete', 'serif'],  
+        poppins: ['Poppins', 'sans-serif'],
+        monument: ['"Monument Extended"', "sans-serif"],
+      },
       rotate: {
         "y-180": "rotateY(180deg)",
       },
@@ -15,12 +23,7 @@ export default {
       perspective: {
         1000: "1000px",
       },
-      fontFamily: {
-        monument: ['"Monument Extended"', "sans-serif"],
-        phonk: ['Phonk', "Arial", "sans-serif"],
-        cynatar: ['Cynatar', 'sans-serif'], 
-        melete: ['Melete', 'serif'],  
-      },
+
     },
     screens: {
       uxsm: "200px", //

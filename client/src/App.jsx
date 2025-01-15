@@ -1,6 +1,10 @@
 import "./App.css";
 import About from "./components/About/About";
 import Competititons from "./components/Competition/Competitions";
+
+import Accomodation from "./components/Accomodations/Accomodations";
+import Teams from './components/Team/Team'
+
 import CampusAms from "./components/CampusAmbassador/CampusAms";
 import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/LandingPage/Navbar";
@@ -14,7 +18,7 @@ import Menubar from "./components/LandingPage/Menubar";
 function App() {
   return (
     <>
-      <Competititons /> 
+      {/* <Competititons />  */}
     {/* <CampusAms/> */}
       <Navbar></Navbar>
       <Menubar></Menubar>
@@ -23,10 +27,13 @@ function App() {
       </div>
       <LandingPage></LandingPage>
       {/* <About></About> */}
-      <Aboutlnmiit></Aboutlnmiit>
-      <Aboutplinth></Aboutplinth>
+      {/* <Aboutlnmiit></Aboutlnmiit> */}
+      {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
+      <Accomodation/>
+      
+      <Teams/>
     </>
   );
 }
