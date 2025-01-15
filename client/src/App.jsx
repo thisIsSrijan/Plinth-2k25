@@ -18,22 +18,23 @@ import Menubar from "./components/LandingPage/Menubar";
 function App() {
   return (
     <>
-      {/* <Competititons />  */}
+      <Accomodation/>
+      <Teams/>
     {/* <CampusAms/> */}
-      <Navbar></Navbar>
-      <Menubar></Menubar>
-      <div className="md:flex uxsm:hidden">
-        <Sidebar></Sidebar>
-      </div>
-      <LandingPage></LandingPage>
+      {/* <Navbar></Navbar> */}
+      {/* <Menubar></Menubar> */}
+      {/* <div className="md:flex uxsm:hidden"> */}
+        {/* <Sidebar></Sidebar> */}
+      {/* </div> */}
+     
       {/* <About></About> */}
       {/* <Aboutlnmiit></Aboutlnmiit> */}
       {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
-      <Accomodation/>
+      {/* <Accomodation/> */}
       
-      <Teams/>
+      {/* <Teams/> */}
     </>
   );
 }
