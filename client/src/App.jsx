@@ -1,4 +1,7 @@
 import "./App.css";
+import { useState, useEffect } from "react";
+import PreloaderWrapper from "./components/Preloader/PreloaderWrapper";
+import UsePreloader from "./hooks/UsePreloader";
 import About from "./components/About/About";
 import Competititons from "./components/Competition/Competitions";
 
@@ -14,18 +17,20 @@ import Campus from "./components/About/Campus";
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
 
-
 function App() {
+  const { isPreloading, showContent } = UsePreloader();
+
   return (
     <>
-      {/* <Competititons />  */}
-    {/* <CampusAms/> */}
-      <Navbar></Navbar>
-      <Menubar></Menubar>
-      <div className="md:flex uxsm:hidden">
+      {/* <PreloaderWrapper isPreloading={isPreloading} /> */}
+      <Competititons />
+      {/* <CampusAms/> */}
+      {/* <Navbar></Navbar> */}
+      {/* <Menubar></Menubar> */}
+      {/* <div className="md:flex uxsm:hidden">
         <Sidebar></Sidebar>
-      </div>
-      <LandingPage></LandingPage>
+      </div> */}
+      {/* <LandingPage /> */}
       {/* <About></About> */}
       {/* <Aboutlnmiit></Aboutlnmiit> */}
       {/* <Aboutplinth></Aboutplinth> */}
