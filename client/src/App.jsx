@@ -1,6 +1,10 @@
 import "./App.css";
 import About from "./components/About/About";
 import Competititons from "./components/Competition/Competitions";
+
+import Accomodation from "./components/Accomodations/Accomodations";
+import Teams from './components/Team/Team'
+
 import CampusAms from "./components/CampusAmbassador/CampusAms";
 import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/LandingPage/Navbar";
@@ -27,6 +31,9 @@ function App() {
       {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
+      <Accomodation/>
+      
+      <Teams/>
     </>
   );
 }

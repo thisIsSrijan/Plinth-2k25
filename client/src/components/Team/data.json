@@ -1,0 +1,104 @@
+{
+  "developers": [
+    {
+      "name": "JohnsM Doabcde",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "email": "john.doe@example.com",
+      "instagram": "https://www.instagram.com/johndoe"
+    },
+    {
+      "name": "Alice Johnson",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      "name": "Alice Johnson",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      "name": "Alice Johnson",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
+    }
+  ],
+  "designers": [
+    {
+      "name": "Michael Smith",
+      "designation": "Designer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Emma Williams",
+      "designation": "Designer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/emmawilliams",
+      "email": "emma.williams@example.com",
+      "instagram": "https://www.instagram.com/emmawilliams"
+    },
+    {
+      "name": "Michael Smith",
+      "designation": "Designer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Michael Smith",
+      "designation": "Designer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    }
+  ],
+  "content": [
+    {
+      "name": "Sarah Lee",
+      "designation": "Content Writer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/sarahlee",
+      "email": "sarah.lee@example.com",
+      "instagram": "https://www.instagram.com/sarahlee"
+    },
+    {
+      "name": "Sarah Lee",
+      "designation": "Content Writer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/sarahlee",
+      "email": "sarah.lee@example.com",
+      "instagram": "https://www.instagram.com/sarahlee"
+    },
+    {
+      "name": "Sarah Lee",
+      "designation": "Content Writer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/sarahlee",
+      "email": "sarah.lee@example.com",
+      "instagram": "https://www.instagram.com/sarahlee"
+    },
+    {
+      "name": "Sarah Lee",
+      "designation": "Content Writer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/sarahlee",
+      "email": "sarah.lee@example.com",
+      "instagram": "https://www.instagram.com/sarahlee"
+    }
+  ]
+}
