@@ -18,6 +18,14 @@
 @font-face {
   font-family: "Cynatar";
   src: url("/src/assets/cynatar/Cynatar.otf") format("opentype");
+  src: url("../src/assets/fonts/Cynatar.otf");
+} 
+
+@font-face {
+  font-family: 'Melete';
+  src: url('/src/assets/fonts/Melete-Regular.otf') format('truetype');
+  font-family: 'Cynatar';
+  src: url('/src/assets/fonts/Cynatar.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,4 +34,8 @@
   src: url("/src/assets/melete/Melete-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
+  font-family: 'Melete';
+  src: url('/src/assets/fonts/Melete-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style:normal;
 }

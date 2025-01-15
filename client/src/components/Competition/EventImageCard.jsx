@@ -27,7 +27,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       return "inset 0 0 60px 40px rgba(136, 185, 4, 0.9)"; // Stronger glow for selected state
     }
     return isHovered
-      ? "inset 0 0 60px 40px rgba(136, 185, 4, 0.8)"
+      ? "inset 0 0 60px 35px rgba(132, 185, 4, 0.8)"
       : "inset 0 0 90px 55px rgba(88, 135, 4, 0.6)";
   };
 
@@ -53,7 +53,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
         <div className="absolute inset-0 rounded-full bg-black" />
         <div className="absolute inset-0 rounded-full border-[3px] border-[#588704]" />
         <div
-          className="absolute inset-[0px] rounded-full opacity-50 blur-md glow-effect transition-all duration-500"
+          className="absolute inset-[0px] rounded-full opacity-50 blur-md glow-effect transition-all duration-300"
           style={{
             boxShadow: getGlowEffect(false),
           }}
@@ -63,7 +63,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       {/* Event Name Banner */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] text-center flex flex-col justify-center">
         <div
-          className="font-phonk text-xs lg:text-base c1:text-2xl text-white"
+          className="font-phonk text-xs lg:text-base c1:text-2xl bg-gradient-to-b from-white to-[#3D3D3D] inline-block text-transparent bg-clip-text"
           style={{
             wordWrap: "break-word",
           }}
