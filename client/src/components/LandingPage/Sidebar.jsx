@@ -33,8 +33,8 @@ const Sidebar = () => {
         {icons.map((item, index) => (
           <Link to={item.path} key={index} className="w-full ">
             <div
-              className={`flex items-center p-4 cursor-pointer hover:bg-white/10 transition-all duration-300 ${
-                location.pathname === item.path ? "bg-white/20" : ""
+              className={`flex items-center p-[0.8rem] cursor-pointer hover:bg-white/10 transition-all duration-300 ${
+                location.pathname === item.path ? "bg-transparent" : ""
               }`}
             >
               <div
