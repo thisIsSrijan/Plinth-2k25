@@ -1,61 +1,59 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiLayout, FiImage } from "react-icons/fi";
-import { LuShoppingBag, LuCalendar, LuUsers, LuFileText, LuMail, LuShirt } from "react-icons/lu";
-
+import { LuShoppingBag, LuCalendar, LuUsers, LuFileText, LuMail, LuTrophy } from "react-icons/lu";
+import { IoMdInformationCircleOutline } from "react-icons/io";  
+import { Home, Info, School, Flag, Building, Trophy, Bed, Users, UserPlus } from 'lucide-react';
 const Sidebar = () => {
-    // State to track selected icon
-    const [selectedIcon, setSelectedIcon] = useState(null);
+  const location = useLocation();
+  
+  const icons = [
+    { icon: <FiHome />, label: "Home", path: "/" },
+    // { icon: <Info />, label: "About Us", path: "/about" },
+    { icon: <Info />, label: "About LNMIIT", path: "/about-lnmiit" },
+    { icon: <Info />, label: "About Plinth", path: "/about-plinth" },
+    { icon: <FiImage />, label: "Campus", path: "/campus" },
+    { icon: <LuTrophy />, label: "Competitions", path: "/competitions" },
+    { icon: <LuFileText />, label: "Accommodation", path: "/accommodation" },
+    { icon: <LuUsers />, label: "Teams", path: "/teams" },
+    { icon: <FiLayout />, label: "Campus Ambassador", path: "/campus-ambassador" },
+  ];
 
-    // Array of icons (you can expand this for dynamic rendering)
-    const icons = [
-        <FiHome />,
-        <FiLayout />,
-        <LuShoppingBag />,
-        <LuMail />,
-        <FiImage />,
-        <LuCalendar />,
-        <LuUsers />,
-        <LuFileText />,
-        <LuShirt />
-    ];
-
-    return (
-        <div
+  return (
+    <div
+      style={{
+        borderRadius: "20px",
+        overflow: "hidden",
+        boxShadow: "0 0 0 3px rgba(234, 252, 161, 0.3)",
+      }}
+      className="2xl:w-[4rem] xl:w-[4rem] lg:w-[4rem] md:w-[3rem] sm:w-[3rem] 2xl:h-[44rem] xl:h-[33rem] lg:h-[38rem] flex flex-col justify-start items-center bg-white/5 backdrop-blur-sm fixed top-[8rem] z-20 left-6 text-center"
+    >
+      {icons.map((item, index) => (
+        <Link to={item.path} key={index}>
+          <div
+            className={`rounded-full p-2 cursor-pointer mt-4`}
             style={{
-                borderRadius: "20px", // Ensure radius applies
-                overflow: "hidden", // Clip children
-                boxShadow: "0 0 0 3px rgba(234, 252, 161, 0.3)", // Gradient border effect using shadow
+              transition: "all 0.3s ease",
+              transform: location.pathname === item.path ? "scale(1.1)" : "scale(1)",
+              boxShadow: location.pathname === item.path ? "0 0 10px 2px rgba(60, 60, 60, 0.2)" : "",
+              border: location.pathname === item.path ? "2px solid #0E2407" : "",
+              background: location.pathname === item.path
+                ? "radial-gradient(circle, #413d3d 50%, rgba(65, 61, 61, 0) 100%)"
+                : "",
             }}
-            className="2xl:w-[4rem] xl:w-[4rem] lg:w-[4rem] md:w-[3rem] sm:w-[3rem] 2xl:h-[44rem] xl:h-[33rem] lg:h-[38rem] flex flex-col justify-start items-center bg-white/5 backdrop-blur-sm fixed top-[12rem] z-20 left-6 text-center"
-        >
-            {icons.map((icon, index) => (
-                <div
-                    key={index}
-                    onClick={() => setSelectedIcon(index)} // Set selected icon
-                    className={`rounded-full p-2 cursor-pointer mt-4 ${
-                        selectedIcon === index ? "" : "bg-transparent" // Default background for unselected icons
-                    }`}
-                    style={{
-                        transition: "all 0.3s ease", // Add smooth transition
-                        transform: selectedIcon === index ? "scale(1.1)" : "scale(1)", // Scale effect when selected
-                        boxShadow: selectedIcon === index ? "0 0 10px 2px rgba(60, 60, 60, 0.2)" : "", // Radial shadow effect when selected
-                        border: selectedIcon === index ? "2px solid #0E2407" : "", // Border color when selected
-                        background: selectedIcon === index
-                            ? "radial-gradient(circle, #413d3d 50%, rgba(65, 61, 61, 0) 100%)"
-                            : "",
-                    }}
-                >
-                    {React.cloneElement(icon, {
-                        className: `md:w-[1.5rem] md:h-[1.5rem] sm:w-[1.3rem] sm:h-[1.3rem] transition-all duration-300 text-center  ${
-                            selectedIcon === index
-                                ? "text-[#A7F818]"
-                                : "text-white hover:text-[#A7F818]"
-                        }`, // Text color change with transition
-                    })}
-                </div>
-            ))}
-        </div>
-    );
+          >
+            {React.cloneElement(item.icon, {
+              className: `md:w-[1.5rem] md:h-[1.5rem] sm:w-[1.3rem] sm:h-[1.3rem] transition-all duration-300 text-center ${
+                location.pathname === item.path
+                  ? "text-[#A7F818]"
+                  : "text-white hover:text-[#A7F818]"
+              }`,
+            })}
+          </div>
+        </Link>
+      ))}
+    </div>
+  );
 };
 
 export default Sidebar;
