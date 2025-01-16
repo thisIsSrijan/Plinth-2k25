@@ -15,6 +15,7 @@ const menuItems = [
     { icon: <PiPersonArmsSpreadFill />, label: "Campus Ambassador", path: "/campus-ambassador" },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
     // { icon: <FiImage />, label: "Campus", path: "/campus" },
+    { icon: <FiLayout />, label: "Events", path: "/events" },
 ];
 
 

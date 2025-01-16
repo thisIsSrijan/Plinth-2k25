@@ -50,6 +50,7 @@ function App() {
             <Route path="/accommodation" element={<Accomodation />} />
             <Route path="/teams" element={<Teams />} />
             <Route path="/campus-ambassador" element={<CampusAms />} />
+            <Route path="/events" element={<Events />} />
           </Routes>
           <Footer/>
         </PageTransitionWrapper>
