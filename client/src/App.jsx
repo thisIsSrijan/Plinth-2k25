@@ -33,6 +33,15 @@ function App() {
       </div> */}
       {/* <LandingPage /> */}
       {/* <Aboutcomponent/> */}
+      <Accomodation/>
+      <Teams/>
+    {/* <CampusAms/> */}
+      {/* <Navbar></Navbar> */}
+      {/* <Menubar></Menubar> */}
+      {/* <div className="md:flex uxsm:hidden"> */}
+        {/* <Sidebar></Sidebar> */}
+      {/* </div> */}
+     
       {/* <About></About> */}
       {/* <Aboutlnmiit></Aboutlnmiit> */}
       {/* <Aboutplinth></Aboutplinth> */}

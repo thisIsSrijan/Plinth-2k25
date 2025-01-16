@@ -1,39 +1,33 @@
 {
-  "developers": [
+  "festHeads": [
     {
-      "name": "JohnsM Doabcde",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/johndoe",
-      "email": "john.doe@example.com",
-      "instagram": "https://www.instagram.com/johndoe"
-    },
-    {
-      "name": "Alice Johnson",
-      "designation": "Developer",
+      "name": "Yug Agarwal",
+      "designation": "Fest Head",
       "image": "/assets/member.png",
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
     },
     {
-      "name": "Alice Johnson",
-      "designation": "Developer",
+      "name": "Rajat Sharma",
+      "designation": "Fest Head",
       "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/alicejohnson",
-      "email": "alice.johnson@example.com",
-      "instagram": "https://www.instagram.com/alicejohnson"
-    },
-    {
-      "name": "Alice Johnson",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/alicejohnson",
-      "email": "alice.johnson@example.com",
-      "instagram": "https://www.instagram.com/alicejohnson"
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
     }
   ],
-  "designers": [
+  "associateGeneralSecretary": [
+    {
+      "name": "Hiya Jain",
+      "designation": "Associate General Secretary",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/emmawilliams",
+      "email": "emma.williams@example.com",
+      "instagram": "https://www.instagram.com/emmawilliams"
+    }
+  ],
+  "uiUx": [
     {
       "name": "Michael Smith",
       "designation": "Designer",
@@ -67,38 +61,130 @@
       "instagram": "https://www.instagram.com/michaelsmith"
     }
   ],
-  "content": [
+  "publicRelations": [
     {
-      "name": "Sarah Lee",
-      "designation": "Content Writer",
+      "name": "Ayush Singh Chauhan",
+      "designation": "Public Relation Head",
       "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/sarahlee",
-      "email": "sarah.lee@example.com",
-      "instagram": "https://www.instagram.com/sarahlee"
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
+    }
+  ],
+  "eventManagement": [
+    {
+      "name": "Ravindra Singh Shekhawat",
+      "designation": "Event Management Head",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
+    }
+  ],
+  "creative": [
+    {
+      "name": "Akshat Manas",
+      "designation": "Creative Head",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "email": "john.doe@example.com",
+      "instagram": "https://www.instagram.com/johndoe"
+    }
+  ],
+  "sponsorship": [
+    {
+      "name": "Atharva Gulajkar",
+      "designation": "Sponsorship",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    }
+  ],
+  "socialMedia": [
+    {
+      "name": "Anwita Sarangi",
+      "designation": "Social Media",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    }
+  ],
+  "developers": [
+    {
+      "name": "Srijan Das",
+      "designation": "Development head",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
     },
     {
-      "name": "Sarah Lee",
-      "designation": "Content Writer",
+      "name": "Siddharth Jiyani",
+      "designation": "Development head",
       "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/sarahlee",
-      "email": "sarah.lee@example.com",
-      "instagram": "https://www.instagram.com/sarahlee"
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
     },
     {
-      "name": "Sarah Lee",
-      "designation": "Content Writer",
+      "name": "Swaraj Layek",
+      "designation": "Development head",
       "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/sarahlee",
-      "email": "sarah.lee@example.com",
-      "instagram": "https://www.instagram.com/sarahlee"
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
     },
     {
-      "name": "Sarah Lee",
-      "designation": "Content Writer",
+      "name": "Saanvi Chabaque",
+      "designation": "Developer",
       "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/sarahlee",
-      "email": "sarah.lee@example.com",
-      "instagram": "https://www.instagram.com/sarahlee"
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Sankalp Jain",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Pranshu Saxena",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Garvit Jain",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Vanshika Thadani",
+      "designation": "Developer",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
+    }
+  ],
+  "FinanceConvenor": [
+    {
+      "name": "Prakhar Kesharwani",
+      "designation": "Finance Convenor",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith"
     }
   ]
 }
