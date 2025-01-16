@@ -21,20 +21,20 @@ function App() {
     <>
       {/* <Competititons />  */}
     {/* <CampusAms/> */}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar>
       <Menubar></Menubar>
       <div className="md:flex uxsm:hidden">
         <Sidebar></Sidebar>
       </div>
-      <LandingPage></LandingPage>
+      <LandingPage></LandingPage> */}
       {/* <About></About> */}
       {/* <Aboutlnmiit></Aboutlnmiit> */}
       {/* <Aboutplinth></Aboutplinth> */}
       {/* <Campus></Campus> */}
       {/* <Competititons />  */}
-      <Accomodation/>
+      {/* <Accomodation/>
       
-      <Teams/>
+      <Teams/> */}
       <Events/>
     </>
   );

@@ -79,17 +79,17 @@ const Events=()=>{
                                 <img className=" w-[33.36%] h-[10%]" src={tribeslogo}></img>
                             </div>
 
-                            <div className='w-[62.32%] h-[39%] top-[33%] left-[-1%] absolute '>
+                            <div className='w-[60.32%] h-[39%] top-[33%] left-[-1%] absolute '>
                                 <img src={img4}></img>
                                 <p className="text-white font-cyntara">NINA SUERTE</p>
                             </div>
 
-                            <div className=' w-[32.75%] h-[25.33%] top-[48.82%] left-[28.18%] absolute '>
+                            <div className=' w-[36.75%] h-[25.33%] top-[48.82%] left-[28.18%] absolute '>
                                 <img src={img5}></img>
                                 <p className="text-white font-cyntara">MASKBOX</p>
 
                             </div>
-                            <div className='absolute w-[36.80%] h-[18.11%] top-[56.1%] left-[-13.31%] '>
+                            <div className='absolute w-[30.80%] h-[18.11%] top-[56.1%] left-[-0.31%] '>
                                 <img src={img6}></img>
                                 <p className="text-white font-cyntara">PRERAK ANAND</p>
                             </div>
