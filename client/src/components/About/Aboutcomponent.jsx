@@ -5,7 +5,7 @@ const Aboutcomponent=()=>{
     return(
         <div>
             <Aboutplinth/>
-            <Aboutlnmiit/>
+            {/* <Aboutlnmiit/> */}
         </div>
     )
 }
