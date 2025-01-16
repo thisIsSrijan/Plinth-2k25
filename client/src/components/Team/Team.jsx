@@ -17,7 +17,7 @@ const Team = () => {
   return (
     <div className="bg-black h-full w-full text-white flex flex-col justify-center">
       <section
-        className="flex flex-col items-center justify-start pt-20 w-full h-screen relative"
+        className="flex flex-col items-center justify-center pt-20 w-full h-screen relative"
         style={{
           backgroundImage: "url('/public/assets/plinth.png')",
           backgroundSize: "cover",

@@ -32,10 +32,10 @@ const TeamSection = ({ title, members }) => {
   }, []);
 
   return (
-    <div className="mt-14 flex flex-col w-full justify-center" ref={sectionRef}>
+    <div className=" flex flex-col w-full justify-center" ref={sectionRef}>
       {/* Title */}
       <div
-        className="bg-[#A7F818] py-8 text-center text-black flex items-center justify-center text-[17px] leading-[25px] sm:text-[24px] font-melete font-semibold h-[20px]"
+        className="bg-[#A7F818] mb-8 py-8 text-center text-black flex items-center justify-center text-[17px] leading-[25px] sm:text-[24px] font-melete font-semibold h-[20px]"
         style={{
           fontFamily: "Melete, sans-serif",
         }}
