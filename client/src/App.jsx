@@ -13,6 +13,7 @@ import Aboutplinth from "./components/About/Aboutplinth";
 import Campus from "./components/About/Campus";
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
+import Events from "./components/Events/Events";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Accomodation/>
       
       <Teams/>
+      <Events/>
     </>
   );
 }
