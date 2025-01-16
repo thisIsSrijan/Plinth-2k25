@@ -1,5 +1,4 @@
 import logo from "../../assets/landingpage/NEW LOGO  1.svg";
-import Menubar from "./Menubar";
 
 const Navbar = () => {
   return (
