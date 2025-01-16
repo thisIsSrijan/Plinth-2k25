@@ -4,13 +4,27 @@ import BottomCircle from "./BottomCircle";
 import ResCircle from "./ResCircle.jsx";
 import { GlowEllipse } from "../../assets/competition/svg";
 import Carbox from "./Carbox";
+import { motion } from "framer-motion";
 
 function Competititons() {
   return (
     <EventProvider>
       <div className="relative min-h-screen w-lg-h-sm:min-h-[130vh] w-md-h-xsm:min-h-[120vh] w-full bg-black hidden md:block  ">
         <div className="absolute h-screen w-lg-h-sm:h-[130vh] w-md-h-xsm:h-[120vh] w-full flex justify-center items-center bg-black z-0">
-          <div className=" h-[75%] w-full flex flex-col justify-center items-center gap-1 text-[4.3vw] xl:text-[6vw] lg:text-[7vw] md:text-[6.5vw] 2xl:text-[4.3vw] c1:text-[5.5vw] tracking-[6px]">
+          <motion.div
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1.5,
+              delay: 0.5,
+              ease: "easeIn"
+            }}
+            className=" h-[75%] w-full flex flex-col justify-center items-center gap-1 text-[4.3vw] xl:text-[6vw] lg:text-[7vw] md:text-[6.5vw] 2xl:text-[4.3vw] c1:text-[5.5vw] tracking-[6px]"
+          >
             <div
               className="leading-none font-monument"
               style={{
@@ -32,7 +46,7 @@ function Competititons() {
             >
               COMPETITIONS
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="absolute z-10 h-screen w-lg-h-sm:h-[130vh] w-md-h-xsm:h-[120vh] w-full">
@@ -98,7 +112,7 @@ function Competititons() {
         </div>
       </div>
 
-      <div className="absolute max-h-[150vh] min-h-[55vh] xsm:min-h-[48vh] sm:min-h-[40vh] md:min-h-[48vh] bg-black w-full border-black">
+      <div  id="carbox-section"  className="relative max-h-[150vh] min-h-[55vh] xsm:min-h-[48vh] sm:min-h-[40vh] md:min-h-[48vh] bg-black w-full border-black">
         <Carbox />
       </div>
     </EventProvider>
