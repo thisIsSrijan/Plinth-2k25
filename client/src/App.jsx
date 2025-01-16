@@ -40,7 +40,7 @@ function App() {
     <BrowserRouter>
       <Layout>
         <PageTransitionWrapper>
-          {/* <Cursor/> */}
+          <Cursor/>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />

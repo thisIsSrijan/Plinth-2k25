@@ -1,60 +1,45 @@
-import React, { useEffect } from 'react';
+import { useEffect } from "react";
+import "../Cursor/Cursor.css";
 
 const CustomCursor = () => {
-    useEffect(() => {
-        // Create the central cursor element
-        const centralCursor = document.createElement('div');
-        centralCursor.id = 'central-cursor';
-        document.body.appendChild(centralCursor);
+  useEffect(() => {
+    const cursor = document.querySelector(".cursor");
+    const cursorinner = document.querySelector(".cursor2");
 
-        let trail = [];
-        const trailLength = 20;
+    const onMouseMove = (e) => {
+      cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+      cursorinner.style.left = `${e.clientX}px`;
+      cursorinner.style.top = `${e.clientY}px`;
+    };
 
-        // Mouse move event to update cursor and create trail
-        const handleMouseMove = (e) => {
-            // Update central cursor position
-            centralCursor.style.left = `${e.pageX}px`;
-            centralCursor.style.top = `${e.pageY}px`;
+    const onMouseDown = () => {
+      cursor.classList.add("click");
+      cursorinner.classList.add("cursorinnerhover");
+    };
 
-            // Create trail bubble
-            const trailBubble = document.createElement('div');
-            trailBubble.classList.add('cursor-trail');
-            document.body.appendChild(trailBubble);
+    const onMouseUp = () => {
+      cursor.classList.remove("click");
+      cursorinner.classList.remove("cursorinnerhover");
+    };
 
-            // Position trail bubble
-            trailBubble.style.left = `${e.pageX}px`;
-            trailBubble.style.top = `${e.pageY}px`;
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mousedown", onMouseDown);
+    document.addEventListener("mouseup", onMouseUp);
 
-            // Add to trail for cleanup
-            trail.push(trailBubble);
+    // Cleanup event listeners on component unmount
+    return () => {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mousedown", onMouseDown);
+      document.removeEventListener("mouseup", onMouseUp);
+    };
+  }, []);
 
-            // Remove old trail elements
-            if (trail.length > trailLength) {
-                const oldTrail = trail.shift();
-                oldTrail.remove();
-            }
-        };
-
-        // Cleanup on animation end
-        const handleAnimationEnd = (e) => {
-            if (e.target.classList.contains('cursor-trail')) {
-                e.target.remove();
-            }
-        };
-
-        // Event listeners
-        document.addEventListener('mousemove', handleMouseMove);
-        document.addEventListener('animationend', handleAnimationEnd);
-
-        // Cleanup on component unmount
-        return () => {
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('animationend', handleAnimationEnd);
-            centralCursor.remove();
-        };
-    }, []);
-
-    return null; // No UI elements in this component
+  return (
+    <>
+      <div className="cursor hidden md:block"></div>
+      <div className="cursor2 hidden md:block"></div>
+    </>
+  );
 };
 
 export default CustomCursor;

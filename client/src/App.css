@@ -9,7 +9,7 @@
 html, body {
     overflow: scroll;
     scrollbar-width: none; 
-    /* cursor: none; */
+    cursor: none;
   }
   
 
@@ -128,3 +128,8 @@ background-clip: text;
   padding: 0;
   box-sizing: border-box;
 } */
+
+::selection {
+  background: #A7F818; /* Highlight color */
+  color: #000; /* Highlight text color */
+}
