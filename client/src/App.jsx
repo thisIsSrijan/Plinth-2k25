@@ -1,6 +1,9 @@
 // App.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import { useState, useEffect } from "react";
+import PreloaderWrapper from "./components/Preloader/PreloaderWrapper";
+import UsePreloader from "./hooks/UsePreloader";
 import About from "./components/About/About";
 import Competitions from "./components/Competition/Competitions";
 import Accomodation from "./components/Accomodations/Accomodations";
@@ -10,11 +13,11 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/LandingPage/Navbar";
 import Aboutlnmiit from "./components/About/Aboutlnmiit";
 import Aboutplinth from "./components/About/Aboutplinth";
-import Campus from "./components/About/Campus";
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
 import PageTransitionWrapper from './components/PageTransitionWrapper';
 import './styles/PageTransitionAnimation.css';
+
 // Layout component to wrap the common elements
 const Layout = ({ children }) => {
   return (
@@ -25,8 +28,6 @@ const Layout = ({ children }) => {
         <Sidebar />
       </div>
       {children}
-    </>
-  );
 };
 
 function App() {

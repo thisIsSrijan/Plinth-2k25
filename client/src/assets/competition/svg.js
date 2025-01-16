@@ -1,4 +1,4 @@
-import ASME from "./ASME.svg";
+import ASME from "./ASME.png";
 import Astronomy from "./Astronomy.svg";
 import Cipher from "./Cipher.svg";
 import Coding from "./Coding.svg";
