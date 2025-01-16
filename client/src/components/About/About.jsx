@@ -68,7 +68,9 @@ const About = ({
             <div className="flex flex-col gap-10 justify-center items-center z-10  ">
 
                 <motion.div
-                    className="c1:text-[4rem] 2xl:text-[2.5rem] xl:text-[2.3rem] lg:text-[2rem] md:text-[1.8rem] sm:text-[1.5rem] xsm:text-[1.3rem] greencolor font-melete font-[400]"
+                    className="c1:text-[4rem] 2xl:text-[2.5rem] xl:text-[2.3rem] lg:text-[2rem] 
+                    md:text-[1.8rem] sm:text-[1.5rem] xsm:text-[1.3rem] font-melete font-[400] 
+                    bg-gradient-to-b from-[#A7F818] to-[#4F6203] bg-clip-text text-transparent"
                     initial={{ opacity: 0, y: -50 }}
                     viewport={{ once: true }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -78,7 +80,10 @@ const About = ({
                 </motion.div>
 
                 <motion.div
-                    className="text-white h-fit 2xl:text-[1.875rem] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.3rem] sm:text-[1.3rem] xsm:text-[1.1rem] c1:max-w-[110rem] uxl:max-w-[80rem] 2xl:max-w-[70rem] xl:max-w-[60rem] lg:max-w-[50rem] md:max-w-[40rem] sm:max-w-[30rem] xsm:max-w-[25rem] uxsm:max-w-[20rem] text-justify poppins-medium greycolor font-[400]"
+                    className=" h-fit 2xl:text-[1.875rem] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.3rem] 
+                    sm:text-[1.3rem] xsm:text-[1.1rem] c1:max-w-[110rem] uxl:max-w-[80rem] 2xl:max-w-[70rem] 
+                    xl:max-w-[60rem] lg:max-w-[50rem] md:max-w-[40rem] sm:max-w-[30rem] xsm:max-w-[25rem] 
+                    uxsm:max-w-[20rem] text-justify poppins-medium font-[400] bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent"
                     initial={{ opacity: 0, x: -100 }}
                     viewport={{ once: true }}
                     whileInView={{ opacity: 1, x: 0 }}
