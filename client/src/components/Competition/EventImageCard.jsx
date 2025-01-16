@@ -19,6 +19,13 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
   const handleEventChange = (event) => {
     console.log(event);
     setSelectedEvent(eventName);
+    const carboxElement = document.querySelector('#carbox-section');
+    if (carboxElement) {
+      carboxElement.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   };
 
   // Function to get the appropriate glow effect

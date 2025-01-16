@@ -17,7 +17,7 @@ const Team = () => {
   return (
     <div className="bg-black h-full w-full text-white flex flex-col justify-center">
       <section
-        className="flex flex-col items-center justify-center pt-14 w-full h-screen relative"
+        className="flex flex-col items-center justify-start pt-20 w-full h-screen relative"
         style={{
           backgroundImage: "url('/public/assets/plinth.png')",
           backgroundSize: "cover",
@@ -41,23 +41,62 @@ const Team = () => {
 
 
       {/* Various team divisions */}
-      <section className="flex flex-col w-full gap-10 font-melete overflow-hidden">
-        <TeamSection title="DEVELOPERS TEAM" members={teamData?.developers} />
-        <TeamSection title="DESIGN TEAM" members={teamData?.designers} />
-        <TeamSection title="CONTENT TEAM" members={teamData?.content} />
-        <TeamSection title="UI/UX TEAM" members={teamData?.uiUx} />
-        <TeamSection title="COUNCIL TEAM" members={teamData?.council} />
-        <TeamSection title="TECH TEAM" members={teamData?.tech} />
-        <TeamSection
-          title="FEST HEADS"
-          members={teamData?.creativeFestHeads}
-        />
-        <TeamSection title="SPONSORSHIP TEAM" members={teamData?.sponsorship} />
-        <TeamSection
-          title="PR MANAGEMENT TEAM"
-          members={teamData?.prManagement}
-        />
-      </section>
+      <section className="flex flex-col w-full justify-center items-center gap-10 font-melete overflow-hidden">
+      <TeamSection
+    title="FEST HEADS"
+    members={teamData?.festHeads} // Properly map fest heads data
+  />
+  <TeamSection
+    title="DEVELOPERS TEAM"
+    members={teamData?.developers} // Map correct domain data
+  />
+   <TeamSection
+    title="UI/UX TEAM"
+    members={teamData?.uiUx} // Map UI/UX team data
+  />
+  <TeamSection
+    title="PUBLIC RELATIONS TEAM"
+    members={teamData?.publicRelations} // Ensure the correct domain
+  />
+  <div className="flex flex-col gap-2 text-center"><h3 className="text-2xl text-center ">TEAM MEMBERS:</h3>
+  <p className="font-poppins  text-center font-medium text-2xl leading-8">Lokesh Malik, Jatin Agrawal, Tushar Agrawal.</p></div>
+  
+  <TeamSection
+    title="EVENT MANAGEMENT TEAM"
+    members={teamData?.eventManagement} // Ensure domain match
+  />
+  <div className="flex w-full  justify-center items-center">
+  <TeamSection
+    title="CREATIVE TEAM"
+    members={teamData?.creative} // Map creative team data
+  />
+
+  </div>
+  <div className="flex flex-col gap-2 text-center"><h3 className="text-2xl text-center ">TEAM MEMBERS:</h3>
+  <p className="font-poppins  text-center font-medium text-2xl leading-8">Yash Jain, Amiya Singh, Kunal Sharma.</p></div>
+ 
+  <TeamSection
+    title="SPONSORSHIP TEAM"
+    members={teamData?.sponsorship} // Sponsorship data
+  />
+  <div className="flex flex-col gap-2 text-center"><h3 className="text-2xl text-center ">TEAM MEMBERS:</h3>
+  <p className="font-poppins text-center font-medium text-2xl leading-8 px-10">Pratham Agarwal, Shivam Mishra, Jayant Singhal, Akshansh Singh, Nirmaan Chachan, Umang Jindal, Harshal Paliwal, Garvit Goyal, Devashish Tripathi, Anup Kumar Upadhyay, Shrayansh Goinka, Haitaanh Dixit, Rithvik Bansal, Puneet Jeswani, Swarit Srivastava.</p></div>
+
+  <TeamSection
+    title="ASSOCIATE GENERAL SECRETARY"
+    members={teamData?.associateGeneralSecretary} // AGS data
+  />
+
+  <TeamSection
+    title="SOCIAL MEDIA"
+    members={teamData?.socialMedia} // Social Media team data
+  />
+   <TeamSection
+    title="FINANCE CONVENOR"
+    members={teamData?.FinanceConvenor} // Social Media team data
+  />
+</section>
+
     </div>
   );
 };
