@@ -1,27 +1,38 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import PageTransitionAnimation from './PageTransitionAnimation';
+import React, { useState, useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+import PageTransitionAnimation from "./PageTransitionAnimation";
 
 const PageTransitionWrapper = ({ children }) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const location = useLocation();
+  const previousPath = useRef(location.pathname);
+  const isFirstLoad = useRef(true);
 
   useEffect(() => {
-    setIsTransitioning(true);
-    const timer = setTimeout(() => {
-      setIsTransitioning(false);
-    }, 3000); // Adjust this value to match your desired transition duration
+    if (isFirstLoad.current) {
+      isFirstLoad.current = false;
+      previousPath.current = location.pathname;
+      return;
+    }
 
-    return () => clearTimeout(timer);
+    if (previousPath.current !== location.pathname) {
+      setIsTransitioning(true);
+
+      const timer = setTimeout(() => {
+        setIsTransitioning(false);
+        previousPath.current = location.pathname;
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
   }, [location]);
 
   return (
     <>
       {isTransitioning && <PageTransitionAnimation />}
-      {children}
+      {!isTransitioning && children}
     </>
   );
 };
 
 export default PageTransitionWrapper;
-

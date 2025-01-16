@@ -1,22 +1,21 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiLayout, FiImage } from "react-icons/fi";
-import { LuShoppingBag, LuCalendar, LuUsers, LuFileText, LuMail, LuTrophy } from "react-icons/lu";
-import { IoMdInformationCircleOutline } from "react-icons/io";  
-import { Home, Info, School, Flag, Building, Trophy, Bed, Users, UserPlus } from 'lucide-react';
+import { LuUsers, LuFileText, LuTrophy } from "react-icons/lu";
+import { PiPersonArmsSpreadFill } from "react-icons/pi";
+import {  Info } from 'lucide-react';
 const Sidebar = () => {
   const location = useLocation();
   
   const icons = [
     { icon: <FiHome />, label: "Home", path: "/" },
     // { icon: <Info />, label: "About Us", path: "/about" },
-    { icon: <Info />, label: "About LNMIIT", path: "/about-lnmiit" },
-    { icon: <Info />, label: "About Plinth", path: "/about-plinth" },
-    { icon: <FiImage />, label: "Campus", path: "/campus" },
+    { icon: <Info />, label: "About", path: "/about" },
     { icon: <LuTrophy />, label: "Competitions", path: "/competitions" },
     { icon: <LuFileText />, label: "Accommodation", path: "/accommodation" },
+    { icon: <PiPersonArmsSpreadFill />, label: "Campus Ambassador", path: "/campus-ambassador" },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
-    { icon: <FiLayout />, label: "Campus Ambassador", path: "/campus-ambassador" },
+    // { icon: <FiImage />, label: "Campus", path: "/campus" },
   ];
 
   return (
