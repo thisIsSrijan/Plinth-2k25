@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Monument Extended"),
+    url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Phonk";
+  src: url("../src/assets/fonts/Phonk\ Regular\ DEMO.otf");
+}
+@font-face {
+  font-family: "Cynatar";
+  src: url("/src/assets/cynatar/Cynatar.otf") format("opentype");
+  src: url("../src/assets/fonts/Cynatar.otf");
+} 
+
+@font-face {
+  font-family: 'Melete';
+  src: url('/src/assets/fonts/Melete-Regular.otf') format('truetype');
+  font-family: 'Cynatar';
+  src: url('/src/assets/fonts/Cynatar.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Melete";
+  src: url("/src/assets/melete/Melete-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Melete';
+  src: url('/src/assets/fonts/Melete-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style:normal;
+}

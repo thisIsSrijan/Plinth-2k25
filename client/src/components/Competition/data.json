@@ -1,0 +1,311 @@
+{
+    "Quizzinga": [
+      {
+        "id": 1,
+        "name": "Event A1",
+        "description": "Description A1",
+        "image": "https://plus.unsplash.com/premium_photo-1675355675334-57e312eab986?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 2,
+        "name": "Event B1",
+        "description": "Description B1",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 3,
+        "name": "Event C1",
+        "description": "Description C1",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 4,
+        "name": "Event D1",
+        "description": "Description D1",
+        "image": "/assets/event-a1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 5,
+        "name": "Event E1",
+        "description": "Description E1",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 6,
+        "name": "Event F1",
+        "description": "Description F1",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      }
+    ],
+    "Cybros": [
+      {
+        "id": 7,
+        "name": "Event A2",
+        "description": "Description A2",
+        "image": "/assets/event-a2.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 8,
+        "name": "Event B2",
+        "description": "Description B2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 9,
+        "name": "Event C2",
+        "description": "Description C2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 10,
+        "name": "Event D2",
+        "description": "Description D2",
+        "image": "/assets/event-a1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 11,
+        "name": "Event E2",
+        "description": "Description E2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 12,
+        "name": "Event F2",
+        "description": "Description F2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      }
+    ],
+    "E Cell": [
+      {
+        "id": 7,
+        "name": "Event A3",
+        "description": "Description A2",
+        "image": "/assets/event-a2.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 8,
+        "name": "Event B3",
+        "description": "Description B2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 9,
+        "name": "Event C3",
+        "description": "Description C2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 10,
+        "name": "Event D3",
+        "description": "Description D2",
+        "image": "/assets/event-a1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 11,
+        "name": "Event E3",
+        "description": "Description E2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 12,
+        "name": "Event F3",
+        "description": "Description F2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      }
+    ],
+    "DebSoc": [
+      {
+        "id": 7,
+        "name": "Event A4",
+        "description": "Description A2",
+        "image": "/assets/event-a2.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 8,
+        "name": "Event B4",
+        "description": "Description B2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 9,
+        "name": "Event C2",
+        "description": "Description C2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 10,
+        "name": "Event D2",
+        "description": "Description D2",
+        "image": "/assets/event-a1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 11,
+        "name": "Event E2",
+        "description": "Description E2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 12,
+        "name": "Event F2",
+        "description": "Description F2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      }
+    ],
+    "Astronomy": [
+      {
+        "id": 7,
+        "name": "Event A5",
+        "description": "Description A2",
+        "image": "/assets/event-a2.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 8,
+        "name": "Event B5",
+        "description": "Description B2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 9,
+        "name": "Event C2",
+        "description": "Description C2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 10,
+        "name": "Event D2",
+        "description": "Description D2",
+        "image": "/assets/event-a1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 11,
+        "name": "Event E2",
+        "description": "Description E2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 12,
+        "name": "Event F2",
+        "description": "Description F2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      }
+    ],
+    "Cipher": [
+      {
+        "id": 7,
+        "name": "Event A6",
+        "description": "Description A2",
+        "image": "/assets/event-a2.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 8,
+        "name": "Event B6",
+        "description": "Description B2",
+        "image": "/assets/event-b1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#"
+      },
+      {
+        "id": 9,
+        "name": "Event C2",
+        "description": "Description C2",
+        "image": "/assets/event-c1.jpg",
+        "registerLink": "#",
+        "readMoreLink": "#" },
+      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+    ],
+    "Phoenix": [
+      { "id": 7, "name": "Event A7", "description": "Description A2", "image": "/assets/event-a2.jpg","registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B7", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 9, "name": "Event C7", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 10, "name": "Event D7", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" }
+      
+    ],
+    "ASME": [
+      { "id": 7, "name": "Event A8", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B8", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+    ],
+    "SAE": [
+      { "id": 7, "name": "Event A9", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B9", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+    ],
+    "Coding": [
+      { "id": 7, "name": "Event A10", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 8, "name": "Event B10", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
+      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
+    ]
+  }
