@@ -111,6 +111,7 @@ background-clip: text;
     transform: rotate(-10deg); /* Adjust rotation for smaller screens */
   }
 }
+
 /* @media (max-width:576px) {
   .glowing-div{
     width: 50rem;
