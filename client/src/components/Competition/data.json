@@ -1,311 +1,415 @@
+
 {
-    "Quizzinga": [
-      {
-        "id": 1,
-        "name": "Event A1",
-        "description": "Description A1",
-        "image": "https://plus.unsplash.com/premium_photo-1675355675334-57e312eab986?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 2,
-        "name": "Event B1",
-        "description": "Description B1",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 3,
-        "name": "Event C1",
-        "description": "Description C1",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 4,
-        "name": "Event D1",
-        "description": "Description D1",
-        "image": "/assets/event-a1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 5,
-        "name": "Event E1",
-        "description": "Description E1",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 6,
-        "name": "Event F1",
-        "description": "Description F1",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      }
-    ],
-    "Cybros": [
-      {
-        "id": 7,
-        "name": "Event A2",
-        "description": "Description A2",
-        "image": "/assets/event-a2.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 8,
-        "name": "Event B2",
-        "description": "Description B2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 9,
-        "name": "Event C2",
-        "description": "Description C2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 10,
-        "name": "Event D2",
-        "description": "Description D2",
-        "image": "/assets/event-a1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 11,
-        "name": "Event E2",
-        "description": "Description E2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 12,
-        "name": "Event F2",
-        "description": "Description F2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      }
-    ],
-    "E Cell": [
-      {
-        "id": 7,
-        "name": "Event A3",
-        "description": "Description A2",
-        "image": "/assets/event-a2.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 8,
-        "name": "Event B3",
-        "description": "Description B2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 9,
-        "name": "Event C3",
-        "description": "Description C2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 10,
-        "name": "Event D3",
-        "description": "Description D2",
-        "image": "/assets/event-a1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 11,
-        "name": "Event E3",
-        "description": "Description E2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 12,
-        "name": "Event F3",
-        "description": "Description F2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      }
-    ],
-    "DebSoc": [
-      {
-        "id": 7,
-        "name": "Event A4",
-        "description": "Description A2",
-        "image": "/assets/event-a2.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 8,
-        "name": "Event B4",
-        "description": "Description B2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 9,
-        "name": "Event C2",
-        "description": "Description C2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 10,
-        "name": "Event D2",
-        "description": "Description D2",
-        "image": "/assets/event-a1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 11,
-        "name": "Event E2",
-        "description": "Description E2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 12,
-        "name": "Event F2",
-        "description": "Description F2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      }
-    ],
-    "Astronomy": [
-      {
-        "id": 7,
-        "name": "Event A5",
-        "description": "Description A2",
-        "image": "/assets/event-a2.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 8,
-        "name": "Event B5",
-        "description": "Description B2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 9,
-        "name": "Event C2",
-        "description": "Description C2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 10,
-        "name": "Event D2",
-        "description": "Description D2",
-        "image": "/assets/event-a1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 11,
-        "name": "Event E2",
-        "description": "Description E2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 12,
-        "name": "Event F2",
-        "description": "Description F2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      }
-    ],
-    "Cipher": [
-      {
-        "id": 7,
-        "name": "Event A6",
-        "description": "Description A2",
-        "image": "/assets/event-a2.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 8,
-        "name": "Event B6",
-        "description": "Description B2",
-        "image": "/assets/event-b1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#"
-      },
-      {
-        "id": 9,
-        "name": "Event C2",
-        "description": "Description C2",
-        "image": "/assets/event-c1.jpg",
-        "registerLink": "#",
-        "readMoreLink": "#" },
-      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
-    ],
-    "Phoenix": [
-      { "id": 7, "name": "Event A7", "description": "Description A2", "image": "/assets/event-a2.jpg","registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B7", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 9, "name": "Event C7", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D7", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" }
-      
-    ],
-    "ASME": [
-      { "id": 7, "name": "Event A8", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B8", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
-    ],
-    "SAE": [
-      { "id": 7, "name": "Event A9", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B9", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
-    ],
-    "Coding": [
-      { "id": 7, "name": "Event A10", "description": "Description A2", "image": "/assets/event-a2.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 8, "name": "Event B10", "description": "Description B2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 9, "name": "Event C2", "description": "Description C2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 10, "name": "Event D2", "description": "Description D2", "image": "/assets/event-a1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 11, "name": "Event E2", "description": "Description E2", "image": "/assets/event-b1.jpg", "registerLink": "#", "readMoreLink": "#" },
-      { "id": 12, "name": "Event F2", "description": "Description F2", "image": "/assets/event-c1.jpg", "registerLink": "#", "readMoreLink": "#" }
-    ]
-  }
+  "Quizzinga": [
+    {
+      "id": 1,
+      "name": "CRYPTEX",
+      "description": "Cryptex is an online quiz competition with a format similar to a treasure hunt. Each participant has to register individually and go through all the levels before being crowned as the winner. The questions will be diverse and will include all forms of genres .",
+      "image": "/assets/cryptex.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 2,
+      "name": "IPL Auction",
+      "description": "The IPL Auction simulates the pre-season player auction. Two rounds a cricket quiz and a subsequent auction determine team composition. Shortlisted teams, based on quiz scores, bid on players.",
+      "image": "/assets/IPL_auction.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 3,
+      "name": "BRANDWAGON",
+      "description": "Brandwagon is Quizzinga's flagship business quiz which takes place every year during Plinth. It will be held in two rounds. First is the written round and six highest scoring teams will move on to the finals.",
+      "image": "/assets/brandwagon.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "Cybros": [
+    {
+      "id": 7,
+      "name": "Event A2",
+      "description": "Description A2",
+      "image": "/assets/event-a2.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Event B2",
+      "description": "Description B2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "Event C2",
+      "description": "Description C2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Event D2",
+      "description": "Description D2",
+      "image": "/assets/event-a1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "Event E2",
+      "description": "Description E2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 12,
+      "name": "Event F2",
+      "description": "Description F2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "E Cell": [
+    {
+      "id": 7,
+      "name": "Pitch On The Rocks",
+      "description": "Welcome to 2025's Ideathon: The gateway to launching your idea! Pitch your startup ideas to industry experts and investors for a chance to secure seed funding, mentorship, and special awards. Our panel includes angel investors, PhDs, and MBA executives across various industries. The gateway to launching your idea.",
+      "image": "/assets/event-a2.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "DebSoc": [
+    {
+      "id": 7,
+      "name": "THE LNMIIT MUN 25'",
+      "description": "Get Ready for LNMIIT MUN '25! Step into the world of diplomacy and debate at LNMIIT MUN 2025! Represent a country, tackle global issues, draft resolutions, and negotiate alliances. Meet students from diverse backgrounds, develop public speaking and negotiation skills, and experience diplomacy in action. Join us at LNMIIT MUN 2025, where ideas meet action!",
+      "image": "/assets/mun.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Change My Mind",
+      "description": "Flip Our Perspective at, Change My Mind! Think you can change our mind? Test your debating skills at Change My Mind—an interactive event with debate spots set up around campus! Challenge our members on controversial (and some downright hilarious) topics, and see if you've got the wit and arguments to sway opinions. Don't just talk—convince! Ready to take on the challenge?",
+      "image": "/assets/change_my_mind.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "Astronomy": [
+    {
+      "id": 7,
+      "name": "Brahmaand: The Space Ideathon",
+      "description": "Brahmaand, a ideathon where participants solve cosmic riddles & build up earth-shattering ideas is here💫. The solution to the problem statement will be presented before the quick witted judges who decide upon the winners worthy of the celestial crown and much-deserved bragging rights.",
+      "image": "/assets/brahmand.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Starpix: The Astrophotography Competition",
+      "description": "Get ready for 'Starpix'—a night of capturing space with your lens! 🌌✨ Bring your camera, and let's capture the beauty of the night sky together. 📸✨Let your inner artist out with those amazing astrophotographs! From twinkling stars and planets to cool constellations, Turn the night sky into a masterpiece. Join us at 'Starpix' in Plinth 2025! 🌠📷",
+      "image": "/assets/starpix.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "Astromemia: Astronomy themed meme making competition",
+      "description": "Hear ye hear ye all self-proclaimed memelords🗿! ASTROMEMIA, presented by the Astronomy Club of LNMIIT, is calling all cosmic comedians to a meme duel the internet's never seen! Bombard @astronomylnmiit with the galactic meme you're proud of having conjured.💫What do the winners get? A chance to forever be immortalised in the 'meme hall of fame' and maybe even get their hands on a cool prize 🤩",
+      "image": "/assets/astromemia.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Dhoomketu: Jamming and Stargazing session",
+      "description": "Jamming under the stars with @capriccio.lnmiit the music club of lnmiit! 🎶 Join us after pronite for a celestial experience in the library lawn. Feel the rhythm while gazing through telescopes at the mesmerizing night sky. Sing your heart out! 🎙🎵 Feel the beat! under the starry night sky! 🌌 Gaze the night sky through telescopes!🔭 ",
+      "image": "/assets/dhoomketu.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "Cipher": [
+    {
+      "id": 7,
+      "name": "Event A2",
+      "description": "Description A2",
+      "image": "/assets/event-a2.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Event B2",
+      "description": "Description B2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "Event C2",
+      "description": "Description C2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Event D2",
+      "description": "Description D2",
+      "image": "/assets/event-a1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "Event E2",
+      "description": "Description E2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 12,
+      "name": "Event F2",
+      "description": "Description F2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "Phoenix": [
+    {
+      "id": 7,
+      "name": "Robowars",
+      "description": "Get ready for an epic clash of machines! Watch as robots go head-to-head in an arena of chaos. Will your creation dominate the battlefield, or will it crumble under pressure?",
+      "image": "/assets/robowars.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "ROBOCUP",
+      "description": "To bring the raw energy of football and the marvel of mechanical engineering together, Plinth is excited to announce Robocup, a football tournament where the participating players are none other than robots. Build and program your own robots to take on the competition in a game that combines strategy, technology, and pure athleticism. Register now and join us for this exciting event where you will have the chance to be a part of a unique and cutting-edge competition!",
+      "image": "/assets/robocup.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "ROBORACE",
+      "description": "Get ready for the ultimate test of speed, precision, and cutting-edge technology in Velocity Vanguards - Robo Race. This thrilling event challenges participants to design and unleash their high-speed robotic vehicles on the track, competing for supremacy in a race that merges engineering prowess and artificial intelligence.",
+      "image": "/assets/roborace.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "MOTOBOAT",
+      "description": "Dive into the world of innovation and speed with \"Moto Boat\", the Motor Boat Challenge that invites participants to design, build, and race their motorized boats. This electrifying event combines engineering process, aquatic finesse, and adrenaline-pumping speed in a competition that celebrates the spirit of marine technology.",
+      "image": "/assets/motoboat.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "LNM TECH EXPO",
+      "description": "The future is now! Come and experience the latest in robotics technology at our upcoming EXPO. You'll see robots of all shapes and sizes, performing tasks that were once thought to be the exclusive domain of humans. From delicate surgery to heavy-duty manufacturing, robots are changing the way we live and work.",
+      "image": "/assets/lnm_tech_expo.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 12,
+      "name": "ROBO TRANSPORTER",
+      "description": "Welcome to \"Transporter\", an exhilarating robotics competition that challenges participants to design and build autonomous transport systems. In this cutting-edge event, teams will showcase their engineering process by creating robots capable of navigating complex terrains, overcoming obstacles, and efficiently transporting objects from one point to another..",
+      "image": "/assets/robo_transporter.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 13,
+      "name": "Maze Solver",
+      "description": "In this electrifying competition, teams of tech wizards will pit their robots against a mind-boggling maze. The robots will have to navigate their way through a series of obstacles and challenges, using sensors, algorithms, and sheer robotic prowess to reach the finish line first.",
+      "image": "/assets/maze_solver.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 14,
+      "name": "RC Plane",
+      "description": "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to build your own plane and make it rip through the air. Enter the airfield and emerge as the best at the end of three rounds.",
+      "image": "/assets/rc_plane.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 15,
+      "name": "DRONE RACING",
+      "description": "Greetings Airmasters !!! Does your winged friend have the ability to emerge out as the best amongst all? The time has now arrived to showcase the speed of your drone. Use all your skills to design a racing drone and make it fly through the crossline without crashing. Make your way to the airfield and let your drone do the talking",
+      "image": "/assets/drone_racing.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 16,
+      "name": "MICRO MOUSE",
+      "description": "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to build your own plane and make it rip through the air. Enter the airfield and emerge as the best at the end of three rounds.",
+      "image": "/assets/micro_mouse.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "ASME": [
+    {
+      "id": 7,
+      "name": "Event A2",
+      "description": "Description A2",
+      "image": "/assets/event-a2.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Event B2",
+      "description": "Description B2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "Event C2",
+      "description": "Description C2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Event D2",
+      "description": "Description D2",
+      "image": "/assets/event-a1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "Event E2",
+      "description": "Description E2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 12,
+      "name": "Event F2",
+      "description": "Description F2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "SAE": [
+    {
+      "id": 7,
+      "name": "Event A2",
+      "description": "Description A2",
+      "image": "/assets/event-a2.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "Event B2",
+      "description": "Description B2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "Event C2",
+      "description": "Description C2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Event D2",
+      "description": "Description D2",
+      "image": "/assets/event-a1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "Event E2",
+      "description": "Description E2",
+      "image": "/assets/event-b1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 12,
+      "name": "Event F2",
+      "description": "Description F2",
+      "image": "/assets/event-c1.jpg",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ],
+  "Coding": [
+    {
+      "id": 7,
+      "name": "IUPC",
+      "description": "Gear up for Cybros' thrilling ICPC-style contest—a high-energy competition featuring teams of three! With a rigorous five-hour format, you'll tackle a set of challenging problems, putting your coding skills, teamwork, and problem-solving abilities to the ultimate test. Join us for an intense experience where strategy and collaboration pave the way to victory. Get ready to compete, conquer, and showcase your talents.",
+      "image": "/assets/iupc.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 8,
+      "name": "ENIGMA",
+      "description": "Get ready for Cybros' flagship event—a Division 2-style individual coding contest designed to challenge and inspire. This two-hour competition brings together the best coders, all competing solo for a chance to claim top honors and win from an impressive prize pool. It's your time to shine, test your skills, and push your limits in this exciting, high-stakes event. May the best coder win!",
+      "image": "/assets/enigma.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 9,
+      "name": "CP Duels",
+      "description": "Challenge your friends to a coding problem duel and see who can outsmart and outcode the other! Dive into a thrilling race against the clock, where each second counts as you tackle complex problems and push your competitive programming skills to the limit. CP Duels bring the excitement of head-to-head coding battles—think fast, debug faster, and claim victory by being the first to solve the toughest challenges. Are you ready to prove who's the ultimate coder? Let the duels begin!",
+      "image": "/assets/cp_duels.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 10,
+      "name": "Coding Cascade",
+      "description": "Get ready for Coding Cascade, a high-stakes team coding event like no other! In this unique challenge, three questions are designed for three team members, where each question's output becomes the next question's input. The pressure is on, as success depends on flawless coordination—if the first coder falters, the entire team faces a cascading failure. With each member carrying a vital piece of the solution, teamwork, precision, and problem-solving skills are key to conquering the cascade. Rally your team and dive into the ultimate test of synchronized coding!",
+      "image": "/assets/coding_cascade.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    },
+    {
+      "id": 11,
+      "name": "Alice, Bob, GO!",
+      "description": "After tackling countless Alice and Bob game theory problems, have you ever wondered what it would be like to play them in real life? Now's your chance! We've crafted an experience that brings these classic logic battles to life. Dive into our interactive games, where you can step into the shoes of Alice and Bob, test your strategy, and experience the thrill of competitive decision-making firsthand. Get ready to think, strategize, and enjoy the very games you've only solved on paper!",
+      "image": "/assets/alice_bob_go.png",
+      "registerLink": "#",
+      "readMoreLink": "#"
+    }
+  ]
+}
