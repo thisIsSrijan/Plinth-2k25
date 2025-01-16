@@ -41,7 +41,8 @@ const PageTransitionAnimation = () => {
   }, []);
 
   return (
-    <div className="loader-container">
+    <div className='overflow-hidden'>
+    <div className="loader-container ">
       <div className="matrix-bg" ref={matrixRef}></div>
       <div className="hexagon-container">
         <div className="hexagon"></div>
@@ -75,6 +76,7 @@ const PageTransitionAnimation = () => {
           QUANTUM CORE INITIALIZATION...
         </div>
       </div>
+    </div>
     </div>
   );
 };
