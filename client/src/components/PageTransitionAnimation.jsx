@@ -51,7 +51,7 @@ const PageTransitionAnimation = () => {
           progressText.textContent = `${randomFact}`;
           dotIndex = (dotIndex + 1) % dots.length;
         }
-      }, 500);
+      }, 800);
 
       return () => clearInterval(interval);
     };

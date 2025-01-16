@@ -11,6 +11,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/LandingPage/Navbar";
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 // Layout component to wrap the common elements
@@ -47,6 +48,7 @@ function App() {
             <Route path="/teams" element={<Teams />} />
             <Route path="/campus-ambassador" element={<CampusAms />} />
           </Routes>
+          <Footer/>
         </PageTransitionWrapper>
       </Layout>
     </BrowserRouter>
