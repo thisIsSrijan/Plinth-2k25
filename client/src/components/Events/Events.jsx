@@ -70,7 +70,7 @@ const Events = () => {
           <div className="">
             <div className="">
                 <img className="w-[38.32%] absolute top-[31.5%] uxl:top-[24.5%] c1:top-[23%] left-[9%]" src={img4}></img>
-                {/* <p className="text-white font-cyntara">NINA SUERTE</p> */}
+                <p className="w-[5%] text-white font-cyntara absolute text-[1rem] top-[49%] left-[25%]">NINA SUERTE</p>
             </div>
 
             <div >
@@ -124,7 +124,7 @@ const Events = () => {
           {/* day3 */}
           <div className="">
           <div
-              className="w-[44.76%] flex flex-col absolute top-[58%] uxl:top-[53.31%] c1:top-[51.31%] left-[35.47%]  ">
+              className="w-[44.76%] flex flex-col absolute top-[62%] uxl:top-[53.31%] c1:top-[51.31%] left-[35.47%]  ">
               <div className="absolute    font-cynatar uxsm:text-s tracking-wide c1:text-[20rem] 2xl:text-[15rem] xl:text-[13rem] lg:text-[12rem] md:text-[9rem] sm:text-[8rem] xsm:text-[5rem] uxsm:text-[4.5rem] font-[400] textfamily plinth">
                 DAY 3
               </div>
@@ -139,14 +139,14 @@ const Events = () => {
             </div>
 
 
-            <div className="absolute w-[68%] top-[75%]  uxl:top-[70.99%] c1:top-[68.9%] left-[24%] uxl:left-[29.09%] c1:left-[25.09%]">
+            <div className="absolute w-[68%] top-[83%]  uxl:top-[70.99%] c1:top-[68.9%] left-[24%] uxl:left-[29.09%] c1:left-[25.09%]">
               <p className="c1:text-[3.5rem] 2xl:text-[2.5rem] xl:text-[2.0rem] lg:text-[2.2rem] md:text-[1.7rem] sm:text-[1.2rem] xsm:text-[1rem] text-white font-melete font-[400]">
                 REVEALING SOON
               </p>
             </div>
 
             <div
-              className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[81.8%] uxl:top-[76%] c1:top-[75%] rotate-[4deg] transform origin-top-left -translate-x-1
+              className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[87.8%] uxl:top-[76%] c1:top-[75%] rotate-[4deg] transform origin-top-left -translate-x-1
              text-center c1:text-[4rem] 2xl:text-[3.5rem] bg-custom-gradient
               xl:text-[2.3rem] lg:text-[2.4rem] md:text-[1.9rem] sm:text-[1.5rem] xsm:text-[1.3rem] text-white 
               font-melete font-[400] flex justify-center items-center "
