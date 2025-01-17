@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "../LandingPage/Navbar";
-import img1 from "../../assets/Events/eventschirag.png";
-import img2 from "../../assets/Events/eventsarpit.png";
-import sunburnlogo from "../../assets/Events/sunburnlogo.png";
-import img4 from "../../assets/Events/ninasuerte.png";
-import img5 from "../../assets/Events/maskbox.png";
-import img6 from "../../assets/Events/anandprerak.png";
-import tribeslogo from "../../assets/Events/tribelogo.png";
-import mobCh from "../../assets/Events/mobile-chirag.png";
-import mobsh from "../../assets/Events/mobile-shailey.png";
-import mobar from "../../assets/Events/mobile-arpit.png";
-import imgbox1 from "../../assets/Events/mobileViewBox.jpeg";
+const aws = import.meta.env.VITE_AWS;
+const img1 = `${aws}/eventschirag.png`;
+const img2 = `${aws}/eventsarpit.png`;
+const sunburnlogo = `${aws}/sunburnlogo.png`;
+const img4 = `${aws}/ninasuerte.png`;
+const img5 = `${aws}/maskbox.png`;
+const img6 = `${aws}/anandprerak.png`;
+const tribeslogo = `${aws}/tribelogo.png`;
+const mobCh = `${aws}/mobile-chirag.png`;
+const mobsh = `${aws}/mobile-shailey.png`;
+const mobar = `${aws}/mobile-arpit.png`;
+const imgbox1 = `${aws}/mobileViewBox.jpeg`;
 import { motion } from "framer-motion";
 
 const Events = () => {
