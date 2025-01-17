@@ -19,8 +19,8 @@ const Sidebar = () => {
       label: "Campus Ambassador",
       path: "/campus-ambassador",
     },
-    { icon: <LuUsers />, label: "Teams", path: "/teams" },
     { icon: <MdAirplay />, label: "Events", path: "/events" },
+    { icon: <LuUsers />, label: "Teams", path: "/teams" },
   ];
 
   return (
