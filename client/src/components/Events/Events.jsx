@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "../LandingPage/Navbar";
-const aws = import.meta.env.VITE_AWS;
-const img1 = `${aws}/eventschirag.png`;
-const img2 = `${aws}/eventsarpit.png`;
-const sunburnlogo = `${aws}/sunburnlogo.png`;
-const img4 = `${aws}/ninasuerte.png`;
-const img5 = `${aws}/maskbox.png`;
-const img6 = `${aws}/anandprerak.png`;
-const tribeslogo = `${aws}/tribelogo.png`;
-const mobCh = `${aws}/mobile-chirag.png`;
-const mobsh = `${aws}/mobile-shailey.png`;
-const mobar = `${aws}/mobile-arpit.png`;
-const imgbox1 = `${aws}/mobileViewBox.jpeg`;
+import img1 from "../../assets/Events/eventschirag.png";
+import img2 from "../../assets/Events/eventsarpit.png";
+import sunburnlogo from "../../assets/Events/sunburnlogo.png";
+import img4 from "../../assets/Events/ninasuerte.png";
+import img5 from "../../assets/Events/maskbox.png";
+import img6 from "../../assets/Events/anandprerak.png";
+import tribeslogo from "../../assets/Events/tribelogo.png";
+import mobCh from "../../assets/Events/mobile-chirag.png";
+import mobsh from "../../assets/Events/mobile-shailey.png";
+import mobar from "../../assets/Events/mobile-arpit.png";
+import imgbox1 from "../../assets/Events/mobileViewBox.jpeg";
 import { motion } from "framer-motion";
 
 const Events = () => {
@@ -290,7 +289,7 @@ const Events = () => {
       </div>
 
       {/* mobile */}
-      <div className="md:hidden block">
+      <div className="md:hidden block ">
         <div className="w-[100%] aspect-[1728/3800] bg-black relative overflow-x-hidden">
           <Navbar />
 
@@ -353,18 +352,18 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[50.92%] h-[19.47%] absolute top-[42.57%] left-[30.28%]">
-            <div className="text-[0.35rem] sm:text-[0.7rem] xsm:text-[0.6rem] text-white font-melete font-[400]">
+            className="w-[50.92%] h-[19.47%] absolute top-[38%] muxsm:top-[42.9%] muxsm:left-[34%] xsm:left-[313%] sm:left-[30%]">
+            <div className="text-[0.35rem] sm:text-[0.7rem] xsm:text-[0.6rem] text-white font-melete font-[400] ">
               BONFIRE & JAMMING
             </div>
           </motion.div>
-
+          
           {/* day2 */}
           <motion.div
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[49.99%] h-[5.57%] absolute top-[48.89%] left-[29.28%] flex flex-col">
+            className="w-[60.99%] h-[5.57%] absolute top-[48.89%] left-[18.28%] flex flex-col justify-center items-center ">
             <p
               className="w-[100%] text-[3rem] lg:text-[4rem] xsm:text-[4rem] sm:text-[4.5rem] font-monument font-[400] plinth text-center"
               style={{
@@ -395,21 +394,21 @@ const Events = () => {
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="z-20 w-[49.67%] h-[26.84%] absolute top-[56.87%] left-[29.44%]"
+            className="z-10 w-[56.47%] h-[32.84%] absolute top-[52.97%] left-[28.50%]"
             src={img4}
           />
           <motion.img
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[31.58%] h-[15.97%] absolute top-[66.14%] left-[55.54%]"
+            className="z-20 w-[31.58%] h-[19.97%] absolute top-[64.14%] left-[55.54%]"
             src={img5}
           />
           <motion.img
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[30.24%] h-[15.52%] absolute top-[66.69%] left-[18.59%]"
+            className="z-10 w-[29.24%] h-[19.52%] absolute top-[64.4%] left-[18.59%]"
             src={img6}
           />
 
@@ -417,7 +416,7 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[50.92%] h-[19.47%] absolute top-[84.57%] left-[30.28%]">
+            className="z-10 w-[50.92%] h-[19.47%] absolute top-[85.57%] sm:left-[32%] left-[30.28%] xsm:left-[29%]">
             <div className="text-[0.45rem] sm:text-[0.8rem] xsm:text-[0.7rem] text-white font-melete font-[400]">
               SUNBURN CAMPUS
             </div>
@@ -428,10 +427,16 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[49.99%] h-[5.57%] absolute top-[95.89%] left-[29.28%] flex flex-col">
+            className="w-[52.99%] h-[5.57%] absolute top-[95.89%] left-[24.28%] flex flex-col justify-center items-center">
             <p
-              className="w-[100%] text-[1.2rem] xsm:text-[1.7rem] sm:text-[2.3rem] font-melete font-[400] textfamily3 plinth"
-              style={{ rotate: "10deg" }}>
+              className="w-[100%] text-[3rem] lg:text-[4rem] xsm:text-[4rem] sm:text-[4.5rem] font-monument font-[400] plinth text-center"
+              style={{
+                rotate: "10deg",
+                background: "linear-gradient(to bottom, #A7F818, black)",
+                WebkitBackgroundClip: "text", // for Chrome/Safari
+                backgroundClip: "text", // for other browsers
+                color: "transparent", // Make sure text color is transparent to show the gradient
+              }}>
               DAY 3
             </p>
             <p className="text-white font-melete font-[400] text-[0.8rem] xsm:text-[1rem] sm:text-[1.5rem]">
@@ -453,8 +458,8 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[27.28%]">
-            <div className="text-[0.45rem] sm:text-[0.8rem] xsm:text-[0.7rem] text-white font-melete font-[400]">
+            className="z-10 w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[28.28%]">
+            <div className="text-[0.55rem] sm:text-[0.8rem] xsm:text-[0.7rem] muxsm: text-white font-melete font-[400]">
               BOLLYWOOD NIGHT
             </div>
           </motion.div>
