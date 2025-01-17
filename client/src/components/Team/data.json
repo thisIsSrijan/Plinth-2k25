@@ -135,49 +135,17 @@
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
-    },
-    {
-      "name": "Saanvi Chabaque",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/michaelsmith",
-      "email": "michael.smith@example.com",
-      "instagram": "https://www.instagram.com/michaelsmith"
-    },
-    {
-      "name": "Sankalp Jain",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/michaelsmith",
-      "email": "michael.smith@example.com",
-      "instagram": "https://www.instagram.com/michaelsmith"
-    },
-    {
-      "name": "Pranshu Saxena",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/michaelsmith",
-      "email": "michael.smith@example.com",
-      "instagram": "https://www.instagram.com/michaelsmith"
-    },
-    {
-      "name": "Garvit Jain",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/michaelsmith",
-      "email": "michael.smith@example.com",
-      "instagram": "https://www.instagram.com/michaelsmith"
-    },
-    {
-      "name": "Vanshika Thadani",
-      "designation": "Developer",
-      "image": "/assets/member.png",
-      "linkedin": "https://www.linkedin.com/in/michaelsmith",
-      "email": "michael.smith@example.com",
-      "instagram": "https://www.instagram.com/michaelsmith"
     }
   ],
-  "FinanceConvenor": [
+  "TC": [
+    {
+      "name": "Shivansh Porwal",
+      "designation": "General Secretary",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/emmawilliams",
+      "email": "emma.williams@example.com",
+      "instagram": "https://www.instagram.com/emmawilliams"
+    },
     {
       "name": "Prakhar Kesharwani",
       "designation": "Finance Convenor",
@@ -185,6 +153,14 @@
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
+    },
+    {
+      "name": "Hiya Jain",
+      "designation": "Associate General Secretary",
+      "image": "/assets/member.png",
+      "linkedin": "https://www.linkedin.com/in/emmawilliams",
+      "email": "emma.williams@example.com",
+      "instagram": "https://www.instagram.com/emmawilliams"
     }
   ]
 }

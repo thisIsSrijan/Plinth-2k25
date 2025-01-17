@@ -21,7 +21,7 @@ const PageTransitionWrapper = ({ children }) => {
       const timer = setTimeout(() => {
         setIsTransitioning(false);
         previousPath.current = location.pathname;
-      }, 1000);
+      }, 2500);
 
       return () => clearTimeout(timer);
     }

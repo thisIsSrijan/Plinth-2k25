@@ -65,7 +65,7 @@ const Accomodation = () => {
         <img
           src={plinthAcc}
           alt="Accomodation"
-          className="h-auto w-full object-cover md:w-[70%]"
+          className="h-auto w-full object-cover md:w-[60%]"
         />
         <div className="absolute bottom-0 left-0 w-full h-[30%] bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute inset-0 w-full h-full bg-gradient-to-l from-[rgba(0,0,0,0.8)] via-transparent to-[rgba(0,0,0,0.8)]"></div>
@@ -85,7 +85,7 @@ const Accomodation = () => {
       {/* Timings Section */}
       <Section animationVariant={rightToLeft}>
         <h2
-          className="text-[#A7F818] text-left text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-snug tracking-wide"
+          className="text-[#A7F818] mb-5 text-left text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-snug tracking-wide "
           style={{ fontFamily: "Melete" }}
         >
           TIMINGS
@@ -99,7 +99,7 @@ const Accomodation = () => {
       {/* Instructions Section */}
       <Section animationVariant={leftToRight}>
         <h2
-          className="text-[#A7F818] text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-relaxed tracking-wide"
+          className="text-[#A7F818] text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-relaxed tracking-wide mb-5"
           style={{ fontFamily: "Melete" }}
         >
           INSTRUCTIONS
