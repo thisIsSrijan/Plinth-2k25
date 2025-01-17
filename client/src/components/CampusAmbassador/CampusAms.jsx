@@ -1,7 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import CampImg from "../../assets/campusAms/CampusAmbassador.png";
-import GreenDot from "../../assets/campusAms/GreenDot.png";
+// import CampImg from "../../assets/campusAms/CampusAmbassador.png";
+// import GreenDot from "../../assets/campusAms/GreenDot.png";
+
+const aws = import.meta.env.VITE_AWS
+
+const CampImg = `${aws}/CampusAmbassador.png`
+const GreenDot = `${aws}/GreenDot.png`
 
 function CampusAms() {
   const shimmerAnimation = {
