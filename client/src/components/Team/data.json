@@ -3,7 +3,7 @@
     {
       "name": "Yug Agarwal",
       "designation": "Fest Head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
@@ -11,7 +11,7 @@
     {
       "name": "Rajat Sharma",
       "designation": "Fest Head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -21,7 +21,7 @@
     {
       "name": "Hiya Jain",
       "designation": "Associate General Secretary",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/emmawilliams",
       "email": "emma.williams@example.com",
       "instagram": "https://www.instagram.com/emmawilliams"
@@ -31,7 +31,7 @@
     {
       "name": "Michael Smith",
       "designation": "Designer",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -39,7 +39,7 @@
     {
       "name": "Emma Williams",
       "designation": "Designer",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/emmawilliams",
       "email": "emma.williams@example.com",
       "instagram": "https://www.instagram.com/emmawilliams"
@@ -47,7 +47,7 @@
     {
       "name": "Michael Smith",
       "designation": "Designer",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -55,7 +55,7 @@
     {
       "name": "Michael Smith",
       "designation": "Designer",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -65,7 +65,7 @@
     {
       "name": "Ayush Singh Chauhan",
       "designation": "Public Relation Head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
@@ -75,7 +75,7 @@
     {
       "name": "Ravindra Singh Shekhawat",
       "designation": "Event Management Head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
@@ -85,7 +85,7 @@
     {
       "name": "Akshat Manas",
       "designation": "Creative Head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/johndoe",
       "email": "john.doe@example.com",
       "instagram": "https://www.instagram.com/johndoe"
@@ -95,7 +95,7 @@
     {
       "name": "Atharva Gulajkar",
       "designation": "Sponsorship",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -105,7 +105,7 @@
     {
       "name": "Anwita Sarangi",
       "designation": "Social Media",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -115,7 +115,7 @@
     {
       "name": "Srijan Das",
       "designation": "Development head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/team-srijan.jpeg",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -123,7 +123,7 @@
     {
       "name": "Siddharth Jiyani",
       "designation": "Development head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/team-siddharth.jpeg",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -131,7 +131,7 @@
     {
       "name": "Swaraj Layek",
       "designation": "Development head",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/team-swaraj.jpeg",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -141,7 +141,7 @@
     {
       "name": "Shivansh Porwal",
       "designation": "General Secretary",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/emmawilliams",
       "email": "emma.williams@example.com",
       "instagram": "https://www.instagram.com/emmawilliams"
@@ -149,7 +149,7 @@
     {
       "name": "Prakhar Kesharwani",
       "designation": "Finance Convenor",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
@@ -157,7 +157,7 @@
     {
       "name": "Hiya Jain",
       "designation": "Associate General Secretary",
-      "image": "/assets/member.png",
+      "image": "src/assets/ourteam/member.png",
       "linkedin": "https://www.linkedin.com/in/emmawilliams",
       "email": "emma.williams@example.com",
       "instagram": "https://www.instagram.com/emmawilliams"

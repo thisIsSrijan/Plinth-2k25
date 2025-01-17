@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useInView } from "framer-motion";
 
-const plinthAcc = "/assets/Accomodationimg.png";
+const plinthAcc = "src/assets/accomodation/Accomodationimg.png";
 
 const Section = ({ children, animationVariant, transitionDelay = 0 }) => {
   const ref = React.useRef(null);

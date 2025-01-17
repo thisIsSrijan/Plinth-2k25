@@ -350,15 +350,15 @@ const Events = () => {
             </p>
           </div>
 
-          <div className="z-10 w-[72.91%] h-[23.31%] absolute top-[104.31%] left-[14.29%]">
+          <div className=" w-[72.91%] h-[23.31%] absolute top-[104.31%] left-[14.29%]">
             <img src={imgbox1} alt="" />
           </div>
-          <div className="z-10 w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[27.28%]">
+          <div className=" w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[27.28%]">
             <div className=" text-[0.45rem] sm:text-[0.8rem] xsm:text-[0.7rem] text-white font-melete font-[400] ">
               BOLLYWOOD NIGHT{" "}
             </div>
           </div>
-          <div className="z-10 w-[43.86%] h-[4.76%] absolute top-[115%] left-[30%]">
+          <div className=" w-[43.86%] h-[4.76%] absolute top-[115%] left-[30%]">
             <p className="font-monument text-white font-[400] text-[1.3rem] xsm:text-[2rem]">
               REVEALING SOON
             </p>
