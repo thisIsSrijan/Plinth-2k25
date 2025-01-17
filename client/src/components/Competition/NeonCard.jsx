@@ -65,7 +65,7 @@ const BackComponent = () => (
             href={event.readMoreLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg text-white uxsm:rounded-sm xsm:rounded-md text-[2.1vw] xsm:text-[1.8vw] sm:text-[1.76vw] md:text-[1.6vw] lg:text-[1.45vw] xl:text-[1vw] 2xl:text-[1.2vw] text-center bg-slate-600 h-[3.5vw] sm:h-[3.8vw] md:h-[3vw] lg:h-[2.8vw] xl:h-[2.2vw] 2xl:h-[2.4vw] lg:pt-[0.3vh] xl:pt-[0.3vh] md:pt-[0.1vh] uxsm:pt-[0.1vh] xsm:pt-[0.2vh] sm:pt-[0.1vh] pt-[0.5vh] w-[8vw] muxsm:w-[10.2vw] xsm:w-[9vw] sm:w-[9vw] items-center md:w-[7.8vw] lg:w-[7.5vw] xl:w-[5.5vw] 2xl:w-[6.5vw]"
+            className="rounded-lg text-white uxsm:rounded-sm xsm:rounded-md text-[2.1vw] xsm:text-[1.8vw] sm:text-[1.76vw] md:text-[1.6vw] lg:text-[1.45vw] xl:text-[1vw] 2xl:text-[1.2vw] text-center bg-[#a7f819] h-[3.5vw] sm:h-[3.8vw] md:h-[3vw] lg:h-[2.8vw] xl:h-[2.2vw] 2xl:h-[2.4vw] lg:pt-[0.3vh] xl:pt-[0.3vh] md:pt-[0.1vh] uxsm:pt-[0.1vh] xsm:pt-[0.2vh] sm:pt-[0.1vh] pt-[0.5vh] w-[8vw] muxsm:w-[10.2vw] xsm:w-[9vw] sm:w-[9vw] items-center md:w-[7.8vw] lg:w-[7.5vw] xl:w-[5.5vw] 2xl:w-[6.5vw]"
           >
             Read More
           </a>
