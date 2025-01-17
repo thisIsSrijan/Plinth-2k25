@@ -67,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-row gap-[4rem] text-center mx-auto">
-            <div>
+            <div className="font-poppins">
               <p className="xl:text-[1.2rem] lg:text-[1rem] uxl:text-[1.3rem] c1:text-[1.5rem]">
                 <a href="#">ALL RIGHTS RESERVED</a>
               </p>

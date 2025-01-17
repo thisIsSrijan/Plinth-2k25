@@ -1,7 +1,8 @@
 import React from "react";
 import { motion, useInView } from "framer-motion";
 
-const plinthAcc = "/assets/Accomodationimg.png";
+const aws = import.meta.env.VITE_AWS
+const plinthAcc = `${aws}/Accomodationimg.png`
 
 const Section = ({ children, animationVariant, transitionDelay = 0 }) => {
   const ref = React.useRef(null);
