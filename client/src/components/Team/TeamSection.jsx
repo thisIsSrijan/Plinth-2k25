@@ -32,20 +32,40 @@ const TeamSection = ({ title, members }) => {
   }, []);
 
   return (
-    <div className="mt-14 flex flex-col w-full justify-center" ref={sectionRef}>
+    <div className=" flex flex-col w-full justify-center" ref={sectionRef}>
       {/* Title */}
       <div
-        className="bg-[#A7F818] py-8 text-center text-black flex items-center justify-center text-[17px] leading-[25px] sm:text-[24px] font-melete font-semibold h-[20px]"
+        className="bg-[#A7F818] mb-8 py-8 text-center text-black flex items-center justify-center text-[17px] leading-[25px] sm:text-[24px] font-melete font-extrabold h-[20px]"
         style={{
           fontFamily: "Melete, sans-serif",
-        }}
-      >
-        {title}
+          background:
+            "radial-gradient(circle, rgba(167, 248, 24, 1) 0%, rgba(167, 248, 24, 0.8) 60%, rgba(0, 0, 0, 0.6) 100%)", // Improved radial gradient with better contrast
+          position: "relative", // Set position relative for the text gradient to work
+        }}>
+        <span
+          style={{
+            background:
+              "linear-gradient(to right, #A7F818, #000000 50%, #A7F818)",
+            WebkitBackgroundClip: "text",
+            color: "#000",
+          }}>
+          {title}
+        </span>
       </div>
 
       {/* Cards Section */}
       <div className="flex justify-center w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-20 p-4 lg:gap-5 xl:gap-10 place-content-center">
+        <div
+          className={`grid ${
+            members?.length === 1
+              ? "grid-cols-1 place-items-center"
+              : members?.length === 2
+              ? "grid-cols-1 place-items-center md:grid-cols-2 sm:grid-cols-2 xsm:grid-cols-1 xxsm:grid-cols-1"
+              : members?.length === 3
+              ? "grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 xxsm:grid-cols-1"
+              : "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  "
+          } gap-10 p-2 lg:gap-5 xl:gap-10`}>
+          {" "}
           {members?.map((member, index) => (
             <motion.div
               key={index}
@@ -54,8 +74,7 @@ const TeamSection = ({ title, members }) => {
               transition={{
                 duration: 0.6,
                 delay: index * 0.2, // Stagger the animation
-              }}
-            >
+              }}>
               <Card
                 name={member?.name}
                 designation={member?.designation}

@@ -16,6 +16,7 @@ const Sidebar = () => {
     { icon: <PiPersonArmsSpreadFill />, label: "Campus Ambassador", path: "/campus-ambassador" },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
     // { icon: <FiImage />, label: "Campus", path: "/campus" },
+    { icon: <FiLayout />, label: "Events", path: "/events" },
   ];
 
   return (
@@ -25,7 +26,7 @@ const Sidebar = () => {
         overflow: "hidden",
         boxShadow: "0 0 0 3px rgba(234, 252, 161, 0.3)",
       }}
-      className="2xl:w-[4rem] xl:w-[4rem] lg:w-[4rem] md:w-[3rem] sm:w-[3rem] 2xl:h-[44rem] xl:h-[33rem] lg:h-[38rem] flex flex-col justify-start items-center bg-white/5 backdrop-blur-sm fixed top-[8rem] z-20 left-6 text-center"
+      className="2xl:w-[4rem] xl:w-[4rem] lg:w-[4rem] md:w-[3rem] sm:w-[3rem] min-h-[80vh] flex flex-col justify-start items-center bg-white/5 backdrop-blur-sm fixed top-[8rem] z-20 left-6 text-center"
     >
       {icons.map((item, index) => (
         <Link to={item.path} key={index}>
