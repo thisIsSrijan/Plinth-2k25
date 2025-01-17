@@ -25,7 +25,7 @@ const FrontComponent = () => (
     <div className="bg-black border-[0.45vw] uxsm:border-[0.9vw] md:border-[0.58vw] lg:border-[0.3vw] group-hover:drop-shadow-[0_0_2vw_#22f717] border-[#3F8C0A] md:rounded-[1.45rem] xsm:rounded-3xl sm:md:rounded-3xl lg:rounded-[1.3rem] xl:rounded-[1.478rem] 2xl:rounded-3xl uxsm:rounded-[1.2rem] relative uxsm:shadow-[0_0_1.6vw_0px_#22f717] h-full">
       <div className="w-[36.5vw] uxsm:w-[35.5vw] sm:w-[35vw] md:w-[27.5vw] lg:w-[22.8vw] xl:w-[18.5vw] 2xl:w-[17.3vw] border-[0.28vw] border-[#a7f819] uxsm:ml-[0.6vw] md:ml-[0.32vw] sm:ml-[0.64vw] ml-[0.41vw] md:mt-[0.3vw] uxsm:mt-[0.59vw] lg:mt-[0.3vw] lg:ml-[0.35vw] mt-[0.41vw] rounded-2xl mr-[0.15rem] bg-[#a7f819] h-74[36.5vw] uxsm:h-[35.9vw] sm:h-[35vw] md:h-[28.5vw] lg:h-[23.5vw] xl:h-[18.5vw] 2xl:h-[17.3vw] object-cover relative">
         {/* Event Name */}
-        <div className="absolute top-[0.3vh] left-[23vw] md:left-[18vw] muxsm:w-[5.5rem] sm:w-[8.8rem] muxsm:h-[3rem] muxsm:left-[12vw] lg:left-[12.5vw] xl:left-[10vw] 2xl:left-[8.8vw] rounded-lg w-[10vw] md:w-[9vw] lg:w-[8.5vw] xl:w-[8vw] 2xl:w-[8vw] h-[4vh] bg-transparent z-10 text-center font-bold text-[2.1vw] md:text-[1.8vw] lg:text-[1.3vw] xl:text-[1.11vw] 2xl:text-[1.3vw] text-black overflow-hidden">
+        <div className="absolute top-[0.3vh] left-[23vw] md:left-[12vw] muxsm:w-[5.5rem] sm:w-[8.8rem] muxsm:h-[3rem] muxsm:left-[12vw] lg:left-[12.5vw] xl:left-[10vw] 2xl:left-[8.8vw] rounded-lg w-[10vw] md:w-[15vw] lg:w-[9.5vw] xl:w-[8vw] 2xl:w-[8vw] h-[4vh] bg-transparent z-10 text-center font-bold text-[2.1vw] md:text-[1.8vw] lg:text-[1.3vw] xl:text-[1.11vw] 2xl:text-[1.1vw] uxl:h-[4rem] c1:h-[5rem] text-black overflow-hidden">
           {event.name}
         </div>
 
