@@ -126,12 +126,16 @@ const Accomodation = () => {
       {/* Register Button */}
       <Section animationVariant={rightToLeft}>
         <div className="flex justify-center">
+          <a href="https://unstop.com/college-fests/plinth-2025-plinth-organising-committee-284543"
+          target="_blank">
           <button
             className="mt-4 px-4 sm:px-6 py-2 sm:py-3 bg-[#A7F818] text-black font-bold text-sm sm:text-base md:text-lg uppercase tracking-wide rounded-md shadow-lg hover:bg-[#c0fc34] transition-all w-[200px] sm:w-[250px]"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             Register Now!
+          
           </button>
+          </a>
         </div>
       </Section>
       </div>

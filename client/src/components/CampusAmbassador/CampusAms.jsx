@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 // import GreenDot from "../../assets/campusAms/GreenDot.png";
 
 const aws = import.meta.env.VITE_AWS
-
 const CampImg = `${aws}/CampusAmbassador.png`
 const GreenDot = `${aws}/GreenDot.png`
 
