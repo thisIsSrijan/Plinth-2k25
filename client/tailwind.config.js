@@ -26,7 +26,7 @@ export default {
       },
       perspective: {
         1000: "1000px",
-      },
+      }
 
     },
     screens: {
@@ -39,6 +39,7 @@ export default {
       xl: "1200px", // Extra large devices (large desktops, ≥ 1200px) done
       "2xl": "1400px", // Extra extra large devices (larger desktops, ≥ 1400px) done
       uxl: "1500px",
+      c2:"1700px",
       c1: "2000px",
       "w-lg-h-sm": { raw: "(min-width: 992px) and (max-height: 730px)" },
       "w-md-h-xsm": { raw: "(min-width: 768px) and (max-height: 580px)" },
