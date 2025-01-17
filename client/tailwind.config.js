@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(270deg, #A7F818 0%, #5D8C0B 17%, #A7F818 28.5%, #5D8C0B 40.5%, #A7F818 53.5%, #5D8C0B 71%, #A7F818 87%, #62920E 100%)',
+        'custom-gradient-2': 'linear-gradient(272.21deg, #FFFFFF 1.56%, #4B4B4B 13.39%, #FFFFFF 18.63%, #4B4B4B 26.27%, #FFFFFF 42.01%, #4B4B4B 49.2%, #FFFFFF 57.75%, #FFFFFF 65.86%, #4B4B4B 78.26%, #FFFFFF 89.23%, #4B4B4B 96.96%)',
+      },
       fontFamily: {
         monument: ['"Monument Extended"', "sans-serif"],
         phonk: ['Phonk', "Arial", "sans-serif"],

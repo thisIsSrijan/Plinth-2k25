@@ -5,7 +5,7 @@ const Carbox = () => {
   const { selectedEvent } = useEventContext(); 
   return (
 <>
-<div className=" items-center bg-black uxsm:w-full  lg:h-[65vw] pt-[5vw] xsm:py-[5vw] sm:py-[6.3vw] uxsm:py-[0.4vh] muxsm:py-[1.2vh] md:h-auto md:py-[-0vw] lg:py-[1.2vw] xl:py-[2.8vw] 2xl:py-[4vw] uxl:py-[5vw] xl:h-[55vw] flex justify-center uxsm:h-auto muxsm:h-auto xsm:h-auto sm:h-auto">
+<div className=" items-center  uxsm:w-full  lg:h-auto bg-black pt-[5vw] xsm:py-[5vw] sm:py-[6.3vw] uxsm:py-[0.4vh] muxsm:py-[1.2vh] md:h-auto md:py-[-0vw] lg:py-[1.2vw] xl:py-[2.8vw] 2xl:py-[4vw] uxl:py-[5vw] xl:h-auto flex justify-center uxsm:h-auto muxsm:h-auto xsm:h-auto sm:h-auto">
       {/* Desktop/Tablet Layout (3 cards per row) - For screens ≥ 768px */}
       <div className="hidden items-center md:flex cursor-pointer overflow-hidden flex-col px-[2rem] py-[3rem] gap-[6vh]">
          
