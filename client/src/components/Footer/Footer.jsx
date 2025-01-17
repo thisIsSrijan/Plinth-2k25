@@ -1,11 +1,12 @@
-import insta from "../../assets/footer/insta.png";
-import linkd from "../../assets/footer/linkedin.png";
-import plinthtext2 from "../../assets/footer/Logo.svg";
-import Gdg from "../../assets/footer/gdg.svg";
-import Web from "../../assets/footer/Web.png";
-import Phone from "../../assets/footer/Phone.png"; // Make sure this is the phone image
-import bg from "../../assets/footer/bgm.png"; // Background image import
-import logo from "../../assets/footer/logo.png";
+const aws = import.meta.env.VITE_AWS;
+const insta = `${aws}/insta.png`;
+const linkd = `${aws}/linkedin.png`;
+const plinthtext2 = `${aws}/Logo.svg`;
+const Gdg = `${aws}/gdg.svg`;
+const Web = `${aws}/Web.png`;
+const Phone = `${aws}/Phone.png`; // Make sure this is the phone image
+const bg = `${aws}/bgm.png`; // Background image import
+const logo = `${aws}/logo.png`;
 
 const Footer = () => {
   return (

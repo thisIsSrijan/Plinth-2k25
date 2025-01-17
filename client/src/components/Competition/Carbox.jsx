@@ -1,6 +1,6 @@
 import { useEventContext } from "../../Context/EventContext";
 import NeonCard from "./NeonCard";
-import eventsData from "./data.json";
+import eventsData from "./data";
 const Carbox = () => {
   const { selectedEvent } = useEventContext(); 
   return (

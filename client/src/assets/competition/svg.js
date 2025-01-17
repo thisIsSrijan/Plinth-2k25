@@ -1,16 +1,18 @@
-import ASME from "./ASME.png";
-import Astronomy from "./Astronomy.svg";
-import Cipher from "./Cipher.svg";
-import Coding from "./Coding.svg";
-import Cybros from "./Cybros.svg";
-import DebSoc from "./DebSoc.svg";
-import ECell from "./E_Cell.svg";
-import GlowEllipse from "./Glow_Ellipse.png";
-import Phoenix from "./Phoenix.svg";
-import Quizzinga from "./Quizzinga.svg";
-import SAE from "./SAE.svg";
-import LeftArrow from "./left-arrow.svg";
-import RightArrow from "./right-arrow.svg";
+const aws = import.meta.env.VITE_AWS;
+
+const ASME = `${aws}/ASME.png`;
+const Astronomy = `${aws}/Astronomy.svg`;
+const Cipher = `${aws}/Cipher.svg`;
+const Coding = `${aws}/Coding.svg`;
+const Cybros = `${aws}/Cybros.svg`;
+const DebSoc = `${aws}/DebSoc.svg`;
+const ECell = `${aws}/E_Cell.svg`;
+const GlowEllipse = `${aws}/Glow_Ellipse.png`;
+const Phoenix = `${aws}/Phoenix.svg`;
+const Quizzinga = `${aws}/Quizzinga.svg`;
+const SAE = `${aws}/SAE.svg`;
+const LeftArrow = `${aws}/left-arrow.svg`;
+const RightArrow = `${aws}/right-arrow.svg`;
 
 export {
   ASME,
