@@ -81,16 +81,16 @@ const LandingPage = () => {
           className="flex c1:text-[3.5rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.5rem] md:text-[1.3rem] 
           sm:text-[1.4rem] xsm:text-[0.8rem] uxsm:text-[0.7rem]  font-melete relative 
           bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent"
-          variants={letterContainer}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 5 }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
         >
-          {"LNMIIT, JAIPUR".split("").map((char, index) => (
+          {/* {"LNMIIT, JAIPUR".split("").map((char, index) => (
             <motion.span key={index} variants={letter}>
               {char === " " ? "\u00A0" : char}
             </motion.span>
-          ))}
+          ))} */}
+          LNMIIT, JAIPUR
         </motion.div>
 
         {/* <div className="mt-10 z-10">

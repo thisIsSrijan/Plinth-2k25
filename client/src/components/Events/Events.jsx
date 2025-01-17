@@ -289,10 +289,18 @@ const Events = () => {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
       {/* mobile */}
       <div className="md:hidden block ">
         <div className="w-[100%] aspect-[1728/3800] bg-black relative overflow-x-hidden">
-          <Navbar />
+          {/* <Navbar /> */}
 
           {/* day1 */}
           <motion.div
