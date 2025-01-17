@@ -12,7 +12,7 @@ import Navbar from "./components/LandingPage/Navbar";
 import Sidebar from "./components/LandingPage/Sidebar";
 import Menubar from "./components/LandingPage/Menubar";
 import Events from "./components/Events/Events";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Cursor from "./components/Cursor/Cursor";
 import "./App.css";
 
@@ -52,7 +52,7 @@ function App() {
             <Route path="/campus-ambassador" element={<CampusAms />} />
             <Route path="/events" element={<Events />} />
           </Routes>
-          {/* <Footer/> */}
+          <Footer/>
         </PageTransitionWrapper>
       </Layout>
     </BrowserRouter>
