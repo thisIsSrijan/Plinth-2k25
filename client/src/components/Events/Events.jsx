@@ -59,7 +59,7 @@ const Events = () => {
               </div>
             </div>
 
-            {/* <div  className=" w-full h-full top-[20.25%] absolute  glowing-div"></div> */}
+            <div  className=" absolute top-[20%] c1:top-[16%] glowing-div"></div>
           </div>
 
 
@@ -70,17 +70,17 @@ const Events = () => {
           <div className="">
             <div className="">
                 <img className="w-[38.32%] absolute top-[31.5%] uxl:top-[24.5%] c1:top-[23%] left-[9%]" src={img4}></img>
-                <p className="w-[5%] text-white font-cyntara absolute text-[1rem] top-[49%] left-[25%]">NINA SUERTE</p>
+                <p className="z-10 w-[10%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[51%] xl:top-[51%] uxl:top-[45%] c1:top-[43%] left-[23%] c1:left-[22%] tracking-wider">NINA SUERTE</p>
             </div>
 
             <div >
               <img className="w-[23.75%] absolute top-[40.8%] uxl:top-[33.82%] c1:top-[31.82%] left-[26.18%]" src={img5}></img>
-              {/* <p className="text-white font-cyntara">MASKBOX</p> */}
-            </div>
+              <p className="z-10 w-[15%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[47%] c1:top-[45%] left-[39%] tracking-wider">MASK BOX</p>
+              </div>
             <div className="">
-              <img className="w-[18.80%] absolute top-[43.4%] uxl:top-[36.4%] c1:top-[34.4%] left-[9.5%] uxl:left-[5.5%] c1:left-[4%]" src={img6}></img>
-              {/* <p className="text-white font-cyntara">PRERAK ANAND</p> */}
-            </div>
+              <img className="w-[18.80%] absolute top-[43.4%] uxl:top-[36.4%] c1:top-[34.4%] left-[9.5%] xl:left-[7.5%] uxl:left-[5.5%] c1:left-[4%]" src={img6}></img>
+              <p className="z-10 w-[10%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[46%] c1:top-[44.5%] left-[10%] xl:left-[8%] c1:left-[5%] tracking-wider ">PRERAK ANAND</p>
+              </div>
 
             <div
               className="w-[44.76%] flex flex-col absolute top-[29.31%] uxl:top-[26.31%] c1:top-[25.31%] left-[56.47%]  ">
@@ -97,7 +97,7 @@ const Events = () => {
               </div>
             </div>
 
-            <div className="flex flex-row w-[44.76%] absolute top-[45%] uxl:top-[39%] c1:top-[37.7%] left-[56.47%] gap-x-[4%]">
+            <div className="flex flex-row w-[44.76%] absolute top-[45%] md:top-[44%] uxl:top-[40%] c1:top-[37.7%] left-[56.47%] gap-x-[4%]">
               <img className=" w-[37.19%] " src={sunburnlogo}></img>
               <img className=" w-[30.36%] h-[10%]" src={tribeslogo}></img>
             </div>
@@ -113,7 +113,7 @@ const Events = () => {
                 SUNBURN CAMPUS
               </div>
             </div>
-            {/* <div  className=" w-full h-full top-[1892.25%] absolute  glowing-div"></div> */}
+            <div  className=" absolute top-[57%] uxl:top-[50.7%] c1:top-[46.5%] glowing-div"></div>
           </div>
 
 
@@ -155,7 +155,7 @@ const Events = () => {
                 BOLLYWOOD NIGHT
               </div>
             </div>
-            {/* <div  className=" w-full  absolute top-[323%] glowing-div"></div> */}
+            <div  className=" absolute top-[87.8%] uxl:top-[74%] c1:top-[72%] glowing-div"></div>
           </div>
         </div>
       </div>
