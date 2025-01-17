@@ -104,7 +104,12 @@ const LandingPage = () => {
     transition-all duration-300 ease-in-out
     hover:text-[#A7F818] hover:shadow-[inset_0_0_20px_#A7F818,0_0_40px_#A7F818]"
         >
-          <span className="relative ">REGISTER</span>
+          <span
+            className="relative"
+            src="https://unstop.com/college-fests/plinth-2025-plinth-organising-committee-284543"
+          >
+            REGISTER
+          </span>
           <span className="absolute inset-0 bg-[#A7F818] transform scale-x-0 origin-left transition-transform duration-300 ease-in-out hover:scale-x-100"></span>
           <span className="absolute inset-0 border border-white opacity-20 transform scale-x-0 origin-left transition-transform duration-300 ease-in-out hover:scale-x-100"></span>
         </button>

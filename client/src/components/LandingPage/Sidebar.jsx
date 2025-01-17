@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiLayout, FiImage } from "react-icons/fi";
-import { LuUsers, LuFileText, LuTrophy } from "react-icons/lu";
+import { LuUsers, LuFileText, LuTrophy, } from "react-icons/lu";
 import { PiPersonArmsSpreadFill } from "react-icons/pi";
+import { MdAirplay } from "react-icons/md";
 import { Info } from "lucide-react";
 
 const Sidebar = () => {
@@ -19,6 +20,7 @@ const Sidebar = () => {
       path: "/campus-ambassador",
     },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
+    { icon: <MdAirplay />, label: "Events", path: "/events" },
   ];
 
   return (
