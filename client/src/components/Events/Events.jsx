@@ -88,24 +88,24 @@ const Events = () => {
               className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[20%] c1:top-[18%] rotate-[4deg] transform origin-top-left -translate-x-1
              text-center c1:text-[4rem] 2xl:text-[3.5rem] bg-custom-gradient
               xl:text-[2.3rem] lg:text-[2.4rem] md:text-[1.9rem] sm:text-[1.5rem] xsm:text-[1.3rem] text-white 
-              font-melete font-[400] flex justify-center items-center "
-            >
+              font-melete font-[400] flex justify-center items-center ">
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
+                <div class="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
                 JAMMING & BONFIRE
+                </div>
               </div>
             </div>
 
-            {/* <div  className=" absolute top-[20%] c1:top-[16%] glowing-div"></div> */}
+            {/* <div  className=" absolute top-[20%] c1÷:top-[16%] glowing-div"></div> */}
           </div>
 
           {/* day 2 */}
           <div className="">
-            <div className="">
+          <div className="">
               <img
                 className="w-[38.32%] absolute top-[31.5%] uxl:top-[24.5%] c1:top-[23%] left-[9%]"
-                src={img4}
-              ></img>
-              <p className="z-10 w-[10%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[51%] xl:top-[51%] uxl:top-[45%] c1:top-[43%] left-[23%] c1:left-[22%] tracking-wider">
+                src={img4}></img>
+              <p className="z-10 w-[10%] text-transparent font-monument text-center absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[51%] xl:top-[51%] uxl:top-[45%] c1:top-[43%] left-[23%] c1:left-[22%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
                 NINA SUERTE
               </p>
             </div>
@@ -113,18 +113,16 @@ const Events = () => {
             <div>
               <img
                 className="w-[23.75%] absolute top-[40.8%] uxl:top-[33.82%] c1:top-[31.82%] left-[26.18%]"
-                src={img5}
-              ></img>
-              <p className="z-10 w-[15%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[47%] c1:top-[45%] left-[39%] tracking-wider">
+                src={img5}></img>
+              <p className="z-10 w-[15%] text-transparent font-monument text-center absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[47%] c1:top-[45%] left-[39%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
                 MASK BOX
               </p>
             </div>
             <div className="">
               <img
-                className="w-[18.80%] absolute top-[43.4%] uxl:top-[36.4%] c1:top-[34.4%] left-[9.5%] xl:left-[7.5%] uxl:left-[5.5%] c1:left-[4%]"
-                src={img6}
-              ></img>
-              <p className="z-10 w-[10%] text-white font-cyntara absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[46%] c1:top-[44.5%] left-[10%] xl:left-[8%] c1:left-[5%] tracking-wider ">
+                className="w-[18.80%] absolute top-[43.4%] uxl:top-[36.4%] c1:top-[34.4%] left-[9%] xl:left-[7.0%] uxl:left-[5.5%] c1:left-[4%]"
+                src={img6}></img>
+              <p className="z-10 w-[10%] text-transparent font-monument absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[46%] c1:top-[44.5%] left-[10%] xl:left-[8%] c1:left-[5%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
                 PRERAK ANAND
               </p>
             </div>
@@ -184,7 +182,9 @@ const Events = () => {
             >
               {/* <img className="rotate-[0.83deg]" src={img3}></img> */}
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
-                SUNBURN CAMPUS
+                <div class="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
+                  SUNBURN CAMPUS
+                </div>
               </div>
             </div>
             {/* <div  className=" absolute top-[57%] uxl:top-[50.7%] c1:top-[46.5%] glowing-div"></div> */}
@@ -235,7 +235,9 @@ const Events = () => {
               font-melete font-[400] flex justify-center items-center "
             >
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
+              <div class="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
                 BOLLYWOOD NIGHT
+                </div>
               </div>
             </div>
             {/* <div  className=" absolute top-[87.8%] uxl:top-[74%] c1:top-[72%] glowing-div"></div> */}
@@ -279,7 +281,7 @@ const Events = () => {
             <img src={imgbox1} alt="" />
           </div>
           <img
-            className="z-20 w-[24.67%] h-[16.84%] absolute top-[24.77%] left-[26.44%]"
+            className="z-20 w-[24.67%] h-[16.84%] absolute top-[24.99%] left-[26.44%]"
             src={mobCh}
           ></img>
           <img
@@ -311,19 +313,19 @@ const Events = () => {
               25 JAN'25
             </p>
           </div>
-          <div className="z-10 w-[72.91%] h-[23.31%] absolute top-[59.31%] left-[14.29%]">
+          <div className="z-10 w-[72.91%] h-[23.31%] absolute top-[58.11%] left-[14.29%]">
             <img src={imgbox1} alt="" />
           </div>
           <img
-            className="z-20 w-[49.67%] h-[28.84%] absolute top-[56.07%] left-[29.44%]"
+            className="z-20 w-[49.67%] h-[26.84%] absolute top-[56.87%] left-[29.44%]"
             src={img4}
           ></img>
           <img
-            className="z-10 w-[36.58%] h-[15.97%] absolute  top-[66.94%] left-[48.54%]"
+            className="z-10 w-[31.58%] h-[15.97%] absolute  top-[66.14%] left-[55.54%]"
             src={img5}
           ></img>
           <img
-            className="z-10 w-[34.24%] h-[15.52%] absolute  top-[66.39%] left-[16.59%]"
+            className="z-10 w-[30.24%] h-[15.52%] absolute  top-[66.69%] left-[18.59%]"
             src={img6}
           ></img>
 
