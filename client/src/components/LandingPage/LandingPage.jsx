@@ -32,7 +32,7 @@ const LandingPage = () => {
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-75"
+        className="absolute top-0 left-0 w-full min-h-[100vh] uxsm:h-full md:h-full object-cover z-0 brightness-75"
       >
         <source
           src="https://s3-figma-videos-production-sig.figma.com/video/1451881376894472972/TEAM/30e3/9250/-49e6-4e48-9e45-b2b3c23c097c?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=egccXXxQLcdE5spEvBtm7xLzvU5G1LxXLrEI23MVUjm4HuP5eNY76FSs1L6Qha6f2~sJunHoMv26OktRoqfRD9mEeqarB8v5tM6vhorW1pJ3XYXRm3B7RNjdQmNNPjFQ5-eAVsyTkl9xDQdHj6VqYOYYEqgWBPT6a2rPdjrfJ2hsByhLECjY9jeuGywKn3tJ8aNSjZwHiKsWkMD2oF1iC7v1MdQEGDxAgH0mXzcP8w1eYUi1~36G0RGMyUd4WRTuKF2Va4SQchyMIvvWhW6w~J2n2gn5afgARcBsGSsSw-G3zbvSH6hKi~2FH3Oel2Ta1kgTeRHKgeiGqKiX0gP5pg__"
