@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiLayout, FiImage } from "react-icons/fi";
-import { LuUsers, LuFileText, LuTrophy } from "react-icons/lu";
+import { LuUsers, LuFileText, LuTrophy, } from "react-icons/lu";
 import { PiPersonArmsSpreadFill } from "react-icons/pi";
+import { MdAirplay } from "react-icons/md";
 import { Info } from "lucide-react";
 
 const Sidebar = () => {
@@ -19,21 +20,22 @@ const Sidebar = () => {
       path: "/campus-ambassador",
     },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
+    { icon: <MdAirplay />, label: "Events", path: "/events" },
   ];
 
   return (
-    <div className="fixed top-[8rem] left-6 z-20 group">
+    <div className="fixed h-[100vh] left-6 z-20 group flex flex-col justify-center items-center">
       <div
         style={{
           borderRadius: "20px",
           boxShadow: "0 0 0 3px rgba(234, 252, 161, 0.3)",
         }}
-        className="2xl:h-[44rem] xl:h-[33rem] lg:h-[38rem] flex flex-col justify-start items-start bg-white/5 backdrop-blur-sm text-center transition-all duration-500 ease-in-out group-hover:w-56 w-16 overflow-hidden "
+        className="py-6 flex flex-col justify-start items-start bg-white/5 backdrop-blur-md text-center transition-all duration-500 ease-in-out group-hover:w-56 w-16 overflow-hidden"
       >
         {icons.map((item, index) => (
           <Link to={item.path} key={index} className="w-full ">
             <div
-              className={`flex items-center p-[0.8rem] cursor-pointer hover:bg-white/10 transition-all duration-300 ${
+              className={`flex items-center p-[0.8rem] px-[1.5rm] cursor-pointer hover:bg-white/10 transition-all duration-300 ${
                 location.pathname === item.path ? "bg-transparent" : ""
               }`}
             >
