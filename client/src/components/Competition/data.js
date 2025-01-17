@@ -189,5 +189,220 @@ const data = {
       readMoreLink: "#"
     }
   ],
+  Phoenix: [
+    {
+      id: 7,
+      name: "Robowars",
+      description: "Get ready for an epic clash of machines! Watch as robots go head-to-head in an arena of chaos. Will your creation dominate the battlefield, or will it crumble under pressure?",
+      image: `${aws}/robowars.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 8,
+      name: "ROBOCUP",
+      description: "To bring the raw energy of football and the marvel of mechanical engineering together, Plinth is excited to announce Robocup, a football tournament where the participating players are none other than robots. Build and progr....",
+      image: `${aws}/robocup.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 9,
+      name: "ROBORACE",
+      description: "Get ready for the ultimate test of speed, precision, and cutting-edge technology in Velocity Vanguards - Robo Race. This thrilling event challenges participants to design and unleash their high-speed robotic vehicles on the trac....",
+      image: `${aws}/roborace.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 10,
+      name: "LNM TECH EXPO",
+      description: "The future is now! Come and experience the latest in robotics technology at our upcoming EXPO. You'll see robots of all shapes and sizes, performing tasks that were once thought to be the exclusive domain of humans. From delicate surgery to...",
+      image: `${aws}/lnm_tech_expo.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 11,
+      name: "ROBO TRANSPORTER",
+      description: "Welcome to \"Transporter\", an exhilarating robotics competition that challenges participants to design and build autonomous transport systems. In this cutting-edge event, teams will showcase their engineering process by creating robot...",
+      image: `${aws}/robo_transporter.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 12,
+      name: "Maze Solver",
+      description: "In this electrifying competition, teams of tech wizards will pit their robots against a mind-boggling maze. The robots will have to navigate their way through a series of obstacles and challenges, using sensors, algorithms, and sheer robotic prow....",
+      image: `${aws}/maze_solver.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 13,
+      name: "RC Plane",
+      description: "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to build ...",
+      image: `${aws}/rc_plane.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 14,
+      name: "DRONE RACING",
+      description: "Greetings Airmasters !!! Does your winged friend have the ability to emerge out as the best amongst all? The time has now arrived to showcase the speed of your drone. Use all your skills to design a racing drone and make it fly through....",
+      image: `${aws}/drone_racing.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 15,
+      name: "MICRO MOUSE",
+      description: "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to ...",
+      image: `${aws}/micro_mouse.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    }
+  ],
+  ASME: [
+    {
+      id: 7,
+      name: "Event A2",
+      description: "Description A2",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 8,
+      name: "Event B2",
+      description: "Description B2",
+      image: `${aws}/event-b1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 9,
+      name: "Event C2",
+      description: "Description C2",
+      image: `${aws}/event-c1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 10,
+      name: "Event D2",
+      description: "Description D2",
+      image: `${aws}/event-a1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 11,
+      name: "Event E2",
+      description: "Description E2",
+      image: `${aws}/event-b1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 12,
+      name: "Event F2",
+      description: "Description F2",
+      image: `${aws}/event-c1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    }
+  ],
+  SAE: [
+    {
+      id: 7,
+      name: "Event A2",
+      description: "Description A2",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 8,
+      name: "Event B2",
+      description: "Description B2",
+      image: `${aws}/event-b1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 9,
+      name: "Event C2",
+      description: "Description C2",
+      image: `${aws}/event-c1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 10,
+      name: "Event D2",
+      description: "Description D2",
+      image: `${aws}/event-a1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 11,
+      name: "Event E2",
+      description: "Description E2",
+      image: `${aws}/event-b1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 12,
+      name: "Event F2",
+      description: "Description F2",
+      image: `${aws}/event-c1.jpg`,
+      registerLink: "#",
+      readMoreLink: "#"
+    }
+  ],
+  Coding: [
+    {
+      id: 7,
+      name: "IUPC",
+      description: "Gear up for Cybros' thrilling ICPC-style contest—a high-energy competition featuring teams of three! With a rigorous five-hour format, you'll tackle a set of challenging problems, putting your coding skills, teamwork, and problem-s...",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 8,
+      name: "ENIGMA",
+      description: "Get ready for Cybros' flagship event—a Division 2-style individual coding contest designed to challenge and inspire. This two-hour competition brings together the best coders, all competing solo for a chance to claim ....",
+      image: `${aws}/enigma.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 9,
+      name: "CP Duels",
+      description: "Challenge your friends to a coding problem duel and see who can outsmart and outcode the other! Dive into a thrilling race against the clock, where each second counts as you tackle complex problems and push you .....",
+      image: `${aws}/cp_duels.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 10,
+      name: "Coding Cascade",
+      description: "Get ready for Coding Cascade, a high-stakes team coding event like no other! In this unique challenge, three questions are designed for three team members, where each question's output becomes the next question's input. The .....",
+      image: `${aws}/coding_cascade.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    },
+    {
+      id: 11,
+      name: "Alice, Bob, GO!",
+      description: "After tackling countless Alice and Bob game theory problems, have you ever wondered what it would be like to play them in real life? Now's your chance! We've crafted an experience that brings these classic logic battles to life. Dive into our...",
+      image: `${aws}/alice_bob_go.png`,
+      registerLink: "#",
+      readMoreLink: "#"
+    }]
 };
 export default data;
