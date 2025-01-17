@@ -215,14 +215,6 @@
     },
     {
       "id": 10,
-      "name": "MOTOBOAT",
-      "description": "Dive into the world of innovation and speed with \"Moto Boat\", the Motor Boat Challenge that invites participants to design, build, and race their motorized boats. This electrifying event combines engineering process, aquatic fin......",
-      "image": "/assets/motoboat.png",
-      "registerLink": "#",
-      "readMoreLink": "#"
-    },
-    {
-      "id": 11,
       "name": "LNM TECH EXPO",
       "description": "The future is now! Come and experience the latest in robotics technology at our upcoming EXPO. You'll see robots of all shapes and sizes, performing tasks that were once thought to be the exclusive domain of humans. From delicate surgery to...",
       "image": "/assets/lnm_tech_expo.png",
@@ -230,7 +222,7 @@
       "readMoreLink": "#"
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "ROBO TRANSPORTER",
       "description": "Welcome to \"Transporter\", an exhilarating robotics competition that challenges participants to design and build autonomous transport systems. In this cutting-edge event, teams will showcase their engineering process by creating robot...",
       "image": "/assets/robo_transporter.png",
@@ -238,7 +230,7 @@
       "readMoreLink": "#"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Maze Solver",
       "description": "In this electrifying competition, teams of tech wizards will pit their robots against a mind-boggling maze. The robots will have to navigate their way through a series of obstacles and challenges, using sensors, algorithms, and sheer robotic prow....",
       "image": "/assets/maze_solver.png",
@@ -246,7 +238,7 @@
       "readMoreLink": "#"
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "RC Plane",
       "description": "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to build ...",
       "image": "/assets/rc_plane.png",
@@ -254,7 +246,7 @@
       "readMoreLink": "#"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "DRONE RACING",
       "description": "Greetings Airmasters !!! Does your winged friend have the ability to emerge out as the best amongst all? The time has now arrived to showcase the speed of your drone. Use all your skills to design a racing drone and make it fly through....",
       "image": "/assets/drone_racing.png",
@@ -262,7 +254,7 @@
       "readMoreLink": "#"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "MICRO MOUSE",
       "description": "'The engine is the heart of the airplane , but the pilot is its soul.' - Walter Releigh Ever dreamt of being a pilot? If yes , the time has come to live up to your dreams as 'Phoenix'- The Robotics Club of LNMIIT brings to you a chance to ...",
       "image": "/assets/micro_mouse.png",

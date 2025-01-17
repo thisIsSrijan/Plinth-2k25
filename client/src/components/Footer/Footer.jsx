@@ -6,7 +6,6 @@ import Web from "../../assets/footer/Web.png";
 import Phone from "../../assets/footer/Phone.png"; // Make sure this is the phone image
 import bg from "../../assets/footer/bgm.png"; // Background image import
 import logo from "../../assets/footer/logo.png";
-import React from "react";
 
 const Footer = () => {
   return (

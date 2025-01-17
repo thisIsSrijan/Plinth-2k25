@@ -85,7 +85,7 @@
   stroke-dasharray: 628;
   stroke-dashoffset: 628;
   animation: dash 3s ease-in-out infinite;
-  filter: drop-shadow(0 0 8px #A7F818);
+  filter: drop-shadow(0 0 2px #A7F818);
 }
 
 .middle {
