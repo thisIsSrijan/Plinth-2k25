@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import data from "./data.json"; // Importing your team data from the JSON file
 import TeamSection from "./TeamSection"; // Import the TeamSection component
 import { motion } from "framer-motion";
 import "../../assets/cynatar/Cynatar.otf";
-
 const Team = () => {
   const [teamData, setTeamData] = useState(null);
   const titleVariants = {

@@ -63,7 +63,7 @@ function Competititons() {
         </div>
       </div>
 
-      <div className="min-h-[45vh] xsm:min-h-[52vh] sm:min-h-[60vh] w-full bg-black flex flex-col justify-center md:hidden">
+      <div className="min-h-[45vh] xsm:min-h-[52vh] sm:min-h-[60vh] w-full bg-black flex flex-col justify-center pt-[7rem] md:hidden">
         <div
           className="opacity-40 h-auto flex flex-col items-center font-monument text-[8vw] font-extrabold"
           style={{

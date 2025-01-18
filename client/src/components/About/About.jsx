@@ -7,7 +7,7 @@ const About = ({
     buttonlink = ""
 }) => {
     return (
-        <div className="w-full min-h-[100vh] bg-black relative overflow-hidden ">
+        <div className="w-full min-h-[100vh] bg-black relative overflow-hidden pt-[3rem] md:pt-[0] ">
             
             <div className="glowing-div bottom-1/2 "></div>
             <div className="flex flex-col gap-10 justify-center items-center z-10  ">

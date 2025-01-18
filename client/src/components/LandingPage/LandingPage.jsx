@@ -99,23 +99,23 @@ const LandingPage = () => {
                      </button>
                      
                 </div> */}
-        <button
+        <a
           className="mt-6 2xl:w-[25.5rem] xl:w-[22.5rem] lg:w-[18.5rem] md:w-[18.5rem] sm:w-[22.5rem] uxsm:w-[20rem] uxsm:mt-20 md:mt-8
     md:h-[3.8rem] h-[2.8rem] md:rounded-[1.25rem] rounded-[2rem] border-2 border-[#6666664D] 
     c1:text-[2rem] 2xl:text-[1.5rem] xl:text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] sm:text-[1.1rem]  poppins-medium bg-[#151515]  shadow-[inset_0_0_10px_1px_#1A1A1A] 
     text-[#cfcfcf] relative overflow-hidden 
     transition-all duration-300 ease-in-out
     hover:text-[#A7F818] hover:shadow-[inset_0_0_20px_#A7F818,0_0_40px_#A7F818]"
+          href="https://unstop.com/college-fests/plinth-2025-plinth-organising-committee-284543"
         >
           <span
-            className="relative"
-            src="https://unstop.com/college-fests/plinth-2025-plinth-organising-committee-284543"
+            className="relative flex justify-center items-center h-full w-full"
           >
             REGISTER
           </span>
           <span className="absolute inset-0 bg-[#A7F818] transform scale-x-0 origin-left transition-transform duration-300 ease-in-out hover:scale-x-100"></span>
           <span className="absolute inset-0 border border-white opacity-20 transform scale-x-0 origin-left transition-transform duration-300 ease-in-out hover:scale-x-100"></span>
-        </button>
+        </a>
 
         <motion.div
           className="uxsm:w-full absolute uxsm:right-[3.5rem] xsm:right-[5rem] md:-left-[30rem] lg:right-[10rem] 
