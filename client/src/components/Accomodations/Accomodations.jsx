@@ -112,11 +112,11 @@ const Accomodation = () => {
             "Any commodities issued to the guests would have to be returned in sound condition to the organizers during check-out.",
             "Random checks would be made to avoid any illegal stay at the campus. Any team failing to produce their electronic/physical receipts of accommodation would be heavily fined and disqualified.",
             "Entry will be only through the ‘Main Gate’ of LNMIIT Jaipur. All other gates will be closed for entry.",
-            "All guests are required to carry their valid government photo ID proofs at all times. In addition, the student participants are also required to carry their valid College photo ID card. Any guest failing to produce their ID card will not be permitted inside the campus during Plinth 2024.",
+            "All guests are required to carry their valid government photo ID proofs at all times. In addition, the student participants are also required to carry their valid College photo ID card. Any guest failing to produce their ID card will not be permitted inside the campus during Plinth 2025.",
             "Alcohol, drugs, sharp objects, and explosives of any kind are strictly prohibited inside the campus and items deemed unsafe will be prohibited. The decision of the Security and Plinth team will be final in any dispute.",
-            "No outside vehicles will be allowed into the campus during Plinth 2024.",
+            "No outside vehicles will be allowed into the campus during Plinth 2025.",
             "All the guests are required to maintain the decorum and cleanliness of the campus and follow the rules of the campus.",
-            "Plinth 2024 and LNMIIT will not be responsible for any mishaps that occur throughout the duration of stay for Plinth 2024.",
+            "Plinth 2025 and LNMIIT will not be responsible for any mishaps that occur throughout the duration of stay for Plinth 2025.",
           ].map((instruction, index) => (
             <li key={index}>{instruction}</li>
           ))}
