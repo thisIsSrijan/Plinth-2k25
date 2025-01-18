@@ -1,16 +1,16 @@
-'use client'
-
 import { Mail, Linkedin, Instagram } from 'lucide-react';
-import React from "react";
 
 const Card = ({ name, designation, image, linkedin, email, instagram }) => {
+  const aws = import.meta.env.VITE_AWS;
+  const imageUrl = `${aws}${image}`;
+
   return (
     <div className="ml-2 group relative rounded-[15px] w-[280px] h-[400px] border-[2px] border-[#A7F818] p-3 lg:w-[200px] lg:h-[300px] xl:w-[280px] xl:h-[380px] overflow-hidden transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[#A7F818]/50 hover:scale-105">
       {/* Container with the image and text */}
       <div className="relative w-full h-full">
         {/* Image */}
         <img
-          src={image}
+          src={imageUrl}
           alt="Member"
           className="rounded-[15px] w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
         />
