@@ -17,16 +17,7 @@
       "instagram": "https://www.instagram.com/michaelsmith"
     }
   ],
-  "associateGeneralSecretary": [
-    {
-      "name": "Hiya Jain",
-      "designation": "Associate General Secretary",
-      "image": "/Team- HIYA JAIN.jpg",
-      "linkedin": "https://www.linkedin.com/in/emmawilliams",
-      "email": "emma.williams@example.com",
-      "instagram": "https://www.instagram.com/emmawilliams"
-    }
-  ],
+
   "uiUx": [
     {
       "name": "Shourya Gupta",
@@ -45,6 +36,14 @@
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      "name": "Arnav",
+      "designation": "Public Relation Head",
+      "image": "/Team-Arnav.jpg",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
     }
   ],
   "eventManagement": [
@@ -55,6 +54,16 @@
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      
+        "name": "Yogya",
+        "designation": "Event Management Head",
+        "image": "/Team-Yogya.jpg",
+        "linkedin": "https://www.linkedin.com/in/alicejohnson",
+        "email": "alice.johnson@example.com",
+        "instagram": "https://www.instagram.com/alicejohnson"
+      
     }
   ],
   "creative": [
@@ -62,6 +71,14 @@
       "name": "Akshat Manas",
       "designation": "Creative Head",
       "image": "/Team - AKSHAT MANAS.jpg",
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "email": "john.doe@example.com",
+      "instagram": "https://www.instagram.com/johndoe"
+    },
+    {
+      "name": "Radhika Garg",
+      "designation": "Creative Head",
+      "image": "/Team-RADHIKA.jpg",
       "linkedin": "https://www.linkedin.com/in/johndoe",
       "email": "john.doe@example.com",
       "instagram": "https://www.instagram.com/johndoe"
@@ -75,7 +92,47 @@
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
-    }
+    },
+    {
+     "name": "Ayush Pandey",
+      "designation": "Sponsorship",
+      "image": "/Team-AYUSH.jpg",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith" 
+    },
+    {
+      "name": "Aryan Duhoon",
+       "designation": "Sponsorship",
+       "image": "/Team-ARYAN.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "Ansh mehta",
+       "designation": "Sponsorship",
+       "image": "/Team-ANSH.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "AKSHIT AGRAWAL",
+       "designation": "Sponsorship",
+       "image": "/Team-AKSHIT.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "Sanidhya shankar pachauri",
+       "designation": "Sponsorship",
+       "image": "/Team-SANIDHYA.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     }
   ],
   "socialMedia": [
     {
