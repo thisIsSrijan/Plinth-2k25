@@ -15,7 +15,7 @@ function CampusAms() {
   };
 
   return (
-    <div className="min-h-screen w-screen bg-black flex flex-col items-center gap-[10vw] sm:gap-[5vw] xl:gap-[2vw] py-[4vh]">
+    <div className="min-h-screen w-screen bg-black flex flex-col items-center gap-[10vw] sm:gap-[5vw] xl:gap-[2vw] py-[4vh] pt-[6rem] md:pt-[0rem]">
       <motion.div
         className="w-full text-[#a7f818] text-[11vw] md:text-[7vw] xl:text-[6vw] font-cynatar flex flex-col justify-center items-center tracking-widest"
         initial={{ opacity: 0, y: -100 }}
