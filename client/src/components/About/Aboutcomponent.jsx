@@ -1,4 +1,3 @@
-import Aboutlnmiit from "./Aboutlnmiit"
 import Aboutplinth from "./Aboutplinth"
 
 const Aboutcomponent=()=>{

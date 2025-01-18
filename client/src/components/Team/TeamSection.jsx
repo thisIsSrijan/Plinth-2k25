@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../../assets/melete/Melete-Bold.otf";
 import Card from "./Card";
-
+import PropTypes from 'prop-types';
 const TeamSection = ({ title, members }) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -83,6 +83,18 @@ const TeamSection = ({ title, members }) => {
       </div>
     </div>
   );
+};
+
+TeamSection.propTypes = {
+    title: PropTypes.string.isRequired,
+    members: PropTypes.arrayOf(PropTypes.shape({
+        name: PropTypes.string,
+        designation: PropTypes.string,
+        image: PropTypes.string,
+        linkedin: PropTypes.string,
+        email: PropTypes.string,
+        instagram: PropTypes.string
+    }))
 };
 
 export default TeamSection;

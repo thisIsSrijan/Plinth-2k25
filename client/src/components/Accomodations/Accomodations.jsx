@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useInView } from "framer-motion";
+import PropTypes from 'prop-types';
 
 const aws = import.meta.env.VITE_AWS
 const plinthAcc = `${aws}/Accomodationimg.png`
@@ -141,6 +142,15 @@ const Accomodation = () => {
       </div>
     </div>
   );
+};
+
+Section.propTypes = {
+  children: PropTypes.node.isRequired,
+  animationVariant: PropTypes.shape({
+      hidden: PropTypes.object,
+      visible: PropTypes.object
+  }).isRequired,
+  transitionDelay: PropTypes.number
 };
 
 export default Accomodation;
