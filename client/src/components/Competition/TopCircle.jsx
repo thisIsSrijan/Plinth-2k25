@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import EventImageCard from "./EventImageCard";
-import GlowCircle from "./GlowCircle";
+
 import {
   ECell,
   DebSoc,
@@ -37,30 +37,29 @@ function TopCircle() {
       }}
     >
       <div className="flex justify-center items-center w-full gap-[5vw]">
-        <motion.div
+
+      <motion.div
           variants={itemVariants}
-          initial={{ x: 150, y: 250, scale: 0.5, opacity: 0 }}
+          initial={{ x: 0, y: 250, scale: 0.5, opacity: 0 }}
           animate="animate"
         >
-          <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
+          <EventImageCard
+            eventName="Quizzing"
+            imageSrc={Quizzinga}
+            className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
+          />
         </motion.div>
+
         <motion.div
           variants={itemVariants}
           initial={{ x: 0, y: 250, scale: 0.5, opacity: 0 }}
           animate="animate"
         >
           <EventImageCard
-            eventName="Quizzinga"
+            eventName="Others"
             imageSrc={Quizzinga}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />
-        </motion.div>
-        <motion.div
-          variants={itemVariants}
-          initial={{ x: -150, y: 250, scale: 0.5, opacity: 0 }}
-          animate="animate"
-        >
-          <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
         </motion.div>
       </div>
 
@@ -71,7 +70,7 @@ function TopCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="Cybros"
+            eventName="Coding"
             imageSrc={Cybros}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mt-[3vh]"
           />
@@ -82,7 +81,7 @@ function TopCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="E Cell"
+            eventName="Startup"
             imageSrc={ECell}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />
@@ -93,7 +92,7 @@ function TopCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="DebSoc"
+            eventName="MUN"
             imageSrc={DebSoc}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />

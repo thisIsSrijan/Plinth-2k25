@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import EventImageCard from "./EventImageCard";
-import GlowCircle from "./GlowCircle";
 import {
   Cipher,
   Phoenix,
@@ -43,7 +42,7 @@ function BottomCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="Cipher"
+            eventName="Hackathon"
             imageSrc={Cipher}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
           />
@@ -54,7 +53,7 @@ function BottomCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="Phoenix"
+            eventName="Robotics"
             imageSrc={Phoenix}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />
@@ -65,7 +64,7 @@ function BottomCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="ASME"
+            eventName="E-Sports"
             imageSrc={ASME}
             className="w-[8rem] cursor-pointer h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />
@@ -76,7 +75,7 @@ function BottomCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="SAE"
+            eventName="Online"
             imageSrc={SAE}
             className="w-[8rem] h-[8rem] cursor-pointer lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem] mb-[4vh]"
           />
@@ -86,10 +85,14 @@ function BottomCircle() {
       <div className="flex justify-center items-center w-full gap-[5vw]">
         <motion.div
           variants={itemVariants}
-          initial={{ x: 150, y: -250, scale: 0.5, opacity: 0 }}
+          initial={{ x: 0, y: -250, scale: 0.5, opacity: 0 }}
           animate="animate"
         >
-          <GlowCircle className="w-[6rem] h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
+          <EventImageCard
+            eventName="highschool"
+            imageSrc={Coding}
+            className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
+          />
         </motion.div>
         <motion.div
           variants={itemVariants}
@@ -97,17 +100,10 @@ function BottomCircle() {
           animate="animate"
         >
           <EventImageCard
-            eventName="Coding"
+            eventName="Olympiad"
             imageSrc={Coding}
             className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem] c1:w-[16rem] c1:h-[16rem]"
           />
-        </motion.div>
-        <motion.div
-          variants={itemVariants}
-          initial={{ x: -150, y: -250, scale: 0.5, opacity: 0 }}
-          animate="animate"
-        >
-          <GlowCircle className="w-[6rem] cursor-pointer h-[6rem] lg:w-[8rem] lg:h-[8rem] c1:w-[13rem] c1:h-[13rem]" />
         </motion.div>
       </div>
     </motion.div>
