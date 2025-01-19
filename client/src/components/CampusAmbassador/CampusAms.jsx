@@ -60,7 +60,7 @@ function CampusAms() {
           />
         </motion.div>
         <div className="w-full md:w-1/2 poppins-regular text-justify px-[9vw] md:px-[5vw] text-sm sm:text-base xl:text-xl c1:text-4xl uxl:text-2xl leading-relaxed">
-          Plinth 2024 is approaching, and the Campus Ambassador Program is
+          Plinth 2025 is approaching, and the Campus Ambassador Program is
           seeking passionate individuals to join. The program encourages
           students from various fields to register for the festival through a
           dedicated Google form. The more registrations, greater the rewards.
