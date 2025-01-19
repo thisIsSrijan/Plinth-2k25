@@ -70,7 +70,7 @@ function EventImageCard({ eventName, imageSrc, className = "" }) {
       {/* Event Name Banner */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4/5 h-6 bg-gradient-to-b from-[#012000] to-[#054F03] rounded-lg border border-[#054F03] text-center flex flex-col justify-center">
         <div
-          className="font-phonk muxsm:text-xl lg:text-base c1:text-2xl bg-gradient-to-b from-white to-[#3D3D3D] inline-block text-transparent bg-clip-text"
+          className="font-phonk text-base xsm:text-xl lg:text-base c1:text-2xl bg-gradient-to-b from-white to-[#3D3D3D] inline-block text-transparent bg-clip-text"
           style={{
             wordWrap: "break-word",
           }}

@@ -21,7 +21,7 @@ function Competititons() {
             transition={{
               duration: 1.5,
               delay: 0.5,
-              ease: "easeIn"
+              ease: "easeIn",
             }}
             className=" h-[75%] w-full flex flex-col justify-center items-center gap-1 text-[4.3vw] xl:text-[6vw] lg:text-[7vw] md:text-[6.5vw] 2xl:text-[4.3vw] c1:text-[5.5vw] tracking-[6px]"
           >
@@ -63,7 +63,7 @@ function Competititons() {
         </div>
       </div>
 
-      <div className="min-h-[45vh] xsm:min-h-[52vh] sm:min-h-[60vh] w-full bg-black flex flex-col justify-center pt-[7rem] md:hidden">
+      <div className="min-h-[45vh] xsm:min-h-[52vh] sm:min-h-[60vh] w-full bg-black flex flex-col justify-center pt-[9rem] xsm:pt-[7rem] md:hidden pb-14 sm:pb-0">
         <div
           className="opacity-40 h-auto flex flex-col items-center font-monument text-[8vw] font-extrabold"
           style={{
@@ -112,7 +112,10 @@ function Competititons() {
         </div>
       </div>
 
-      <div  id="carbox-section"  className="relative max-h-[150vh] min-h-[55vh] xsm:min-h-[48vh] sm:min-h-[40vh] md:min-h-[48vh] bg-black w-full border-black">
+      <div
+        id="carbox-section"
+        className="relative max-h-[150vh] min-h-[55vh] xsm:min-h-[48vh] sm:min-h-[40vh] md:min-h-[48vh] bg-black w-full border-black"
+      >
         <Carbox />
       </div>
     </EventProvider>
