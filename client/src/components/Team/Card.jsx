@@ -5,14 +5,14 @@ const Card = ({ name, designation, image, linkedin, email, instagram }) => {
   const imageUrl = `${aws}${image}`;
 
   return (
-    <div className="ml-2 group relative rounded-[15px] w-[280px] h-[400px] border-[2px] border-[#A7F818] p-3 lg:w-[200px] lg:h-[300px] xl:w-[280px] xl:h-[380px] overflow-hidden transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[#A7F818]/50 hover:scale-105">
+    <div className="ml-2 group relative rounded-[15px] w-[280px] h-[400px] border-[2px] border-[#A7F818] p-3 lg:w-[200px] lg:h-[300px] xl:w-[280px] xl:h-[380px] overflow-hidden transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[#A7F818]/50">
       {/* Container with the image and text */}
       <div className="relative w-full h-full">
         {/* Image */}
         <img
           src={imageUrl}
           alt="Member"
-          className="rounded-[15px] w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
+          className="rounded-[15px] w-full h-full object-cover object-center transition-transform duration-300 "
         />
 
         {/* Black gradient at the bottom */}
@@ -28,7 +28,7 @@ const Card = ({ name, designation, image, linkedin, email, instagram }) => {
 
         {/* Social Media Icons */}
         <div className="absolute right-2 bottom-2 flex space-x-3 md:bottom-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:bottom-4">
-          {linkedin && (
+          {/* {linkedin && (
             <a href={linkedin} target="_blank" rel="noopener noreferrer" className="transform transition-transform duration-300 hover:scale-110">
               <Linkedin className="text-white w-6 h-6 hover:text-[#A7F818] transition duration-300" />
             </a>
@@ -37,7 +37,7 @@ const Card = ({ name, designation, image, linkedin, email, instagram }) => {
             <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer" className="transform transition-transform duration-300 hover:scale-110">
               <Mail className="text-white w-6 h-6 hover:text-[#A7F818] transition duration-300" />
             </a>
-          )}
+          )} */}
           {instagram && (
             <a href={instagram} target="_blank" rel="noopener noreferrer" className="transform transition-transform duration-300 hover:scale-110">
               <Instagram className="text-white w-6 h-6 hover:text-[#A7F818] transition duration-300" />

@@ -11,6 +11,7 @@ const mobsh = `${aws}/mobile-shailey.png`;
 const mobar = `${aws}/mobile-arpit.png`;
 const imgbox1 = `${aws}/mobileViewBox.jpeg`;
 import { motion } from "framer-motion";
+import Footer from "../Footer/Footer";
 
 const Events = () => {
   const leftImageVariants = {
@@ -18,7 +19,7 @@ const Events = () => {
     visible: {
       x: 10,
       opacity: 1,
-      transition: { duration: 0.8, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" },
     },
   };
 
@@ -27,25 +28,25 @@ const Events = () => {
     visible: {
       x: 0,
       opacity: 1,
-      transition: { duration: 0.8, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" },
     },
   };
 
   const animationVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
 
   const animationVariants_bottom = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: -7, transition: { duration: 0.5 } },
+    visible: { opacity: 1, y: -7, transition: { duration: 1 } },
   };
 
   const imageVariants = {
     hidden: { scale: 0 },
     visible: {
       scale: 1,
-      transition: { duration: 0.5, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" },
     },
   };
 
@@ -54,7 +55,34 @@ const Events = () => {
     visible: {
       x: 0,
       opacity: 1,
-      transition: { duration: 0.5, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" },
+    },
+  };
+
+  const textVariants2 = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        // type: "spring",
+        ease: "easeOut",
+        stiffness: 100,
+        damping: 20,
+        duration: 2,
+      },
+    },
+  };
+
+  const metallicAnimation = {
+    initial: { backgroundPosition: "200% center" },
+    animate: {
+      backgroundPosition: "-200% center",
+      transition: {
+        duration: 3,
+        ease: "linear",
+        repeat: Infinity,
+      },
     },
   };
 
@@ -91,7 +119,8 @@ const Events = () => {
                 {
                   // rotate: "-1.97deg",
                 }
-              }>
+              }
+            >
               {/* <div className=" absolute  font-cynatar uxsm:text-s tracking-wide c1:text-[20rem] 2xl:text-[14rem] xl:text-[12rem] lg:text-[12rem] md:text-[9rem] sm:text-[8rem] xsm:text-[5rem] uxsm:text-[4.5rem] font-[400] textfamily plinth z-10">
                   Day 1
                 </div>
@@ -108,7 +137,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants_bottom}>
+                variants={animationVariants_bottom}
+              >
                 Day 1
               </motion.div>
               <motion.div
@@ -116,7 +146,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 Day 1
               </motion.div>
               <motion.p
@@ -124,7 +155,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 JAN 24, 2025
               </motion.p>
             </div>
@@ -133,7 +165,8 @@ const Events = () => {
               className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[20%] c1:top-[18%] rotate-[4deg] transform origin-top-left -translate-x-1
               text-center c1:text-[4rem] 2xl:text-[3.5rem] bg-custom-gradient
                 xl:text-[2.3rem] lg:text-[2.4rem] md:text-[1.9rem] sm:text-[1.5rem] xsm:text-[1.3rem] text-white 
-                font-melete font-[400] flex justify-center items-center ">
+                font-melete font-[400] flex justify-center items-center "
+            >
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
                 <div className="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
                   JAMMING & BONFIRE
@@ -152,7 +185,7 @@ const Events = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={leftImageVariants}
-                className="w-[38.32%] absolute top-[31.5%] uxl:top-[24.5%] c1:top-[23%] left-[9%]"
+                className="w-[36.32%] absolute top-[33.5%] uxl:top-[27.5%] c1:top-[24.5%] left-[9%]"
                 src={img4}
               />
               <p className="z-10 w-[10%] text-transparent font-monument text-center absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[51%] xl:top-[51%] uxl:top-[45%] c1:top-[43%] left-[23%] c1:left-[22%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
@@ -163,7 +196,8 @@ const Events = () => {
             <div>
               <img
                 className="w-[23.75%] absolute top-[40.8%] uxl:top-[33.82%] c1:top-[31.82%] left-[26.18%]"
-                src={img5}></img>
+                src={img5}
+              ></img>
               <p className="z-10 w-[15%] text-transparent font-monument text-center absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[47%] c1:top-[45%] left-[39%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
                 MASK BOX
               </p>
@@ -171,7 +205,8 @@ const Events = () => {
             <div className="">
               <img
                 className="w-[18.80%] absolute top-[43.4%] uxl:top-[36.4%] c1:top-[34.4%] left-[9%] xl:left-[7.0%] uxl:left-[5.5%] c1:left-[4%]"
-                src={img6}></img>
+                src={img6}
+              ></img>
               <p className="z-10 w-[10%] text-transparent font-monument absolute text-[1.2rem] xl:text-[1.5rem] uxl:text-[2rem] c1:text-[2.7rem] top-[52%] xl:top-[53%] uxl:top-[46%] c1:top-[44.5%] left-[10%] xl:left-[8%] c1:left-[5%] tracking-wider bg-gradient-to-b from-white to-[#999999] bg-clip-text">
                 PRERAK ANAND
               </p>
@@ -195,7 +230,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants_bottom}>
+                variants={animationVariants_bottom}
+              >
                 Day 2
               </motion.div>
               <motion.div
@@ -203,7 +239,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 Day 2
               </motion.div>
               <motion.p
@@ -211,7 +248,8 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 JAN 25, 2025
               </motion.p>
             </div>
@@ -225,7 +263,8 @@ const Events = () => {
               className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[57%] uxl:top-[50.7%] c1:top-[48.5%] rotate-[-4deg] transform origin-top-left -translate-x-1
               text-center c1:text-[4rem] 2xl:text-[3.5rem] bg-custom-gradient
                 xl:text-[2.3rem] lg:text-[2.4rem] md:text-[1.9rem] sm:text-[1.5rem] xsm:text-[1.3rem] text-white 
-                font-melete font-[400] flex justify-center items-center ">
+                font-melete font-[400] flex justify-center items-center "
+            >
               {/* <img className="rotate-[0.83deg]" src={img3}></img> */}
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
                 <div className="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
@@ -238,13 +277,14 @@ const Events = () => {
 
           {/* day3 */}
           <div className="">
-            <div className="w-[44.76%] flex flex-col absolute top-[62%] uxl:top-[53.31%] c1:top-[51.31%] left-[35.47%]  ">
+            <div className="w-[44.76%] flex flex-col absolute top-[62%] uxl:top-[53.31%] c1:top-[51.31%] left-[35.47%] xl:left-[38%]  ">
               <motion.div
                 className="absolute font-cynatar uxsm:text-s tracking-wide c1:text-[20rem] 2xl:text-[14rem] xl:text-[12rem] lg:text-[12rem] md:text-[9rem] sm:text-[8rem] xsm:text-[5rem] uxsm:text-[4.5rem] font-[400] textfamily plinth z-10"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants_bottom}>
+                variants={animationVariants_bottom}
+              >
                 Day 3
               </motion.div>
               <motion.div
@@ -252,30 +292,70 @@ const Events = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 Day 3
               </motion.div>
               <motion.p
-                className="c1:text-[2.3rem] xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] sm:text-[1.2rem] xsm:text-[1rem] text-white font-melete font-[400] -mt-10 ml-7"
+                className="c1:text-[2.3rem] xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] sm:text-[1.2rem] xsm:text-[1rem] text-white font-melete font-[400] -mt-5 lg:-mt-10 ml-5 lg:ml-8 xl:ml-2 2xl:ml-5"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={animationVariants}>
+                variants={animationVariants}
+              >
                 JAN 26, 2025
               </motion.p>
             </div>
 
-            <div className="absolute top-[83%] uxl:top-[68%] c1:top-[65.9%] left-[24%] uxl:left-[29.09%] c1:left-[30.09%] lg:left-[18%] xl:left-[27%]">
-              <p className="c1:text-[3.5rem] 2xl:text-[2.5rem] xl:text-[2.0rem] lg:text-[2.2rem] md:text-[1.7rem] sm:text-[1.2rem] xsm:text-[1rem] text-white font-melete font-[400] ">
-                REVEALING SOON
-              </p>
+            {/* <div className="absolute top-[83%] uxl:top-[68%] c1:top-[65.9%] left-[24%] uxl:left-[29.09%] c1:left-[30.09%] lg:left-[18%] xl:left-[27%]">
+      <motion.p
+        className="c1:text-[3.5rem] 2xl:text-[2.5rem] xl:text-[2.0rem] lg:text-[2.2rem] md:text-[1.7rem] sm:text-[1.2rem] xsm:text-[1rem] text-white font-melete font-[400]"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={textVariants2}
+      >
+        REVEALING SOON
+      </motion.p>
+    </div> */}
+
+            <div className="absolute top-[80%] lg:top-[80%] xl:top-[78%] uxl:top-[68%] c1:top-[65.9%] left-[24%] c2:left-[28%] c1:left-[27%] lg:left-[22%] xl:left-[30%] 2xl:left-[27%] uxl:left-[26%]">
+              <motion.p
+                className="c1:text-[3.5rem] 2xl:text-[2.5rem] xl:text-[2.0rem] lg:text-[2.2rem] md:text-[1.7rem] sm:text-[1.2rem] xsm:text-[1rem] text-transparent font-melete font-[400] bg-clip-text"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={textVariants2}
+                style={{
+                  backgroundImage:
+                    "linear-gradient(90deg, #d4d4d4, #ffffff, #b0b0b0, #d4d4d4)",
+                  WebkitBackgroundClip: "text",
+                }}
+              >
+                <motion.span
+                  initial="initial"
+                  animate="animate"
+                  variants={metallicAnimation}
+                  className="block"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(90deg, #d4d4d4, #ffffff, #b0b0b0, #d4d4d4)",
+                    WebkitBackgroundClip: "text",
+                    backgroundSize: "200% auto",
+                    display: "inline-block",
+                  }}
+                >
+                  REVEALING SOON
+                </motion.span>
+              </motion.p>
             </div>
 
             <div
               className=" z-10  w-[102%]  h-[7.5rem] c1:h-[10rem]  absolute top-[87.8%] uxl:top-[76%] c1:top-[75%] rotate-[4deg] transform origin-top-left -translate-x-1
               text-center c1:text-[4rem] 2xl:text-[3.5rem] bg-custom-gradient
                 xl:text-[2.3rem] lg:text-[2.4rem] md:text-[1.9rem] sm:text-[1.5rem] xsm:text-[1.3rem] text-white 
-                font-melete font-[400] flex justify-center items-center ">
+                font-melete font-[400] flex justify-center items-center "
+            >
               <div className="z-10 bg-black h-[5.6rem] c1:h-[7rem] w-[100%] flex justify-center items-center ">
                 <div className="bg-[linear-gradient(272.21deg,_#FFFFFF_1.56%,_#FFFFFF_10.18%,_#4B4B4B_12.38%,_#FFFFFF_16.47%,_#4B4B4B_26.27%,_#FFFFFF_42.01%,_#4B4B4B_49.2%,_#FFFFFF_57.75%,_#FFFFFF_70.63%,_#4B4B4B_78.26%,_#FFFFFF_84.94%,_#FFFFFF_89.23%,_#4B4B4B_96.96%)] bg-clip-text text-transparent text-5xl font-bold">
                   BOLLYWOOD NIGHT
@@ -285,15 +365,8 @@ const Events = () => {
             {/* <div  className=" absolute top-[87.8%] uxl:top-[74%] c1:top-[72%] glowing-div"></div> */}
           </div>
         </div>
+        {/* <Footer className="absolute"/> */}
       </div>
-
-
-
-
-
-
-
-
 
       {/* mobile */}
       <div className="md:hidden block ">
@@ -305,7 +378,8 @@ const Events = () => {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="w-[64.99%] h-[5.57%] absolute top-[14.89%] left-[17.28%] flex flex-col justify-center items-center">
+            className="w-[64.99%] h-[5.57%] absolute top-[14.89%] left-[17.28%] flex flex-col justify-center items-center"
+          >
             <p
               className="w-[100%] text-[3rem] lg:text-[4rem] xsm:text-[4rem] sm:text-[4.5rem] font-monument font-[400] plinth text-center"
               style={{
@@ -314,7 +388,8 @@ const Events = () => {
                 WebkitBackgroundClip: "text", // for Chrome/Safari
                 backgroundClip: "text", // for other browsers
                 color: "transparent", // Make sure text color is transparent to show the gradient
-              }}>
+              }}
+            >
               DAY 1
             </p>
 
@@ -359,18 +434,20 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[50.92%] h-[19.47%] absolute top-[38%] muxsm:top-[42.9%] muxsm:left-[34%] xsm:left-[313%] sm:left-[30%]">
+            className="w-[50.92%] h-[19.47%] absolute top-[38%] muxsm:top-[42.9%] muxsm:left-[34%] xsm:left-[313%] sm:left-[30%]"
+          >
             <div className="text-[0.35rem] sm:text-[0.7rem] xsm:text-[0.6rem] text-white font-melete font-[400] ">
               BONFIRE & JAMMING
             </div>
           </motion.div>
-          
+
           {/* day2 */}
           <motion.div
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[60.99%] h-[5.57%] absolute top-[48.89%] left-[18.28%] flex flex-col justify-center items-center ">
+            className="w-[60.99%] h-[5.57%] absolute top-[48.89%] left-[18.28%] flex flex-col justify-center items-center "
+          >
             <p
               className="w-[100%] text-[3rem] lg:text-[4rem] xsm:text-[4rem] sm:text-[4.5rem] font-monument font-[400] plinth text-center"
               style={{
@@ -379,7 +456,8 @@ const Events = () => {
                 WebkitBackgroundClip: "text", // for Chrome/Safari
                 backgroundClip: "text", // for other browsers
                 color: "transparent", // Make sure text color is transparent to show the gradient
-              }}>
+              }}
+            >
               DAY 2
             </p>
             <p className="text-white font-melete font-[400] text-[0.8rem] xsm:text-[1rem] sm:text-[1.5rem]">
@@ -423,7 +501,8 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[50.92%] h-[19.47%] absolute top-[85.57%] sm:left-[32%] left-[30.28%] xsm:left-[29%]">
+            className="z-10 w-[50.92%] h-[19.47%] absolute top-[85.57%] sm:left-[32%] left-[30.28%] xsm:left-[29%]"
+          >
             <div className="text-[0.45rem] sm:text-[0.8rem] xsm:text-[0.7rem] text-white font-melete font-[400]">
               SUNBURN CAMPUS
             </div>
@@ -434,7 +513,8 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="w-[52.99%] h-[5.57%] absolute top-[95.89%] left-[24.28%] flex flex-col justify-center items-center">
+            className="w-[52.99%] h-[5.57%] absolute top-[95.89%] left-[24.28%] flex flex-col justify-center items-center"
+          >
             <p
               className="w-[100%] text-[3rem] lg:text-[4rem] xsm:text-[4rem] sm:text-[4.5rem] font-monument font-[400] plinth text-center"
               style={{
@@ -443,7 +523,8 @@ const Events = () => {
                 WebkitBackgroundClip: "text", // for Chrome/Safari
                 backgroundClip: "text", // for other browsers
                 color: "transparent", // Make sure text color is transparent to show the gradient
-              }}>
+              }}
+            >
               DAY 3
             </p>
             <p className="text-white font-melete font-[400] text-[0.8rem] xsm:text-[1rem] sm:text-[1.5rem]">
@@ -465,8 +546,9 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[28.28%]">
-            <div className="text-[0.55rem] sm:text-[0.8rem] xsm:text-[0.7rem] muxsm: text-white font-melete font-[400]">
+            className="z-10 w-[50.92%] h-[19.47%] absolute top-[129.57%] left-[28.28%]"
+          >
+            <div className="w-max text-[0.5rem] sm:text-[0.8rem] xsm:text-[0.7rem] muxsm: text-white font-melete font-[400]">
               BOLLYWOOD NIGHT
             </div>
           </motion.div>
@@ -475,7 +557,9 @@ const Events = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="z-10 w-[43.86%] h-[4.76%] absolute top-[115%] muxsm:left-[30%] sm:left-[35%]">
+            whileInView={true}
+            className="z-10 w-[43.86%] h-[4.76%] absolute top-[115%] muxsm:left-[30%] sm:left-[35%]"
+          >
             <p className="font-monument text-white font-[400] text-[1.3rem] xsm:text-[2rem]">
               REVEALING SOON
             </p>

@@ -13,9 +13,9 @@ const menuItems = [
     { icon: <LuTrophy />, label: "Competitions", path: "/competitions" },
     { icon: <LuFileText />, label: "Accommodation", path: "/accommodation" },
     { icon: <PiPersonArmsSpreadFill />, label: "Campus Ambassador", path: "/campus-ambassador" },
+    { icon: <FiLayout />, label: "Events", path: "/events" },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
     // { icon: <FiImage />, label: "Campus", path: "/campus" },
-    { icon: <FiLayout />, label: "Events", path: "/events" },
 ];
 
 
