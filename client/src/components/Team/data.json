@@ -17,16 +17,6 @@
       "instagram": "https://www.instagram.com/michaelsmith"
     }
   ],
-  "associateGeneralSecretary": [
-    {
-      "name": "Hiya Jain",
-      "designation": "Associate General Secretary",
-      "image": "/Team- HIYA JAIN.jpg",
-      "linkedin": "https://www.linkedin.com/in/emmawilliams",
-      "email": "emma.williams@example.com",
-      "instagram": "https://www.instagram.com/emmawilliams"
-    }
-  ],
   "uiUx": [
     {
       "name": "Shourya Gupta",
@@ -45,6 +35,14 @@
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      "name": "Arnav",
+      "designation": "Public Relation Head",
+      "image": "/Team-Arnav.jpg",
+      "linkedin": "https://www.linkedin.com/in/alicejohnson",
+      "email": "alice.johnson@example.com",
+      "instagram": "https://www.instagram.com/alicejohnson"
     }
   ],
   "eventManagement": [
@@ -55,6 +53,16 @@
       "linkedin": "https://www.linkedin.com/in/alicejohnson",
       "email": "alice.johnson@example.com",
       "instagram": "https://www.instagram.com/alicejohnson"
+    },
+    {
+      
+        "name": "Yogya",
+        "designation": "Event Management Head",
+        "image": "/Team-Yogya.jpg",
+        "linkedin": "https://www.linkedin.com/in/alicejohnson",
+        "email": "alice.johnson@example.com",
+        "instagram": "https://www.instagram.com/alicejohnson"
+      
     }
   ],
   "creative": [
@@ -65,22 +73,70 @@
       "linkedin": "https://www.linkedin.com/in/johndoe",
       "email": "john.doe@example.com",
       "instagram": "https://www.instagram.com/johndoe"
+    },
+    {
+      "name": "Radhika Garg",
+      "designation": "Creative Head",
+      "image": "/Team-RADHIKA.jpg",
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "email": "john.doe@example.com",
+      "instagram": "https://www.instagram.com/johndoe"
     }
   ],
   "sponsorship": [
     {
       "name": "Atharva Gulajkar",
-      "designation": "Sponsorship",
+      "designation": "Sponsorship Head",
       "image": "/Team - ATHARVA GULAJKAR.jpeg",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",
       "instagram": "https://www.instagram.com/michaelsmith"
-    }
+    },
+    {
+     "name": "Ayush Pandey",
+      "designation": "Sponsorship Head",
+      "image": "/Team-AYUSH.jpg",
+      "linkedin": "https://www.linkedin.com/in/michaelsmith",
+      "email": "michael.smith@example.com",
+      "instagram": "https://www.instagram.com/michaelsmith" 
+    },
+    {
+      "name": "Aryan Duhoon",
+       "designation": "Sponsorship Head",
+       "image": "/Team-ARYAN.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "Ansh mehta",
+       "designation": "Sponsorship Head",
+       "image": "/Team-ANSH.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "AKSHIT AGRAWAL",
+       "designation": "Sponsorship Head",
+       "image": "/Team-AKSHIT.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     },
+     {
+      "name": "Sanidhya shankar pachauri",
+       "designation": "Sponsorship Head",
+       "image": "/Team-SANIDHYA.jpg",
+       "linkedin": "https://www.linkedin.com/in/michaelsmith",
+       "email": "michael.smith@example.com",
+       "instagram": "https://www.instagram.com/michaelsmith" 
+     }
   ],
   "socialMedia": [
     {
       "name": "Anwita Sarangi",
-      "designation": "Social Media",
+      "designation": "Social Media Head",
       "image": "/Team- ANWITA SARANGI.jpg",
       "linkedin": "https://www.linkedin.com/in/michaelsmith",
       "email": "michael.smith@example.com",

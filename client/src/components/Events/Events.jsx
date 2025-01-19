@@ -1,5 +1,3 @@
-import React from "react";
-import Navbar from "../LandingPage/Navbar";
 const aws = import.meta.env.VITE_AWS;
 const img1 = `${aws}/eventschirag.png`;
 const img2 = `${aws}/eventsarpit.png`;

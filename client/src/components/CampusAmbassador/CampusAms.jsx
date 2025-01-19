@@ -8,11 +8,11 @@ const CampImg = `${aws}/CampusAmbassador.png`
 const GreenDot = `${aws}/GreenDot.png`
 
 function CampusAms() {
-  const shimmerAnimation = {
-    initial: { opacity: 0.5 },
-    animate: { opacity: [0.5, 1, 0.5] },
-    transition: { duration: 1.5, repeat: Infinity },
-  };
+  // const shimmerAnimation = {
+  //   initial: { opacity: 0.5 },
+  //   animate: { opacity: [0.5, 1, 0.5] },
+  //   transition: { duration: 1.5, repeat: Infinity },
+  // };
 
   return (
     <div className="min-h-screen w-screen bg-black flex flex-col items-center gap-[10vw] sm:gap-[5vw] xl:gap-[2vw] py-[4vh] pt-[6rem] md:pt-[0rem]">
@@ -97,7 +97,7 @@ function CampusAms() {
 
             <span>
               For 15+ registrations, all aforementioned benefits are included,
-              along with complimentary accommodation for the festival's
+              along with complimentary accommodation for the festival&#39;s
               duration.
             </span>
           </div>

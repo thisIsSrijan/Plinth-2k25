@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../../assets/melete/Melete-Bold.otf";
 import Card from "./Card";
-
+import PropTypes from 'prop-types';
 const TeamSection = ({ title, members }) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -57,13 +57,7 @@ const TeamSection = ({ title, members }) => {
       <div className="flex justify-center w-full">
         <div
           className={`grid ${
-            members?.length === 1
-              ? "grid-cols-1 place-items-center"
-              : members?.length === 2
-              ? "grid-cols-1 place-items-center md:grid-cols-2 sm:grid-cols-2 xsm:grid-cols-1 xxsm:grid-cols-1"
-              : members?.length === 3
-              ? "grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 xxsm:grid-cols-1"
-              : "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  "
+            members?.length === 1 ? "grid-cols-1 place-items-center": members?.length === 2 ? "grid-cols-1 place-items-center md:grid-cols-2 sm:grid-cols-2 xsm:grid-cols-1 xxsm:grid-cols-1" : members?.length === 3 ? "grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 xxsm:grid-cols-1" : "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 "
           } gap-10 p-2 lg:gap-5 xl:gap-10`}>
           {" "}
           {members?.map((member, index) => (
@@ -89,6 +83,18 @@ const TeamSection = ({ title, members }) => {
       </div>
     </div>
   );
+};
+
+TeamSection.propTypes = {
+    title: PropTypes.string.isRequired,
+    members: PropTypes.arrayOf(PropTypes.shape({
+        name: PropTypes.string,
+        designation: PropTypes.string,
+        image: PropTypes.string,
+        linkedin: PropTypes.string,
+        email: PropTypes.string,
+        instagram: PropTypes.string
+    }))
 };
 
 export default TeamSection;

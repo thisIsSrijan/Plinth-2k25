@@ -18,7 +18,7 @@ const Footer = () => {
             <img
               src={logo}
               alt="Plinth Logo"
-              className="xl:w-[8rem]  xl:h-[6rem] lg:w-[8rem] lg:h-[6rem] xl:mt-6 md:w-[6rem] md:h-[4rem] lg:mt-5 md:mt-5 xsm:w-[7rem] xsm:h-[5rem] uxsm:w-[5rem] uxsm:h-[4rem] uxsm:mx-auto md:mx-0"
+              className="xl:w-[8rem]  xl:h-[6rem] lg:w-[8rem] lg:h-[6rem] xl:mt-6 md:w-[6rem] md:h-[4rem] lg:mt-5 md:mt-5 xsm:w-[7rem] xsm:h-[5rem] uxsm:w-[5rem] uxsm:h-[4rem] xl:ml-[2rem] uxsm:mx-auto md:mx-0"
             />
             {/* Text */}
             <div className="font-cynatar items-center tracking-wide text-white c1:text-[10rem] c2:text-[8rem] uxl:text-[7rem] 2xl:text-[5rem] xl:text-[4rem] lg:text-[3.5rem] md:text-[2.8rem] sm:text-[5rem] uxsm:text-[3rem] xsm:text-[3rem] font-[400] textfamily3 text-center px-[1rem] lg:px-[3rem]">
@@ -52,17 +52,17 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col w-full gap-5">
-          <h2 className="text-center  font-melete font-normal tracking-[0.16em] text-lg xsm:text-xl md:text-xl lg:text-2xl uxl:text-[1.7] c1:text-[2] sm:text-lg">
+          <h2 className="text-center mt-[1rem] font-melete font-normal tracking-[0.16em] text-lg xsm:text-xl md:text-xl lg:text-2xl uxl:text-[1.7] c1:text-[2] sm:text-lg">
             CONTACT US:
           </h2>
           <div className="flex-col justify-around mx-auto">
-            <ul className="list-none pl-[2.3rem]">
+            <ul className="list-none pl-[2.3rem] ">
               <li className="flex items-center font-poppins font-normal leading-6 tracking-[0.16em] text-center text-[1rem] uxl:text-[1.3rem] c1:text-[1.5rem] ">
                 <img src={Phone} alt="phone icon" className="w-5 h-5 mr-2 " />{" "}
                 YUG AGGARWAL : 8299099721
               </li>
-              <li className="flex items-center font-poppins font-normal leading-6 tracking-[0.16em] text-center text-[1rem] uxl:text-[1.3rem] c1:text-[1.5rem]">
-                <img src={Phone} alt="phone icon" className="w-5 h-5 mr-2" />{" "}
+              <li className="flex items-center font-poppins font-normal mt-[0.9rem] leading-6 tracking-[0.16em] text-center text-[1rem] uxl:text-[1.3rem] c1:text-[1.5rem]">
+                <img src={Phone} alt="phone icon" className="w-5 h-5 mr-2 " />{" "}
                 RAJAT SHARMA : 8972192855
               </li>
             </ul>

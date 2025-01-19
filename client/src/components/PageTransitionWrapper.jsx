@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import PageTransitionAnimation from "./PageTransitionAnimation";
+import PropTypes from 'prop-types';
 
 const PageTransitionWrapper = ({ children }) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -33,6 +34,10 @@ const PageTransitionWrapper = ({ children }) => {
       {!isTransitioning && children}
     </>
   );
+};
+
+PageTransitionWrapper.propTypes = {
+  children: PropTypes.node.isRequired
 };
 
 export default PageTransitionWrapper;
