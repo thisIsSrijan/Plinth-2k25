@@ -24,7 +24,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="fixed h-[100vh] left-6 z-20 group flex flex-col justify-center items-center">
+    <div className="fixed mt-[3vw] h-[100vh] left-6 z-20 group flex flex-col justify-center items-center">
       <div
         style={{
           borderRadius: "20px",

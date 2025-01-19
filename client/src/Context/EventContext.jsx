@@ -9,7 +9,7 @@ const EventContext = createContext();
  * @param {React.ReactNode} children - The child components to wrap
  */
 export const EventProvider = ({ children }) => {
-  const [selectedEvent, setSelectedEvent] = useState("Quizzinga");
+  const [selectedEvent, setSelectedEvent] = useState("Quizzing");
 
   return (
     <EventContext.Provider value={{ selectedEvent, setSelectedEvent }}>
@@ -35,3 +35,4 @@ export const useEventContext = () => {
   }
   return context;
 };
+

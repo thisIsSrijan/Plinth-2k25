@@ -16,7 +16,7 @@ function Preloader() {
     <div className="container">
       <div id="loader">
         <div id="title" className="flexi">
-          <p className="loading-text">PLINTH'25 LOADING</p>
+          <p className="loading-text">PLINTH&#39;25 LOADING</p>
           <p className="loading-number">%</p>
         </div>
         <div id="loading-bar-border">

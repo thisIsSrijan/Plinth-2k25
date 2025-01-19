@@ -46,11 +46,10 @@ const Team = () => {
         </div>
         <TeamSection title="UI/UX TEAM" members={teamData?.uiUx} />
         <TeamSection title="PUBLIC RELATIONS TEAM" members={teamData?.publicRelations} />
-
         <div className="flex flex-col gap-2 text-center w-full">
           <h3 className="text-2xl">TEAM MEMBERS:</h3>
           <p className="font-poppins font-medium text-2xl leading-8">
-            Lokesh Malik, Jatin Agrawal, Tushar Agrawal.
+            Lokesh Malik, Jatin Agrawal, Tushar Agrawal, Monish mathur, Atharva chapparwal,Aryan Sharma, Amartya singh, 
           </p>
         </div>
 
@@ -63,9 +62,20 @@ const Team = () => {
         <div className="flex flex-col gap-2 text-center w-full">
           <h3 className="text-2xl">TEAM MEMBERS:</h3>
           <p className="font-poppins font-medium text-2xl leading-8">
-            Yash Jain, Amiya Singh, Kunal Sharma.
+            Yash Jain, Amiya Singh, Kunal Sharma, Yashi Srivastava.
           </p>
         </div>
+
+        <TeamSection title="Social Media Team" members={teamData?.socialMedia} />
+
+        {/* <div className="flex flex-col gap-2 text-center w-full">
+          <h3 className="text-2xl">TEAM MEMBERS:</h3>
+          <p className="font-poppins text-center font-medium text-2xl leading-8 px-4 sm:px-10">
+            Pratham Agarwal, Shivam Mishra, Jayant Singhal, Akshansh Singh, Nirmaan Chachan, Umang Jindal,
+            Harshal Paliwal, Garvit Goyal, Devashish Tripathi, Anup Kumar Upadhyay, Shrayansh Goinka, Haitaanh Dixit,
+            Rithvik Bansal, Puneet Jeswani, Swarit Srivastava.
+          </p>
+        </div> */}
 
         <TeamSection title="SPONSORSHIP TEAM" members={teamData?.sponsorship} />
 

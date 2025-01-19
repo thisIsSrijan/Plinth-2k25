@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useInView } from "framer-motion";
+import PropTypes from 'prop-types';
 
 const aws = import.meta.env.VITE_AWS
 const plinthAcc = `${aws}/Accomodationimg.png`
@@ -42,7 +43,7 @@ const Accomodation = () => {
   return (
     <div className="bg-black text-white py-10">
       {/* Title Section */}
-      <section className="flex flex-col items-center justify-center w-5/6 mx-auto pt-14 ">
+      <section className="flex flex-col items-center justify-center w-5/6 mx-auto pt-14 xl:ml-[12vw]">
         <motion.h2
           className="text-[#A7F818] text-center text-3xl sm:text-4xl md:text-[50px] lg:text-[70px] xl:text-[120px] leading-tight"
           style={{ fontFamily: "Cynatar, sans-serif", letterSpacing: "0.25em" }}
@@ -141,6 +142,15 @@ const Accomodation = () => {
       </div>
     </div>
   );
+};
+
+Section.propTypes = {
+  children: PropTypes.node.isRequired,
+  animationVariant: PropTypes.shape({
+      hidden: PropTypes.object,
+      visible: PropTypes.object
+  }).isRequired,
+  transitionDelay: PropTypes.number
 };
 
 export default Accomodation;

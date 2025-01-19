@@ -1,7 +1,7 @@
 const aws = import.meta.env.VITE_AWS;
 
 const data = {
-  Quizzinga: [
+  Quizzing: [
     {
       id: 1,
       name: "CRYPTEX",
@@ -25,69 +25,67 @@ const data = {
       image: `${aws}/brandwagon.png`,
       registerLink: "#",
       readMoreLink: "https://unstop.com/competitions/brandwagon-plinth-2025-lnm-institute-of-information-technology-lnmiit-1231099"
-    }
-  ],
-  Cybros: [
-    {
-      id: 7,
-      name: "Event A2",
-      description: "Description A2",
-      image: `${aws}/event-a2.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
     },
     {
-      id: 8,
-      name: "Event B2",
-      description: "Description B2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 9,
-      name: "Event C2",
-      description: "Description C2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 10,
-      name: "Event D2",
-      description: "Description D2",
-      image: `${aws}/event-a1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 11,
-      name: "Event E2",
-      description: "Description E2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 12,
-      name: "Event F2",
-      description: "Description F2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    }
-  ],
-  "E Cell": [
-    {
-      id: 7,
-      name: "Pitch On The Rocks",
-      description: "Welcome to 2025's Ideathon: The gateway to launching your idea! Pitch your startup ideas to industry experts and investors for a chance to secure seed funding, mentorship, and special awards. Our panel includes angel investors, PhDs, and...",
+      id: 4,
+      name: "Biz Minds",
+      description: "Dive into a thrilling blend of startup pitches and brain-teasing quizzes. Showcase your ideas, challenge your knowledge, and impress our elite panel of investors and experts. Win funding, mentorship, and glory—are you ready to ignite your business brain?",
       image: `${aws}/event-a2.jpg`,
       registerLink: "#",
       readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
     }
   ],
-  DebSoc: [
+  Startup : [
+    {
+      id: 7,
+      name: "Pitch On The Rocks",
+      description: "Welcome to the Ideathon at Plinth 2025, LNMIIT's annual techfest! This competition offers participants the opportunity to pitch their startup ideas across various industries to industry-specific experts and potential investors. With a diverse panel of .....",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 8,
+      name: "Ideathon",
+      description: "Welcome to 2025's Ideathon: The gateway to launching your idea! Pitch your startup ideas to industry experts and investors for a chance to secure seed funding, mentorship, and special awards. Our panel includes angel investors, PhDs, and...",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 9,
+      name: "CASECRAFT",
+      description: "CaseCraft: Hack & Hustle—where brilliant minds tackle real-world business challenges! This national-level event invites students from across India to dive into dynamic case studies, crafting innovative solutions and showcasing strategic thinking.....",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 10,
+      name: "Virtual Trading Titans",
+      description: "Welcome to Virtual Trading Titans: The ultimate online entrepreneurship challenge! Compete with top entrepreneurs in a virtual trading environment where strategy, innovation, and market instincts define your success.",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 11,
+      name: "Sustainathon",
+      description: "Unleash your creativity and entrepreneurial spirit at Sustainathon, the ultimate platform for tech enthusiasts, innovators, and changemakers. Collaborate, code, and craft solutions to tackle real-world sustainability challenges.",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 12,
+      name: "Biz Minds",
+      description: "Dive into a thrilling blend of startup pitches and brain-teasing quizzes. Showcase your ideas, challenge your knowledge, and impress our elite panel of investors and experts. Win funding, mentorship, and glory—are you ready to ignite your business brain?",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    }
+  ],
+  MUN: [
     {
       id: 7,
       name: "THE LNMIIT MUN 25'",
@@ -137,59 +135,25 @@ const data = {
       image: `${aws}/dhoomketu.png`,
       registerLink: "#",
       readMoreLink: "#"
-    }
-  ],
-  Cipher: [
-    {
-      id: 7,
-      name: "Event A2",
-      description: "Description A2",
-      image: `${aws}/event-a2.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 8,
-      name: "Event B2",
-      description: "Description B2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 9,
-      name: "Event C2",
-      description: "Description C2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 10,
-      name: "Event D2",
-      description: "Description D2",
-      image: `${aws}/event-a1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
     },
     {
       id: 11,
-      name: "Event E2",
-      description: "Description E2",
-      image: `${aws}/event-b1.jpg`,
+      name: "Telescope Pointing",
+      description: "Welcome to Telescope Pointing 2025: Where the stars guide your journey! Join astronomy enthusiasts and experts to explore the cosmos, uncover celestial wonders, and compete for exciting prizes. Let's aim for the stars—together!",
+      image: `${aws}/dhoomketu.png`,
       registerLink: "#",
       readMoreLink: "#"
     },
     {
       id: 12,
-      name: "Event F2",
-      description: "Description F2",
-      image: `${aws}/event-c1.jpg`,
+      name: "Odin's Eye",
+      description: "Welcome to Odin's Eye: A Celestial Exploration of Ideas! Dive into the mysteries of the universe and showcase your innovative projects in the field of astronomy.",
+      image: `${aws}/dhoomketu.png`,
       registerLink: "#",
       readMoreLink: "#"
     }
   ],
-  Phoenix: [
+  Robotics: [
     {
       id: 7,
       name: "Robowars",
@@ -213,14 +177,6 @@ const data = {
       image: `${aws}/roborace.png`,
       registerLink: "#",
       readMoreLink: "https://unstop.com/competitions/roborace-plinth-2025-lnm-institute-of-information-technology-lnmiit-1247704"
-    },
-    {
-      id: 10,
-      name: "LNM TECH EXPO",
-      description: "The future is now! Come and experience the latest in robotics technology at our upcoming EXPO. You'll see robots of all shapes and sizes, performing tasks that were once thought to be the exclusive domain of humans. From delicate surgery to...",
-      image: `${aws}/lnm_tech_expo.png`,
-      registerLink: "#",
-      readMoreLink: "#"
     },
     {
       id: 11,
@@ -261,107 +217,15 @@ const data = {
       image: `${aws}/micro_mouse.png`,
       registerLink: "#",
       readMoreLink: "https://unstop.com/competitions/micro-mouse-plinth-2025-lnm-institute-of-information-technology-lnmiit-1338181"
-    }
-  ],
-  ASME: [
-    {
-      id: 7,
-      name: "Event A2",
-      description: "Description A2",
-      image: `${aws}/event-a2.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
     },
     {
-      id: 8,
-      name: "Event B2",
-      description: "Description B2",
-      image: `${aws}/event-b1.jpg`,
+      id: 16,
+      name: "Moto Boat",
+      description: "Dive into the world of innovation and speed with Moto Boat, the Motor Boat Challenge that invites participants to design, build, and race their motorized boats. This electrifying event combines engineering process, aq....",
+      image: `${aws}/micro_mouse.png`,
       registerLink: "#",
-      readMoreLink: "#"
+      readMoreLink: "https://unstop.com/competitions/micro-mouse-plinth-2025-lnm-institute-of-information-technology-lnmiit-1338181"
     },
-    {
-      id: 9,
-      name: "Event C2",
-      description: "Description C2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 10,
-      name: "Event D2",
-      description: "Description D2",
-      image: `${aws}/event-a1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 11,
-      name: "Event E2",
-      description: "Description E2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 12,
-      name: "Event F2",
-      description: "Description F2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    }
-  ],
-  SAE: [
-    {
-      id: 7,
-      name: "Event A2",
-      description: "Description A2",
-      image: `${aws}/event-a2.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 8,
-      name: "Event B2",
-      description: "Description B2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 9,
-      name: "Event C2",
-      description: "Description C2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 10,
-      name: "Event D2",
-      description: "Description D2",
-      image: `${aws}/event-a1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 11,
-      name: "Event E2",
-      description: "Description E2",
-      image: `${aws}/event-b1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    },
-    {
-      id: 12,
-      name: "Event F2",
-      description: "Description F2",
-      image: `${aws}/event-c1.jpg`,
-      registerLink: "#",
-      readMoreLink: "#"
-    }
   ],
   Coding: [
     {
@@ -402,7 +266,235 @@ const data = {
       description: "After tackling countless Alice and Bob game theory problems, have you ever wondered what it would be like to play them in real life? Now's your chance! We've crafted an experience that brings these classic logic battles to life. Dive into our...",
       image: `${aws}/alice_bob_go.png`,
       registerLink: "#",
-      readMoreLink: "https://unstop.com/competitions/alice-bob-go-plinth-2025-lnm-institute-of-information-technology-lnmiit-1249756"
-    }]
+      readMoreLink: "https://unstop.com/competitions/alice-bob-go-plinth-2025-lnm-institute-of-information-technology-lnmiit-1249756"}
+  ],
+  Others: [
+    {
+      id: 7,
+      name: "BeatLab",
+      description: "Where tech meets rhythm! Explore the art of sound mixing and create a symphony of beats that will make heads nod. Get ready to drop the bass in the ultimate sound studio showdown.",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 8,
+      name: "Game Switch",
+      description: "Get ready for the ultimate test of adaptability and skill with Game Switch! In this high-energy challenge, the games keep changing, and so do the rules. Stay sharp, think fast, and embrace the unexpected as you navigate a whirlwind of surprises.",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 9,
+      name: "CreatiFrenzy",
+      description: "Where imagination meets innovation! Join the battle of ideas, where your creativity is the only limit. Let your artistic genius shine in this out-of-the-box challenge!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 10,
+      name: "DJ Battle",
+      description: "Step into the spotlight at Plinth with DJ Battle, where creativity meets rhythm! This is your chance to craft your own beats, mix mesmerizing tracks, and showcase your DJ skills",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+  ],
+  "E-Sports": [
+    {
+      id: 7,
+      name: "BGMI",
+      description: "BGMI Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate BGMI showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 8,
+      name: "COD-M",
+      description: "COD-M Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate COD-M showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 9,
+      name: "Clash Royal",
+      description: "Clash Royal Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate Clash-Royal showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 10,
+      name: "Free-Fire",
+      description: "Free-fire Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate free-fire showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 11,
+      name: "Valorant",
+      description: "Valorant Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate Valorant showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+  ],
+  Online: [
+    {
+      id: 7,
+      name: "BGMI",
+      description: "BGMI Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate BGMI showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 8,
+      name: "Starpix",
+      description: "Get ready for 'Starpix'—a night of capturing space with your lens! 🌌✨ Bring your camera, and let's capture the beauty of the night sky together. 📸✨Let your inner artist out with those amazing astrophotographs! From.....",
+      image: "https://plus.unsplash.com/premium_photo-1666900440561-94dcb6865554?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/starpix-the-astrophotography-competition-plinth-2025-lnmiit-1234645"
+    },
+    {
+      id: 9,
+      name: "CRYPTEX",
+      description: "Cryptex is an online quiz competition with a format similar to a treasure hunt. Each participant has to register individually and go through all the levels before being crowned as the winner. The questions will be diverse and will...",
+      image: `${aws}/cryptex.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/cryptex-plinth-2025-lnm-institute-of-information-technology-lnmiit-1227139"
+    },
+    {
+      id: 8,
+      name: "COD-M",
+      description: "COD-M Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate COD-M showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 9,
+      name: "Clash Royal",
+      description: "Clash Royal Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate Clash-Royal showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 10,
+      name: "Free-Fire",
+      description: "Free-fire Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate free-fire showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 11,
+      name: "Valorant",
+      description: "Valorant Championship 2025: Dominate the Arena! Unleash your gaming skills at our college tech fest's ultimate Valorant showdown. Squad up, strategize, and prove you've got what it takes to rise to the top!",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 12,
+      name: "Astromemia",
+      description: "Hear ye hear ye all self-proclaimed memelords🗿! ASTROMEMIA, presented by the Astronomy Club of LNMIIT, is calling all cosmic comedians to a meme duel the internet's never seen! Bombard @astronomylnmiit with...",
+      image: `${aws}/astromemia.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/astromemia-astronomy-themed-meme-making-competition-plinth-2025-lnm-institute-of-information-technology-lnm-1235807"
+    },
+    {
+      id: 13,
+      name: "Virtual Trading Titans",
+      description: "Welcome to Virtual Trading Titans: The ultimate online entrepreneurship challenge! Compete with top entrepreneurs in a virtual trading environment where strategy, innovation, and market instincts define your success.",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    }
+  ],
+  Hackathon: [
+    {
+      id: 7,
+      name: "Ideathon",
+      description: "Welcome to 2025's Ideathon: The gateway to launching your idea! Pitch your startup ideas to industry experts and investors for a chance to secure seed funding, mentorship, and special awards. Our panel includes angel investors, PhDs, and...",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 8,
+      name: "LNMHacks 7.0",
+      description: "LNMHacks is LNMIIT's annual hackathon, welcoming developers from all backgrounds—students, freelancers, and professionals—to build, learn, and connect. With an open innovation theme, hands-on mentorship, industry speakers, and vibrant activities, LNMHacks...",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 9,
+      name: "CASECRAFT",
+      description: "CaseCraft: Hack & Hustle—where brilliant minds tackle real-world business challenges! This national-level event invites students from across India to dive into dynamic case studies, crafting innovative solutions and showcasing strategic thinking...",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 10,
+      name: "Sustainathon",
+      description: "Unleash your creativity and entrepreneurial spirit at Sustainathon, the ultimate platform for tech enthusiasts, innovators, and changemakers. Collaborate, code, and craft solutions to tackle real-world sustainability challenges.",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    },
+    {
+      id: 11,
+      name: "Brahmaand",
+      description: "Brahmaand, a ideathon where participants solve cosmic riddles & build up earth-shattering ideas is here💫. The solution to the problem statement will be presented before the quick witted judges who decide upon the winners worthy...",
+      image: `${aws}/brahmand.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/brahmaand-the-space-ideathon-plinth-2025-lnm-institute-of-information-technology-lnmiit-1232305"
+    },
+  ],
+  highschool: [
+    {
+      id: 7,
+      name: "Cyber Olympiad",
+      description: "Gear up for the ultimate online tech challenge! The Cyber Olympiad, part of Plinth 2025, is an electrifying event for school students to showcase their skills in coding, cybersecurity, and digital problem-solving. Compete with young minds nationwide, unlock exciti...",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 8,
+      name: "Cube Open",
+      description: "Step into the world of speed and precision with the Cube Open at Plinth 2025! This thrilling offline event invites cube enthusiasts to showcase their talent in solving Rubik’s Cubes against the clock. Test your skills..",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    },
+    {
+      id: 9,
+      name: "Biz Minds",
+      description: "Dive into a thrilling blend of startup pitches and brain-teasing quizzes. Showcase your ideas, challenge your knowledge, and impress our elite panel of investors and experts. Win funding, mentorship, and glory—are you ready to ignite your business brain?",
+      image: `${aws}/event-a2.jpg`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/pitch-on-the-rocks-plinth-2025-plinth-organising-committee-1241493"
+    }
+  ],
+  Olympiad: [
+    {
+      id: 7,
+      name: "Cyber Olympiad",
+      description: "Gear up for the ultimate online tech challenge! The Cyber Olympiad, part of Plinth 2025, is an electrifying event for school students to showcase their skills in coding, cybersecurity, and digital problem-solving. Compete with young minds nationwide...",
+      image: `${aws}/iupc.png`,
+      registerLink: "#",
+      readMoreLink: "https://unstop.com/competitions/iupc-plinth-2025-lnm-institute-of-information-technology-lnmiit-1238170"
+    }
+  ]
 };
 export default data;
