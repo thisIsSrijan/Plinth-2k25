@@ -45,6 +45,22 @@ const Team = () => {
           </p>
         </div>
         <TeamSection title="UI/UX TEAM" members={teamData?.uiUx} />
+        <div className="flex flex-col gap-2 text-center w-full">
+          <h3 className="text-2xl">TEAM MEMBERS:</h3>
+          <p className="font-poppins font-medium text-2xl leading-8">
+            Ved Rathavi, Pratham Gupta, Ayush Aggarwal, Aryan Aggarwal, Raghav Malan, Riya Kanwar 
+          </p>
+        </div>
+        <TeamSection title="SPONSORSHIP TEAM" members={teamData?.sponsorship} />
+
+<div className="flex flex-col gap-2 text-center w-full">
+  <h3 className="text-2xl">TEAM MEMBERS:</h3>
+  <p className="font-poppins text-center font-medium text-2xl leading-8 px-4 sm:px-10">
+    Pratham Agarwal, Shivam Mishra, Jayant Singhal, Akshansh Singh, Nirmaan Chachan, Umang Jindal,
+    Harshal Paliwal, Garvit Goyal, Devashish Tripathi, Anup Kumar Upadhyay, Shrayansh Goinka, Haitaanh Dixit,
+    Rithvik Bansal, Puneet Jeswani, Swarit Srivastava.
+  </p>
+</div>
         <TeamSection title="PUBLIC RELATIONS TEAM" members={teamData?.publicRelations} />
         <div className="flex flex-col gap-2 text-center w-full">
           <h3 className="text-2xl">TEAM MEMBERS:</h3>
@@ -77,16 +93,7 @@ const Team = () => {
           </p>
         </div> */}
 
-        <TeamSection title="SPONSORSHIP TEAM" members={teamData?.sponsorship} />
-
-        <div className="flex flex-col gap-2 text-center w-full">
-          <h3 className="text-2xl">TEAM MEMBERS:</h3>
-          <p className="font-poppins text-center font-medium text-2xl leading-8 px-4 sm:px-10">
-            Pratham Agarwal, Shivam Mishra, Jayant Singhal, Akshansh Singh, Nirmaan Chachan, Umang Jindal,
-            Harshal Paliwal, Garvit Goyal, Devashish Tripathi, Anup Kumar Upadhyay, Shrayansh Goinka, Haitaanh Dixit,
-            Rithvik Bansal, Puneet Jeswani, Swarit Srivastava.
-          </p>
-        </div>
+     
 
         {/* <TeamSection title="ASSOCIATE GENERAL SECRETARY" members={teamData?.associateGeneralSecretary} />
         <TeamSection title="SOCIAL MEDIA" members={teamData?.socialMedia} /> */}
