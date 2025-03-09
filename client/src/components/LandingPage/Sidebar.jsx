@@ -5,6 +5,8 @@ import { LuUsers, LuFileText, LuTrophy } from "react-icons/lu";
 import { PiPersonArmsSpreadFill } from "react-icons/pi";
 import { MdAirplay } from "react-icons/md";
 import { Info } from "lucide-react";
+import { GrAchievement } from "react-icons/gr";
+
 
 const Sidebar = () => {
   const location = useLocation();
@@ -21,6 +23,7 @@ const Sidebar = () => {
     },
     { icon: <MdAirplay />, label: "Events", path: "/events" },
     { icon: <LuUsers />, label: "Teams", path: "/teams" },
+    { icon: <GrAchievement />, label: "Sponsors", path: "/sponsors" },
   ];
 
   return (
