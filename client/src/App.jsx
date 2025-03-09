@@ -15,6 +15,7 @@ import Menubar from "./components/LandingPage/Menubar";
 import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
 import Cursor from "./components/Cursor/Cursor";
+import Sponsors from "./components/Sponsors/Sponsors";
 import "./App.css";
 
 // Layout component to wrap the common elements
@@ -60,6 +61,7 @@ const App = () => {
           <Route path="/teams" element={<Teams />} />
           <Route path="/campus-ambassador" element={<CampusAms />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/sponsors" element={<Sponsors />} />
         </Routes>
         {path && <Footer />}
       </PageTransitionWrapper>
