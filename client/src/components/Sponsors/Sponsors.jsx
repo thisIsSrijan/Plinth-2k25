@@ -1,5 +1,5 @@
 import React from 'react'
-import sponsors from "../../assets/Images/Sponsors.png"
+import sponsors from "../../assets/Images/Sponsors.webp"
 
 function Sponsors() {
   return (
